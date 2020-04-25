@@ -1,0 +1,528 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="advExamplePC" 
+          name="Extension Example PC" 
+          ip="167.194.132.7"
+          security="2"
+          allowsDefaultBootModule="false"
+          icon="chip" 
+          type="1" > 
+  <!--for the type flag:  1=  corporate, 2 = Home, 3 = server 4 = empty
+  you can also use the word "empty" to make sure it launches without generating junk files and IRC.
+  -->
+  
+  <!-- icon:  not including this uses the default set by security level:
+  laptop
+  chip
+  kellis
+  tablet
+  ePhone
+  ePhone2
+  
+  LABYRINTHS ONLY:
+  Psylance
+  PacificAir
+  Alchemist
+  DLCLaptop
+  DLCPC1
+  DLCPC2
+  DLCServer
+  -->
+  
+  <!-- 
+  Security is a number from 0 to 5 that represents how hard it is to hack
+  From 1-4 it will need that many ports to open, 4 and above will automatically
+  add other security to scale it up easily, you can overwrite specifics below (recommended)
+  
+  AllowsDefaultBootModule is default to true and means that when you connect to a node
+  it will automatically launch it's program (the last daemon defined in this file) and
+  put it up on the display module.
+  Because this example computer shows off a lot of stuff, I've set this to false here.
+  -->
+
+  <!-- Accounts -->
+  <adminPass pass="password" />
+  
+  <account username="Matt" password="testpass" type="ALL" />
+  <!-- Adds an account to this computer.
+  Type represents it's privileges :
+  ADMIN = 0;
+  ALL = 1; (Can Delete files)
+  MAIL = 2; (for mail accounts)
+  MISSIONLIST = 3; (for mission listing server accounts)
+  
+  You can use the number or the name of the type.
+  -->
+  
+  
+  <account username="mailGuy" password="mailPass" type="MAIL" /> <!-- Make accounts for the mail server like this -->
+  
+  <!-- Security Stuff -->
+  <ports>21, 22, 25, 80, 1433, 104, 6881, 443, 192, 554</ports>
+  <!-- Valid Ports:
+  21, 22, 25, 80, 1433, 104, 6881, 443, 192
+  -->
+  
+  <!-- <proxy time="2" /> --> <!-- Proxy server. Set value to -1 to make it disappear. Time is a multiplier on the base time (30 seconds).
+  Time of 1 is "normal" and time of 2 is "long" - use the multiplier here to change the feel of it.-->
+  <portsForCrack val="0" /> <!-- Number of ports to be open to allow porthack to run -->
+  
+  
+  <!--<firewall level="6" solution="Scypio" additionalTime="1.0"/>-->
+  <!-- Adds a firewall - set level to -1 to remove it.
+      Solution is the solution the player will need to find to break it, 
+      the level should ideally be equal to the solution length, but can be longer
+      (Not shorter though!) - additional time is the nonstandard extra evaluation time
+      per step that the Hacknet solver will need-->
+  
+  <trace time="5678" /> <!-- Adds a trace timer of this many seconds. Set to -1 to remove -->
+  
+  <admin type="fast" resetPassword="false" isSuper="false"/> 
+  <!-- Auto-administrator adder - this resets the ports and stuff when the player
+  disconnects. Available types are "basic", "progress" and "fast" - basic only resets after 
+  15 seconds or so.
+  Progress admins reset ports, firewall and proxy progress, but only if the player isn't the admin.
+  Super admins reset passwords instantly on fast mode
+  
+  for servers that insta-reset whenever you disconnect use:
+  admin type="fast" resetPassword="true" isSuper="true"
+  
+  for general computers, it's best practice to use a progress admin unless you want port changes to persist between disconnects.
+  admin type="progress"
+  
+  For computers that have the "security" number in the header set to more than 4, remove the auto-added admin with this:
+  admin type="none"
+  -->
+
+  <!-- Remaps the port from the defined default value to whatever you want.
+  The left hand side is the default/original value or it's nickname.
+  Supported names: ssh, ftp, web, torrent, medical, smtp, sql-->
+  <portRemap>web=1234,22=2</portRemap>
+  
+  <!-- The tracker is the 'passive trace' - if this tag is here, after a player disconnects from this machine
+  if they have left logs downloading or deleting a file, they will be attacked by an auto-generated AI hacker
+  that will try and reset them, or make them do the ETAS if the player has the flag "CSEC_Member"-->
+  <tracker />
+  
+  <!-- Network Stuff -->
+  <dlink target="advExamplePC2" /> <!-- This links this computer to another (one way) - if you scan from it, it reveals the links -->
+  
+  <positionNear target="advExamplePC2" position="1" total="3" extraDistance="0.1" force="false"/>
+  <!-- This positions this computer near the target on the network map
+       Position is it's position radially around it, and total is the 
+       number of radially surrounding nodes it has - this way you can create
+       cool looking networks
+       
+       ExtraDistance should be between -0.6 and 0.3 - anything bigger will seem really far away, and can cause problems.
+       0.1 is a good distance.
+       
+       the "force" tag ensures that this node is positioned exactly where it's defined here, regardless of overlaps with other nodes etc.
+       It basically prevents the checks that ensure stability, but guarantees that it'll be placed close.
+  -->
+    
+  <!-- Files -->
+  <file path="home" name="Test_File.txt">This is a test file in the home directory</file>
+  
+  <file path="home" name="asdf.txt">This is
+A Multiline
+File.
+
+Note that it doesn't have whitespace on the left side.
+That causes formatting issues!</file>
+  
+  <file path="home" name="downloadFile.txt">This is a file for some of the goals in ExampleMission.xml</file>
+  
+  <file path="home" name="changeFile.txt">This is too! A
+  other a! B</file>
+  
+  
+  <file path="bin" name="Binary_File">#BINARY#</file>
+  <file path="home/NewDirectory" name="Test_File">
+This is a longer file that also creates a new directory by adding something to path
+
+    #BINARY#
+    This generates some binary (2000 chars of it)
+    
+    #BINARYSMALL#
+    This generates some binary (1000 chars of it)
+
+    #PLAYER_IP#
+    Becomes the IP of the player's computer
+
+    #PLAYERNAME#
+    the above string converts itself into the player's name
+
+    #RANDOM_IP#
+    A fresh, randomly generated IP Address
+
+    test test
+  </file>
+  
+  <file path="bin" name="SSHCrack.exe">#SSH_CRACK#</file>
+  <file path="bin" name="FTPBounce.exe">#FTP_CRACK#</file>
+  <file path="bin" name="WebServerWorm.exe">#WEB_CRACK#</file>
+  <file path="bin" name="SMTPOverflow.exe">#SMTP_CRACK#</file>
+  <file path="bin" name="SQLBufferOverflow.exe">#SQL_CRACK#</file>
+  <file path="bin" name="HexClock.exe">#HEXCLOCK_EXE#</file>
+  <file path="bin" name="Clock.exe">#CLOCK_PROGRAM#</file>
+  <file path="bin" name="Decypher.exe">#DECYPHER_PROGRAM#</file>
+  <file path="bin" name="DECHead.exe">#DECHEAD_PROGRAM#</file>
+  <file path="bin" name="KBTPortTest.exe">#MEDICAL_PROGRAM#</file>
+  <file path="bin" name="ThemeChanger.exe">#THEMECHANGER_EXE#</file>
+  <file path="bin" name="eosDeviceScan.exe">#EOS_SCANNER_EXE#</file>
+  <file path="bin" name="SecurityTracer.exe">#SECURITYTRACER_PROGRAM#</file>
+  <file path="bin" name="Tracekill.exe">#TRACEKILL_EXE#</file>
+  <!-- Special programs for extensions only!
+  RTSPCrack breaks port 554
+  ESequencer is a customizable sequencer program, controlled by fields in ExtensionInfo.xml
+  OpShell has options -s and -o which save your current shell setup and re-opens them later very quickly!
+  -->
+  <file path="bin" name="RTSPCrack.exe">#RTSP_EXE#</file>
+  <file path="bin" name="ESequencer.exe">#EXT_SEQUENCER_EXE#</file>
+  <file path="bin" name="OpShell.exe">#SHELL_OPENER_EXE#</file>
+
+  <!-- Themes -->
+  <file path="sys" name="White-Theme.sys">#WHITE_THEME#</file>
+  <file path="sys" name="Green-Theme.sys">#GREEN_THEME#</file>
+  <file path="sys" name="Yellow-Theme.sys">#YELLOW_THEME#</file>
+  <file path="sys" name="Teal-Theme.sys">#TEAL_THEME#</file>
+  <file path="sys" name="Base-Theme.sys">#BASE_THEME#</file>
+  <file path="sys" name="LE-Theme.sys">#PURPLE_THEME#</file>
+  <file path="sys" name="Mint-Theme.sys">#MINT_THEME#</file>
+
+  <file path="home" name="CreditsData.txt">
+%---  Credits File  ---
+
+^Why this exists
+This file contains the credits for the credits daemon below!
+
+%Starting a line with % makes the text super big
+^And starting it with ^ makes is kind of big.
+Lines starting with anything else are normal
+
+^Location
+This file must be in home/CreditsData.txt
+for the credits daemon to find and use it.
+
+</file>
+  
+  <!-- Custom Theme Files -->
+  <customthemefile path="sys" name="Custom_x-server.sys" themePath="Themes/SecondaryTheme.xml"/>
+
+  <customthemefile path="sys" name="Yuri_x-server.sys" themePath="Themes/YuriTheme.xml"/>
+  
+  <encryptedFile path="home" name="encrypted_File.dec" extension=".txt" ip="192.168.1.1" header="This is the header" pass="decryptionPassword">
+    This generates an encrypted file that can be decrypted using the password above. It decrypts to have the extension .txt
+  </encryptedFile>
+
+  <encryptedFile path="home" name="easy_encrypted_File.dec" ip="192.168.1.1" header="This is the header">
+    By simply not providing a password like this one, it can be decrypted without a password
+  </encryptedFile>
+  
+  <encryptedFile path="home" name="asdf2.dec" ip="192.168.1.1" header="This is the header" pass="password">
+    This is an encrypted file referenced in ExampleMission.xml
+  </encryptedFile>
+  
+  <!-- Adding this section will create a second computer on load, attached to this
+  which is an eos device, all set up, with these files on it.
+  It'll also automatically generate some apps and save files and things
+  for flavor.-->
+  <eosDevice name="Deliliah's ePhone 4S" id="eosIntroPhone" icon="ePhone2" empty="true" passOverride="notAlpine">
+    <note>TestNote
+More text</note>
+    <note>Note filenames
+Note filenames are generated automatically by taking the first line of the file
+(in this case "Note Filenames") and replacing spaces with underscores.</note>
+    <mail username="test@jmail.com" pass="thisIstheaccountpass" />
+    <mail username="test2@jmail.com" pass="YouCanHaveLotsOfThese" />
+    <file path="eos/test" name="crackedFile.txt">This is mostly useful for jailbroken phones</file>
+  </eosDevice>
+  
+  <!-- 
+  ####################
+     -  Daemons  -
+  ####################
+  
+  These are the "programs" running on nodes that do things.
+  -->
+
+  <mailServer name="Example Mail Server" color="50,237,212" generateJunk="true">
+    <email recipient="mailGuy" sender="Sender Guy" subject="Adding an email!">
+This is how you add emails to the mail server - logging in with someone's account
+will show these just like the way the player gets emails.
+    </email>
+    <email recipient="mailGuy" sender="Spam" subject="amazing features">
+You can have as many of these as you want
+    </email>
+    <email recipient="Matt" sender="Spam" subject="amazing features">
+Different users too
+    </email>
+  </mailServer>
+
+  <!-- This is a special sort of server that allows you to upload files to it 
+       without admin permissions -->
+  <uploadServerDaemon name="Upload Dropbox" folder="Drop" 
+                      needsAuth="false" color="204,116,212"/>
+  
+  
+  <!-- Web servers are added like this - you can add your own web pages to the web presets
+  folder and have them show up in-game too! it renders proper html and everything (though
+  it doesn't accept input yet).
+  This is still a work in progress for mod support.
+  Please let me know what support you want for this exactly!-->
+  <addWebServer name="Website Server"
+                url="Web/ExampleWebsite/ExampleWebsite.html" />
+  
+  <!-- This is really janky, but it sort of works on some computers. Feel free to play around with it, but beware,
+  it's likely not going to get much more support than it already has. Some people it might not work for.
+  You can only have one web server
+  per computer though, so this one wont have it.-->
+  
+  <!--
+  <addOnlineWebServer name="Online Server"
+                url="http://www.test.com" />
+  -->
+
+  <!-- Death row database loads a pre-set collection of records -->
+  <deathRowDatabase />
+
+  <!-- This draws from the People.All source -->
+  <academicDatabase />
+
+  <ispSystem />
+
+  <!-- /el style message board.  -->
+  <messageBoard name="Custom Board Name!">
+    <thread>Docs/MessageBoardThreads/ExampleThread1.txt</thread>
+    <thread>Docs/MessageBoardThreads/ExampleThread2.txt</thread>
+  </messageBoard>
+
+  <!-- This draws from the People.All source -->
+  <MedicalDatabase />
+
+  <!-- patient is the person ID - their firstname initial underscore, then their last name.
+  If they are killed, it will add the flag
+  PatientID:DEAD
+  where PatientID is, in the case below, "J_Stalvern"
+  SPECIAL NOTE: probably don't use this in your mods to actually kill anyone. That moment was special for Hacknet alone.
+  For that reason, I wont show how to generate valid pacemaker files in here. This can be used for narrative reasons though.
+  -->
+  <HeartMonitor patient="J_Stalvern"/>
+
+  <!-- This draws from the People.All source -->
+  <PointClicker />
+
+  <SongChangerDaemon /> 
+
+  <!-- Lists news articles and missions like on Entropy or SlashBot -->
+  <variableMissionListingServer name="example listing server" iconPath="Logo.png" articleFolderPath="Docs/ListingServerArticles" color="120,200,2" assigner="false" public="false" title="This is the rendered title of the server"/>
+
+  <!-- Creates a CSEC-Style mission board -->
+  <missionHubServer groupName="ExTech" serviceName="Example Tech Contract Hub" missionFolderPath="Missions/Misc" themeColor="200,10,10" lineColor="255,80,80" backgroundColor="20,20,20" allowAbandon="false"/>
+  
+  <!-- Credits server. This will load the credits stored in the format defined in the credits file above! Read that! -->
+  <CreditsDaemon Title="intro Extension Ending Credits" ButtonText="Complete" ConditionalActionSetToRunOnButtonPressPath="Actions/CreditsRunActions.xml"/>
+  
+  <!-- 
+  #########################
+  
+     - Labyrinths Content -
+     
+  #########################
+  -->
+
+  <!-- Memory dump file - this can be downloaded and analyzed with MemForensics.exe -->
+  <memoryDumpFile name="testDump.md" path="home">
+    <Memory>
+      <Data>
+        <Block>test string one</Block>
+        <Block>test string two</Block>
+      </Data>
+      <Commands>
+        <Command>connect 123.123.123.123</Command>
+      </Commands>
+      <Data>
+        <Block>1234432</Block>
+        <Block>gfdgfdgdf</Block>
+        <Block>asdf</Block>
+      </Data>
+    </Memory>
+  </memoryDumpFile>
+
+  <Memory>
+    <Commands>
+      <Command>cd /log</Command>
+      <Command>rm *.log</Command>
+      <Command>cd /log</Command>
+      <Command>rm *.log</Command>
+      <Command>cd /log</Command>
+      <Command>rm *.log</Command>
+      <Command>cd /log</Command>
+      <Command>rm *.log</Command>
+    </Commands>
+    <Data>
+      <Block>This appears in the "files" section</Block>
+      <Block>
+        more
+        and longer, multi line notes!
+        !
+        asdf
+      </Block>
+    </Data>
+    <Images>
+      <Image>DLC/Sprites/Misc/DraculaTank</Image>
+    </Images>
+  </Memory>
+
+  <!-- Labyrinths Daemons -->
+  <!-- Changes the default connect display to look like the one the "ricer" had in Labyrinths -->
+  <CustomConnectDisplayDaemon />
+
+  <!-- Displays a big logo on the front of the server with optional messages underneath. If you do not provide a logo image path, it'll display
+  a fancy loading spinner instead.-->
+  <LogoDaemon Name="Logo Display Test" ShowsTitle="true" TextColor="47, 212, 163, 200" LogoImagePath="Logo1.png">
+    Lines
+    Here
+    Appear under
+    The Logo
+  </LogoDaemon>
+
+  <!-- Custom connect display with a nameplate logo and title image like PacificAir had in Labyrinths.
+  Button alignment can be "left" "middle" or "right"-->
+  <LogoCustomConnectDisplayDaemon logo="Logo.png" title="Logo.png" overdrawLogo="true" buttonAlignment="left" />
+
+  <!-- Whitelist servers are kind of tricky. This same tag can mean that this server checks against a remote whitelist to see who to let on,
+  or that it itself is that whitelist server. This can be a bit confusing, so i'm just going to outline a few of the cases here:
+  -->
+  <!-- This is your basic whitelist server "host" type - it wont check incoming connection to itself against it's list.
+  It only serves a protective function against *other* servers.-->
+  <WhitelistAuthenticatorDaemon SelfAuthenticating="false" />
+
+  <!-- This one connects to a remote host and checks against that host's whitelist 
+  <WhitelistAuthenticatorDaemon Remote="RemoteServerID"/>
+  
+  This one protects itself against all connections not on the list. Generally "unbreakable" without scripts.
+  <WhitelistAuthenticatorDaemon SelfAuthenticating="true"/>
+  -->
+
+  <!-- Experiment with this one yourself! -->
+  <MarkovTextDaemon Name="Test this one yourself" SourceFilesContentFolder="Notes/ListingServerArticles" />
+
+  <IRCDaemon themeColor="67,204,148" name="Misc IRC Channel" needsLogin="false">
+    <user name="Vegas" color="0,209,232"/>
+    <user name="bprm" color="202,98,0"/>
+    <user name="Care_ey" color="0,196,82"/>
+
+    <post user="Vegas">Post IRC Messages here!</post>
+    <post user="bprm">don't forget to set the users</post>
+    <post user="Care_ey">Yep, this can also be used in the faction scripts to add messages etc to.</post>
+    <post user="Vegas">That's so cool!</post>
+  </IRCDaemon>
+
+  <!--START_LABYRINTHS_ONLY_CONTENT-->
+  <!-- Everything under this line will only work for player that have the Hacknet Labyrinths DLC pack installed! -->
+  
+  <!-- Creates a bibliotheque (DLC IRC server) style message board. Can be used to inject missions and messages into via the faction system.-->
+  <DHSDaemon groupName="NewFaction Hub" addsFactionPointOnMissionComplete="true" autoClearMissionsOnPlayerComplete="true" themeColor="255, 255, 161" allowContractAbbandon="false">
+    <agent name="Tyson" pass="rockemsockem" color="209,74,48"/>
+    <agent name="DependableSkeleton" pass="d832n3msad" color="112,198,255"/>
+    <agent name="HA0" pass="kolgateryu" color="58,202,146"/>
+  </DHSDaemon>
+    
+  <!-- Database daemons display a list of records of any datatype in Hacknet. No datatype will give the "API Access" screen like
+  Pacific air had.
+  Testers: let me know if you want a special datatype compiled up for you specifically. It's very quick.
+  
+    Current Datatypes:
+    *all basic C# datatypes from .NET*
+    Everything in the Hacknet codebase
+    
+    Easy templated ones below:
+    
+    Git Commit entry, as seen below
+    
+    "TextRecord"
+    <TextRecord>
+      <Title>Record Title</Title>
+      <Data>Body Data</Data>
+    </TextRecord>
+    
+    "OnlineAccount"
+    <OnlineAccount>
+      <ID>1234</ID>
+      <Username>asdf</Username>
+      <BanStatus>very yes</BanStatus>
+      <Notes>notes here</Notes>
+    </OnlineAccount>
+    
+    
+    "CAROData"
+    UserID
+    Headshots
+    Kills
+    Rank
+    Crowbars
+    InventoryID
+    BanStatus
+    
+    "Account"
+    string ID;
+    string Cash;
+    string Bank;
+    string Apartments;
+    string Vehicles;
+    string PegasusVehicles;
+    string Rank;
+    string RP;
+    string Kills;
+
+    "SurveillanceProfile"
+    string Name;
+    string Age;
+    string HomeCity;
+    string Notes;
+    string CriminalRecord;
+    
+    Happy to add more on request.
+        
+    -->
+  <DatabaseDaemon Permissions="private" DataType="GitCommitEntry" Foldername="database" Color="85,0,150" AdminEmailAccount="Matt@TestExtensionMail.com" AdminEmailHostID="advExamplePC" Name="Test database">
+
+    <GitCommitEntry>
+      <EntryNumber>8613</EntryNumber>
+      <ChangedFiles>
+        <String>Neopals.php</String>
+      </ChangedFiles>
+      <Message>Reverted Minor updates because it broke everything</Message>
+      <UserName>T.Champer</UserName>
+      <SourceIP>192.168.1.1 (Localhost)</SourceIP>
+    </GitCommitEntry>
+    
+    <GitCommitEntry>
+      <EntryNumber>8611</EntryNumber>
+      <ChangedFiles>
+        <String>Content.pak</String>
+      </ChangedFiles>
+      <Message>REMOTE COMMIT: Decreased pelvis bulge on Sparkle costume set :(</Message>
+      <UserName>A.Wallin</UserName>
+      <SourceIP>54.192.234.65</SourceIP>
+    </GitCommitEntry>
+  
+  </DatabaseDaemon>
+
+  <!-- Labyrinths Programs -->
+  <file path="bin" name="TorrentStreamInjector.exe">#TORRENT_EXE#</file>
+  <file path="bin" name="SSLTrojan.exe">#SSL_EXE#</file>
+  <file path="bin" name="FTPSprint.exe">#FTP_FAST_EXE#</file>
+  <file path="bin" name="SignalScramble.exe">#SIGNAL_SCRAMBLER_EXE#</file>
+  <file path="bin" name="MemForensics.exe">#MEM_FORENSICS_EXE#</file>
+  <file path="bin" name="MemDumpGenerator.exe">#MEM_DUMP_GENERATOR#</file>
+  <file path="bin" name="PacificPortcrusher.exe">#PACIFIC_EXE#</file>
+  <file path="bin" name="NetmapOrganizer.exe">#NETMAP_ORGANIZER_EXE#</file>
+  <file path="bin" name="ComShell.exe">#SHELL_CONTROLLER_EXE#</file>
+  <file path="bin" name="DNotes.exe">#NOTES_DUMPER_EXE#</file>
+  <file path="bin" name="Tuneswap.exe">#DLC_MUSIC_EXE#</file>
+  <file path="bin" name="Clockv2.exe">#CLOCK_V2_EXE#</file>
+
+  <!--END_LABYRINTHS_ONLY_CONTENT-->
+  
+</Computer>
