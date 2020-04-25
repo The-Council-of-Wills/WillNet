@@ -1,0 +1,151 @@
+<CustomFaction name="Example Faction" id="examplefaction" playerVal="0">
+  <!-- You can change the starting player value with the playerVal field above. -->
+  
+  <!-- A faction is basically just a few things:
+  A name, a number representing the player's position in the faction,
+  and a set of actions that can trigger to make changes to the game state in response to actions.-->
+
+  <!-- The value required conditional action is the most basic one. This triggers once the player's value moves from below this number to equal to or more than it. -->
+  <Action ValueRequired="1">
+    <!-- Runs a 'mission function' - for a list of these and how to use them, see the example mission file -->
+    <RunFunction FunctionName="changeSong" FunctionValue="6" />
+
+    <!-- Immediately loads a mission, replacing whatever's currently there and sending the email. -->
+    <LoadMission MissionName="Missions/ExampleMission.xml" />
+    
+    <!-- Creates a file with the listed content on the computer with ID targetComp, in the folder path specified.
+    The folder specified must exist before this runs!
+    The file contents field here doesn't support newlines or super long content - this is recommended for just creating items with wildcard data (like programs)
+    For a complete list of wildcards, see the example computer file-->
+    <AddAsset FileName="MemForensics.exe" FileContents="#MEM_FORENSICS_EXE#" TargetComp="advExamplePC" TargetFolderpath="bin" />
+  
+    <!-- This copies a file from one computer to another.
+    DestFilePath + DestComp are the DESTINATION computer - where the file will end up
+    SourceFileName, SourceFilePath and SourceComp are the SOURCE computer - where the file exists and is taken from
+    This will do nothing if the file does not exist to be copied.
+    
+    This is very useful for adding complex files to a server after the session is created - create a new hidden server that's impossible to
+    find, define all the files you want on there, then copy them over to where you want later. -->
+    <CopyAsset DestFilePath="linkNode1" DestComp="advExamplePC" SourceComp="advExamplePC" SourceFileName="Test_File.txt" SourceFilePath="home" />
+  
+    <!-- This adds a new mission to a hub server. This works for both missionHubServer servers (CSEC Style), missionListingServers (Entropy style)
+    and also DHSDaemon servers (Bibliotheque style)-->
+    <!-- CSEC Style: -->
+    <AddMissionToHubServer MissionFilepath="Missions/TestExtensionMission1.xml" TargetComp="advExamplePC" />
+    <!-- Bibliotheque Style: Assignment tag is who the mission starts assigned to of the server's user list. If this tag exists, the player cant claim the mission! -->
+    <!-- note that adding a mission to an entropy style server, you can set the AssignmentTag to be "top" to add to the top of the list. Otherwise it'll be added to the bottom.-->
+    <AddMissionToHubServer MissionFilepath="Missions/TestExtensionMission1.xml" TargetComp="advExamplePC" AssignmentTag="HA0"/>
+    
+    <!-- This removes the mission from the hub server, if it exists. Works for all three specified above. -->
+    <RemoveMissionFromHubServer MissionFilepath="Missions/TestExtensionMission1.xml" TargetComp="advExamplePC" />
+    
+    <!-- Adds a thread to a /el message board - thread file should be a UFT-8 plaintext document. -->
+    <AddThreadToMissionBoard ThreadFilepath="Nodes/MessageBoardThreads/ExampleThread1.txt" TargetComp="advExamplePC" />
+    
+    <!-- Adds a message to a DHSDaemon or IRCDaemon IRC. Delay is seconds until the post appears. -->
+    <AddIRCMessage Author="HA0" TargetComp="advExamplePC" Delay="3.0">Hey @#PLAYERNAME# - check out the new asset that got added a few lines ago.</AddIRCMessage>
+    <AddIRCMessage Author="DependableSkeleton" TargetComp="advExamplePC" Delay="8.0">@channel this notifies everyone!</AddIRCMessage>
+    
+    <!-- Crashes computer with the ID TargetComp. If this is "playerComp" it will crash the player's own computer (bluscreening it) instantly.
+    If it's another computer, this will remove it from the netmap for 15 seconds or so, and disconnect the player if they were connected to it.
+    The CrashSource is the ID of a computer that the crash log will point to.
+    NOTE: Players are very likely to rm * entire log folders, so don't make this part of any critical path - it's almost impossible to find. Secrets only!
+    
+    **** DelayHost is the ID of a computer that can host delayable actions. Valid computers need to have one of these daemons on them:
+    IRCDaemon or DLCHubServer -->
+    <CrashComputer TargetComp="linkNode1" CrashSource="advExamplePC" DelayHost="advExamplePC" Delay="5.5" />
+  
+    <!-- Deletes a file from the target computer. Does nothing if that file does not exist. -->
+    <DeleteFile TargetComp="advExamplePC" FilePath="bin" FileName="Binary_File" DelayHost="advExamplePC" Delay="5.5"/>
+    
+    <!-- Loads in a new set of conditional actions from a file. Check out the file listed here for an explanation on what you can do with that -->
+    <AddConditionalActions Filepath="ExampleConditionalActionSet.xml" DelayHost="advExamplePC" Delay="5.5"/>
+    
+    <!-- Loads in the Hacker script defined below to execute 5.5 seconds from now, coming from source advExamplePC and targeting playerComp (The player node ID).
+    These can target whatever you like, and be ally scripts! RequireLogsOnSource means that this will only execute if the source comp has logs on it from the player 
+    deleting, moving, or copying a file. You can use the ID or the IP for the source and target - either works.
+    RequireSourceIntact means that if the target is missing it's networking file from /sys, the hack wont happen. This means a crippled computer cant hack you back.-->
+    <LaunchHackScript Filepath="HackerScripts/ExampleHack.txt" DelayHost="advExamplePC" Delay="5.5" SourceComp="advExamplePC" TargetComp="playerComp" RequireLogsOnSource="false" RequireSourceIntact="true"/>
+    
+    <!-- Switches to the listed theme. You can specify any of the core Hacknet themes by name directly :
+    TerminalOnlyBlack, HacknetBlue, HacknetTeal, HacknetYellow, HacknetWhite, HacknetPurple, HacknetMint, HackerGreen 
+    Or you can specify a path to a custom theme file.-->
+    <SwitchToTheme ThemePathOrName="Themes/ExampleTheme.xml" FlickerInDuration="3.0" DelayHost="advExamplePC" Delay="15.5" />
+
+    <!-- Starts a 'screen bleed' effect! This is where the red line moves down from the top of the screen dramatically
+    The title and the first 3 lines of the content of this tag are what's shown in the bottom left alert window.
+    The CompleteAction conditional action set is run *only if* the red hits the bottom of the screen and the player runs out of time.
+    "TotalDurationSeconds" is the total time it takes for the screen bleed to go from top to bottom.
+    
+    I recommend syncing this up with various other conditions that allow you to cancel the effect if the player completes some task.-->
+    <StartScreenBleedEffect AlertTitle="Title" CompleteAction="Actions/HackerScriptActions.xml" TotalDurationSeconds="12.5" DelayHost="advExamplePC" Delay="3.5">Line one
+Line two
+Line Three!</StartScreenBleedEffect>
+
+    <!-- Cancels a screen bleed effect started with the tag above -->
+    <CancelScreenBleedEffect DelayHost="advExamplePC" Delay="9.5" />
+    
+    <!-- Appends the content of the tag onto the file specified. Useful for adding extra data into things, making the world feel more dynamic, adding people to whitelists etc. -->
+    <AppendToFile DelayHost="advExamplePC" Delay="12.5" TargetComp="advExamplePC" TargetFolderpath="Whitelist" TargetFilename="list.txt">#PLAYER_IP#</AppendToFile>
+  
+    <!-- Kills all exes that contain the string mentioned, or * for all.
+    This is case insensitive. So the following would kill "SSHCrackExe",
+    but changing it to "s" would kill all exes with an s in their name.
+    
+    This is useful for doing things like killing ESequencer.exe once it's running,
+    or having a rival hacker close all of the player's shells.-->
+    <KillExe DelayHost="advExamplePC" Delay="15.5" ExeName="ssh" />
+  
+    <!-- This is a big one - Changes the alert icon (top right) to point to a new server!
+    Target is the ID of the server it should connect to.
+    Type can be one of 4 options:
+    mail, irc, irchub, board
+    
+    Mail is a mail server, like Jmail. If you use this, the mail server that it points to *MUST HAVE A MAIL ACCOUNT FOR THE PLAYER*
+    If it doesn't, it will crash when the player clicks on the icon and tries to go to their non-existent account.
+    
+    irc is a standard IRC server. Whenever an IRC log with @#PLAYERNAME# or @Channel in it is added, the player will get a notification.
+    Labyrinths users only.
+    
+    irchub is a DLCHubServer like Labyrinths uses. Labyrinths players only.
+    
+    board is a /el style message board. Whenever a message or thread is added that contains any other the above IRC mention strings, the player will be notified.
+    
+    IMPORTANT NOTE: Changing the type to anything other than mail is only supported with the Hacknet Labyrinths DLC installed.
+    -->
+    <ChangeAlertIcon Target="advExamplePC" Type="mail" DelayHost="advExamplePC" Delay="9.5"/>
+
+
+    <!-- Hides the target computer node from the netmap if it's visible -->
+    <HideNode DelayHost="advExamplePC" Delay="15.5" TargetComp="advExamplePC" />
+
+    <!-- Reveals this user account to the player so it's details show up in the autocomplete options when the player goes to log in. -->
+    <GivePlayerUserAccount DelayHost="advExamplePC" Delay="15.5" TargetComp="advExamplePC" Username="mailGuy" />
+    
+    <!-- Changes the IP Address of the computer with ID in targetComp to the new IP address provided -->
+    <ChangeIP DelayHost="advExamplePC" Delay="15.5" TargetComp="advExamplePC" NewIP="111.111.123.124" />
+
+    <!-- Changes the player's netmap sorting method, as if they had used NetmapOrganizer. Valid methods are:
+    scatter,grid,seqgrid,CHAOS-->
+    <ChangeNetmapSortMethod DelayHost="advExamplePC" Delay="18.5" Method="grid" />
+
+    <!-- Saves the game! The player should be saved frequently, just incase their power dies or something. If you have extremely long missions
+    without email replies or any other save triggers, use this to keep the player saved and up to date.-->
+    <SaveGame DelayHost="advExamplePC" Delay="20.5"/>
+    
+  </Action>
+
+  
+  <!-- This action trigger as soon as the player is given the "decypher" flag -->
+  <Action Flags="decypher">
+    <AddIRCMessage Author="DependableSkeleton" TargetComp="advExamplePC" Delay="8.0">decypher flag was added!</AddIRCMessage>
+  </Action>
+
+  
+  <!-- And this one only triggers once both the player has the flag, and the score is greater than or equal to the required value -->
+  <Action ValueRequired="5" Flags="decypher">
+     <AddIRCMessage Author="DependableSkeleton" TargetComp="advExamplePC" Delay="-8.0">negative delay adds it instantly, and backdates the time to make it all fit.</AddIRCMessage>
+  </Action>
+
+
+</CustomFaction>
