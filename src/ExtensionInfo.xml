@@ -16,9 +16,9 @@
 
   <!-- Description that appears within Hacknet -->
   <Description> --- Hacktermnet ---
-Some time after the events of Bit, you have been found by The Council of Wills. 
+Some time after the Bit episode, you have been found by The Council of Wills. 
 They're actually quite a friendly bunch. 
-Some time later, you have hacknet.exe again, as well as some more work to do.</Description>
+You find yourself in possession of Hacknet again, and now have some work to do.</Description>
   
   <!-- Factions involved in this extension! You can define as many or as few as you like -->
   <Faction>Factions/StartingFaction.xml</Faction><!--TODO: make the Will faction-->
