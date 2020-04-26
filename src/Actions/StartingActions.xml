@@ -5,14 +5,24 @@
     <AddAsset FileName="SQLInject.exe" FileContents="#SQL_CRACK#" TargetComp="playerComp" TargetFolderpath="bin"/>
     <AddAsset FileName="DNotes.exe" FileContents="#NOTES_DUMPER_EXE#" TargetComp="playerComp" TargetFolderpath="bin"/>
     
-    <AddAsset FileName="Getting Started.txt" FileContents="If you are reading this, you have been found by the Will Council, and are required to join them.
-    Your current xserver has basic functionality: you should be able to backup, shutdown, see your IP, and connect to the email server you have set as default through the GUI.
-    You should also have a few tools on your system.
-    However, for complete inauguration you must find a complete xserver.
-    
-    We have set up a small series of challenges, starting at the IP at the bottom of this message. Continue until you find an xserver.
-    
-    Server IP: 222.51.39.138" TargetComp="playerComp" TargetFolderpath="home"/>
+    <AddAsset FileName="Getting Started.txt" FileContents=
+"
+&#13;&#10;If you are reading this, you have been recognized 
+&#13;&#10;by the Will Council, and are invited to join them.
+&#13;&#10;
+&#13;&#10;Your current xserver has basic functionality:
+&#13;&#10;you should be able to backup, shutdown, see your IP,
+&#13;&#10;and connect to your email server (not recommended nor
+&#13;&#10;nessary), and access a barebones command shell. You
+&#13;&#10;should also have a few tools on your system.
+&#13;&#10;
+&#13;&#10;For complete inauguration, you must find a complete
+&#13;&#10;xserver compatible with this installation.
+&#13;&#10;We have set up a small series of challenges, starting
+&#13;&#10;at the IP at the bottom of this message. Continue
+&#13;&#10;until you find an xserver.
+&#13;&#10;
+&#13;&#10;Server IP: 222.51.39.138" TargetComp="playerComp" TargetFolderpath="home"/>
 
     <!--<DeleteFile TargetComp="advExamplePC" FilePath="bin" FileName="Binary_File" DelayHost="advExamplePC" Delay="5.5"/>-->
     <DeleteFile TargetComp="FrstServer" FilePath="sys" FileName="x-server.sys"/>
