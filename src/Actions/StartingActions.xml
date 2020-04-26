@@ -3,6 +3,7 @@
   <Instantly>
     <AddAsset FileName="WebServerWorm.exe" FileContents="#WEB_CRACK#" TargetComp="playerComp" TargetFolderpath="bin" />
     <AddAsset FileName="SQLInject.exe" FileContents="#SQL_CRACK#" TargetComp="playerComp" TargetFolderpath="bin"/>
+    <AddAsset FileName="DNotes.exe" FileContents="#NOTES_DUMPER_EXE#" TargetComp="playerComp" TargetFolderpath="bin"/>
     
     <AddAsset FileName="Getting Started.txt" FileContents="If you are reading this, you have been found by the Will Council, and are required to join them.
     Your current xserver has basic functionality: you should be able to backup, shutdown, see your IP, and connect to the email server you have set as default through the GUI.
