@@ -13,13 +13,18 @@
   <posting title="startingMission">This would be the post on a message board if it was on them.</posting>
   -->
   <email>
-    <sender>SENDER NAME HERE</sender>
-    <subject>This is an example email for Blank Extension</subject>
-    <body>You should add the body of the email here.
-Multiple lines etc.
+    <sender>WILL</sender>
+    <subject>THE COUNCIL</subject>
+    <body>
+    Hi,
+    The Council of Wills extends an invitation towards you.
+    If you can read this email, you have already passed the trials.
+    Our server is attached below.
+    
+    -- WILL
 </body>
     <attachments>
-      <!-- Add attachments like links and notes here -->
+      <!-- TODO: WILL IRC node, and some mission nodes because funsies -->
     </attachments>
   </email>
 </mission>
