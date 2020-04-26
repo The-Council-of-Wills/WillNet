@@ -17,7 +17,7 @@
   <!-- Description that appears within Hacknet -->
   <Description> --- Hacktermnet ---
 Some time after the events of Bit, you have been scouted by The Council of Wills. 
-They're actually quite a friendly bunch; And what's more, they claim have a working copy of Hacknet you want. 
+They're actually quite a friendly bunch; And what's more, they claim to have a working copy of Hacknet you want. 
 There's work to be done.<Description>
   
   <!-- Factions involved in this extension! You can define as many or as few as you like -->
@@ -61,7 +61,7 @@ There's work to be done.<Description>
   -->
   <WorkshopDescription>
 Some time after the events of Bit, you have been scouted by The Council of Wills. 
-They're actually quite a friendly bunch; And what's more, they claim have a working copy of Hacknet you want. 
+They're actually quite a friendly bunch; And what's more, they claim to have a working copy of Hacknet you want. 
 There's work to be done.</WorkshopDescription>
 
   <!-- Language that this is set to. -->
