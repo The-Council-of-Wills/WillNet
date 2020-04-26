@@ -5,6 +5,7 @@
     <AddAsset FileName="SQLInject.exe" FileContents="#SQL_CRACK#" TargetComp="playerComp" TargetFolderpath="bin"/>
     <AddAsset FileName="DNotes.exe" FileContents="#NOTES_DUMPER_EXE#" TargetComp="playerComp" TargetFolderpath="bin"/>
     
+
     <AddAsset FileName="t.txt" FileContents="" TargetComp="playerComp" TargetFolderpath="home"/>
     <CopyAsset DestFilePath="home/tasks" DestComp="playerComp" SourceComp="playerComp" SourceFileName="t.txt" SourceFilePath="home" />
     <AddAsset FileName="Getting Started.txt" FileContents=
@@ -24,6 +25,7 @@
     " TargetComp="playerComp" TargetFolderpath="home/tasks"/>
     <DeleteFile TargetComp="playerComp" FilePath="home/" FileName="t.txt"/>
     <DeleteFile TargetComp="playerComp" FilePath="home/tasks" FileName="t.txt"/>
+
 
     <!--<DeleteFile TargetComp="advExamplePC" FilePath="bin" FileName="Binary_File" DelayHost="advExamplePC" Delay="5.5"/>-->
     <DeleteFile TargetComp="FrstServer" FilePath="sys" FileName="x-server.sys"/>
