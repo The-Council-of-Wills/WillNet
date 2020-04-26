@@ -1,0 +1,21 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="M1END" name="hackerman's laptop" type = "3" ip = "60.46.52.223">
+
+    <portsForCrack val="7" />
+    <ports>22, 80, 1433, 21, 25, 443, 6881</ports>
+    <trace time="-1"/>
+    <admin type="progress" resetPassword="false" isSuper="false"/>
+    <adminPass pass="hackerman"/>
+
+    <file path="home/themes" name="White-Theme.sys">#WHITE_THEME#</file>
+    <file path="home/themes" name="Green-Theme.sys">#GREEN_THEME#</file>
+    <file path="home/themes" name="Yellow-Theme.sys">#YELLOW_THEME#</file>
+    <file path="home/themes" name="Teal-Theme.sys">#TEAL_THEME#</file>
+    <file path="home/themes" name="Base-Theme.sys">#BASE_THEME#</file>
+    <file path="home/themes" name="LE-Theme.sys">#PURPLE_THEME#</file>
+    <file path="home/themes" name="Mint-Theme.sys">#MINT_THEME#</file>
+
+    <file path="bin" name="NetMapOrganizer.exe">#NETMAP_ORGANIZER_EXE#</file>
+    <file path="bin" name="Tuneswap.exe">#DLC_MUSIC_EXE#</file>
+
+</Computer>
