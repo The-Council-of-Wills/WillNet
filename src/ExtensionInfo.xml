@@ -18,7 +18,7 @@
   <Description> --- Hacktermnet ---
 Some time after the events of Bit, you have been scouted by The Council of Wills. 
 They're actually quite a friendly bunch; And what's more, they claim to have a working copy of Hacknet you want. 
-There's work to be done.<Description>
+There's work to be done.</Description>
   
   <!-- Factions involved in this extension! You can define as many or as few as you like -->
   <Faction>Factions/StartingFaction.xml</Faction><!--TODO: make the Will faction-->
