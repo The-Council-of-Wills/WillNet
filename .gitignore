@@ -1,5 +1,3 @@
 *.code-workspace
-# Extension self-test result
-src/report.txt
-# Extension load error
-src/error_report.txt
+# Extension logs
+src/*report.txt

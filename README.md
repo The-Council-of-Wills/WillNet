@@ -7,6 +7,6 @@ If you don't know how to play hacknet using mainly the keyboard, we suggest you 
 Symlink `src` to a folder under your Hacknet install's `Extensions` folder.
 
 * Windows Command Prompt (Admin)
-  - `mklink /d <extensionsFolder>/HacktermnetExtension <repoFolder>/src`
+  - `mklink /d <extensionsFolder>/WillNetExtension <repoFolder>/src`
 * Unix
-   - `ln -s <repoFolder>/src <extensionsFolder>/HacktermnetExtension`
+   - `ln -s <repoFolder>/src <extensionsFolder>/WillNetExtension`
