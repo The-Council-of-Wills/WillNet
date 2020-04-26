@@ -59,8 +59,10 @@ There's work to be done.<Description>
         public string WorkshopTags;
         public string WorkshopPreviewImagePath;
   -->
-  <WorkshopDescription>This is the description of the extension that will appear in Steam Workshop and any other mod platforms this gets ported to. Max 8000 characters.
-You can use newlines in this as normal etc.</WorkshopDescription>
+  <WorkshopDescription>
+Some time after the events of Bit, you have been scouted by The Council of Wills. 
+They're actually quite a friendly bunch; And what's more, they claim have a working copy of Hacknet you want. 
+There's work to be done.</WorkshopDescription>
 
   <!-- Language that this is set to. -->
   <WorkshopLanguage>English</WorkshopLanguage>
