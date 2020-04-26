@@ -1,0 +1,6 @@
+<ConditionalActions>
+    <Instantly needsMissionComplete="false">
+        <LaunchHackScript Filepath="Scripts/newjob.txt" TargetComp='playerComp'/>
+    </Instantly>
+</ConditionalActions>
+

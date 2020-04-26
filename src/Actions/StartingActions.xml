@@ -5,14 +5,16 @@
     <AddAsset FileName="SQLInject.exe" FileContents="#SQL_CRACK#" TargetComp="playerComp" TargetFolderpath="bin"/>
     <AddAsset FileName="DNotes.exe" FileContents="#NOTES_DUMPER_EXE#" TargetComp="playerComp" TargetFolderpath="bin"/>
     
-    <AddAsset FileName="Getting Started.txt" FileContents="If you are reading this, you have been found by the Will Council, and are required to join them.
+    <AddAsset FileName="Getting Started.txt" FileContents="If you are reading this, you have been found an incomplete build oh HackNet by the Will Council.
     Your current xserver has basic functionality: you should be able to backup, shutdown, see your IP, and connect to the email server you have set as default through the GUI.
     You should also have a few tools on your system.
-    However, for complete inauguration you must find a complete xserver.
-    
-    We have set up a small series of challenges, starting at the IP at the bottom of this message. Continue until you find an xserver.
-    
-    Server IP: 222.51.39.138" TargetComp="playerComp" TargetFolderpath="home"/>
+
+    However, this will not do.
+    Find a complete xserver. Then Find us.
+
+    We're waiting.
+        
+    222.51.39.138" TargetComp="playerComp" TargetFolderpath="home/tasks"/>
 
     <!--<DeleteFile TargetComp="advExamplePC" FilePath="bin" FileName="Binary_File" DelayHost="advExamplePC" Delay="5.5"/>-->
     <DeleteFile TargetComp="FrstServer" FilePath="sys" FileName="x-server.sys"/>
