@@ -1,0 +1,30 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="ScndServer" name="Potheads Incorporated" type = "3" ip = "222.51.39.139">
+
+    <portsForCrack val="4" />
+    <ports>22, 80, 1433, 21, 25, 443, 6881</ports>
+    <trace time="-1"/>
+    <admin type="progress" resetPassword="false" isSuper="false"/>
+    <adminPass pass="we like pot"/>
+
+    <dlink target="FrstServer"/>
+
+    <file path = "home/evidence" name = "SMTPOverflow.exe">#SMTP_CRACK#</file>
+    <file path = "home/evidence" name = "SSLTrojan.exe">#SSL_EXE#</file>
+    <file path = "home/evidence" name = "TorrentStreamInjector.exe">#TORRENT_EXE#</file>
+
+    <file path="home" name="admins.txt">The folks over at Crack have been complaining about not being able to connect, and we've finally figured out why.
+See those files in evidence? Some jackass was using those one our servers, and causing all kinds of problems.
+We'll need those files if we're to win in court, so nobody delete them!</file>
+
+    <file path="home/evidence" name="logs">
+Connection opened from 60.46.52.223
+Connection from 60.46.52.223 overflowed port 25
+Connection from 60.46.52.223 overflowed port 443
+Connection from 60.46.52.223 overflowed port 6881
+Connection from 60.46.52.223 overflowed port 22
+Connection from 60.46.52.223 overflowed port 21
+Server kernel panic
+</file>
+
+</Computer>
