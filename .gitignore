@@ -1,4 +1,3 @@
 *.code-workspace
-
 # Extension self-test result
 src/report.txt
