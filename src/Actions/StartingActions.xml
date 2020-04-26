@@ -22,7 +22,7 @@
 &#13;&#10;at the IP at the bottom of this message. Continue
 &#13;&#10;until you find an xserver.
 &#13;&#10;
-&#13;&#10;Server IP: 222.51.39.138" TargetComp="playerComp" TargetFolderpath="home"/>
+&#13;&#10;SERVER IP: 222.51.39.138" TargetComp="playerComp" TargetFolderpath="home"/>
 
     <!--<DeleteFile TargetComp="advExamplePC" FilePath="bin" FileName="Binary_File" DelayHost="advExamplePC" Delay="5.5"/>-->
     <DeleteFile TargetComp="FrstServer" FilePath="sys" FileName="x-server.sys"/>
