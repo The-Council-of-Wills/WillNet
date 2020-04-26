@@ -8,6 +8,7 @@
   missionStart val="0">loadConditionalActions:Actions/TestActions.xml</missionStart>
   missionEnd val="1">addRank</missionEnd> 
   -->
+  <missionStart>loadConditionalActions:Actions/newJobTTYAlert.xml</missionStart>
   <nextMission>NONE</nextMission>
   <!-- 
   <posting title="startingMission">This would be the post on a message board if it was on them.</posting>

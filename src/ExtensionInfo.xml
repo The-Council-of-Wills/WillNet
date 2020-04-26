@@ -16,9 +16,11 @@
 
   <!-- Description that appears within Hacknet -->
   <Description> --- Hacktermnet ---
-Some time after the Bit episode, you have been found by The Council of Wills. 
-They're actually quite a friendly bunch. 
-You find yourself in possession of Hacknet again, and now have some work to do.</Description>
+
+Some time after the events of Bit, you have been scouted by The Council of Wills. 
+They're actually quite a friendly bunch; And what's more, they claim to have a working copy of Hacknet you want. 
+There's work to be done.</Description>
+
   
   <!-- Factions involved in this extension! You can define as many or as few as you like -->
   <Faction>Factions/StartingFaction.xml</Faction><!--TODO: make the Will faction-->
@@ -59,8 +61,10 @@ You find yourself in possession of Hacknet again, and now have some work to do.<
         public string WorkshopTags;
         public string WorkshopPreviewImagePath;
   -->
-  <WorkshopDescription>This is the description of the extension that will appear in Steam Workshop and any other mod platforms this gets ported to. Max 8000 characters.
-You can use newlines in this as normal etc.</WorkshopDescription>
+  <WorkshopDescription>
+Some time after the events of Bit, you have been scouted by The Council of Wills. 
+They're actually quite a friendly bunch; And what's more, they claim to have a working copy of Hacknet you want. 
+There's work to be done.</WorkshopDescription>
 
   <!-- Language that this is set to. -->
   <WorkshopLanguage>English</WorkshopLanguage>
