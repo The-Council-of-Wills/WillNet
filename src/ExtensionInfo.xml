@@ -1,32 +1,34 @@
 <HacknetExtension>
   <!-- Max name length is 128 characters -->
-	<Name>Hacktermnet</Name>
+	<Name>WillNet</Name>
 	<AllowSaves>true</AllowSaves>
   
   <!-- a coma separated list of notes that start out as being visible-->
 	<StartingVisibleNodes></StartingVisibleNodes>
   
   <!-- the mission (if any) that loads in as soon as the player starts -->
-  <StartingMission>Missions/StartingMission.xml</StartingMission>
+  <StartingMission>Missions/StartingMission.xml</StartingMission> <!--TODO: write starting mission flags-->
 
   <!-- Conditional action set that is loaded in as soon as a new session is created
   This is useful to do setup stuff, like giving the player programs, assigning them a faction etc.
   If you don't need this, set it to "NONE", or just delete the tag.-->
-  <StartingActions>Actions/StartingActions.xml</StartingActions>
+  <StartingActions>Actions/StartingActions.xml</StartingActions> <>
 
   <!-- Description that appears within Hacknet -->
   <Description> --- Hacktermnet ---
-Edit this with your own extension info and start building!</Description>
+Some time after the events of Bit, you have been found by The Council of Wills. 
+They're actually quite a friendly bunch. 
+Some time later, you have hacknet.exe again, as well as some more work to do.<Description>
   
   <!-- Factions involved in this extension! You can define as many or as few as you like -->
-  <Faction>Factions/StartingFaction.xml</Faction>
+  <Faction>Factions/StartingFaction.xml</Faction><!--TODO: make the Will faction-->
   
   <StartsWithTutorial>False</StartsWithTutorial>
   
   <!-- this makes the extension start with the standard restart bootup sequence -->
   <HasIntroStartup>false</HasIntroStartup>
   
-  <StartingTheme>Themes/ExampleTheme.xml</StartingTheme>
+  <StartingTheme>TerminalOnlyBlack</StartingTheme>
   <!-- 
   Base Themes are named:
   TerminalOnlyBlack, HacknetBlue, HacknetTeal, HacknetYellow, HackerGreen, HacknetWhite, HacknetPurple, HacknetMint
@@ -71,7 +73,7 @@ You can use newlines in this as normal etc.</WorkshopDescription>
 
   <!-- Comma separated list of tags that this should be listed under in the workshop. This is not currently used, as the only category
   of workshop item in Hacknet is "Extension", so leave this as-is for now.-->
-  <WorkshopTags>Extension</WorkshopTags>
+  <WorkshopTags>Extension, #Hackerjam2</WorkshopTags>
 
   <!-- Path to the preview image used on the steam workshop for your extension.
   This must be within your mod folder, be 16x9 aspect ratio and less than 1MB in size. 
@@ -87,6 +89,6 @@ You can use newlines in this as normal etc.</WorkshopDescription>
   When this happens, make sure that you keep that version of the file and store the ID somewhere - without it, you wont be able to push out updates to your extension,
   and if it's removed, publishing to the workshop will submit it as a new entry, and you'll lose all of your subscribers. Be careful!
   Do not manually modify this unless you already know your Publish ID from a previous submission. A new ID will only be generated if this says "NONE"-->
-  <WorkshopPublishID>NONE</WorkshopPublishID>
+  <WorkshopPublishID>NONE</WorkshopPublishID><!--we'll only need this when we push to steam. Figure it out then-->
   
 </HacknetExtension>
