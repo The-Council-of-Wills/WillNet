@@ -12,13 +12,13 @@
   <!-- Conditional action set that is loaded in as soon as a new session is created
   This is useful to do setup stuff, like giving the player programs, assigning them a faction etc.
   If you don't need this, set it to "NONE", or just delete the tag.-->
-  <StartingActions>Actions/StartingActions.xml</StartingActions> <>
+  <StartingActions>Actions/StartingActions.xml</StartingActions> 
 
   <!-- Description that appears within Hacknet -->
   <Description> --- Hacktermnet ---
 Some time after the events of Bit, you have been found by The Council of Wills. 
 They're actually quite a friendly bunch. 
-Some time later, you have hacknet.exe again, as well as some more work to do.<Description>
+Some time later, you have hacknet.exe again, as well as some more work to do.</Description>
   
   <!-- Factions involved in this extension! You can define as many or as few as you like -->
   <Faction>Factions/StartingFaction.xml</Faction><!--TODO: make the Will faction-->
