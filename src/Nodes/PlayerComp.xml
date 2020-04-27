@@ -26,4 +26,24 @@ We will be waiting.
 
 222.51.39.138</file>
 
+<file path="bin" name="WebServerWorm.exe">#WEB_CRACK#</file>
+<file path="bin" name="SQLInject.exe">#SQL_CRACK#</file>
+<file path="bin" name="DNotes.exe">#NOTES_DUMPER_EXE#</file>
+<file path="bin" name="ReadMe.txt">
+Here's a quick how-to for those unfamilliar:
+
+>SQLInject and WebServerWorm are two all too common crackers.
+Like many others you'll come across, all you need to do is call them 
+with the port number of the service they are designed for (nmap will help with that)
+and in time, they'll bust that port wide open for a PortHack.
+
+>DNotes is nifty, it'll dump all the notes you make with addNote to
+stdout, so you can read them in the terminal.
+
+>You can use ps to keep track of what's running, and nmap to keep track of what's open
+on the host machine.
+
+Good Luck.
+</file>
+
 </Computer>
