@@ -1,19 +1,19 @@
 <?xml version = "1.0" encoding = "UTF-8" ?>
-<mission id="startingMission">
-  <goals>
-    <!-- Goals here -->
+<mission id="startingMission" activeCheck="true">
+  <goals> 
+    <goal type="getadmin" target="M1END"/>
   </goals>
   <!-- 
   Add your mission start and end items here
   missionStart val="0">loadConditionalActions:Actions/TestActions.xml</missionStart>
   missionEnd val="1">addRank</missionEnd> 
   -->
-  <missionStart>loadConditionalActions:Actions/newJobTTYAlert.xml</missionStart>
-  <nextMission>NONE</nextMission>
+  <missionStart>loadConditionalActions:Actions/E1M1.xml</missionStart>
+  <nextMission IsSilent="true">Missions/E1/M2.xml</nextMission>
   <!-- 
   <posting title="startingMission">This would be the post on a message board if it was on them.</posting>
   -->
-  <email>
+<email>
     <sender>WILL</sender>
     <subject>THE COUNCIL</subject>
     <body>
@@ -27,5 +27,5 @@
     <attachments>
       <!-- TODO: WILL IRC node, and some mission nodes because funsies -->
     </attachments>
-  </email>
+  </email>  
 </mission>

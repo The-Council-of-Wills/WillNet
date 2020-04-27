@@ -20,3 +20,6 @@ Log nodes / hidden information / etc here for reference
 [Mx_Weaboo](Mx_Weaboo.md)
 <details>
 </details>
+
+# FirewallOfDoom 
+[Mx_FirewallOfDoom](Mx_FirwallOfDoom.md)
