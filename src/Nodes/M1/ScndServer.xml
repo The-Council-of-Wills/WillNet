@@ -8,6 +8,9 @@
     <adminPass pass="we like pot"/>
 
     <dlink target="FrstServer"/>
+    <dlink target="ComSoftWS1"/>
+    <dlink target="ComSoftWS2"/>
+
 
     <file path = "home/evidence" name = "SMTPOverflow.exe">#SMTP_CRACK#</file>
     <file path = "home/evidence" name = "SSLTrojan.exe">#SSL_EXE#</file>

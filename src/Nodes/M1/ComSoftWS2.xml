@@ -1,0 +1,21 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="FrstServer" name="ComSoft Distribution Server" type="3" ip="222.51.39.10"\>
+
+  <portsForCrack val="4" />
+  <ports>1433, 80, 22, 443</ports>
+  <trace time="-1" />
+  <admin type="progress" resetPassword="false" isSuper="false"/>
+  <adminPass pass="TerminalEnthusiast"/>
+
+  <dlink target="ScndServer"/>
+
+
+
+  <file path="home" name="Memo.txt">
+  WHY DOES THE MANAGER INSIST WE HAVE TERMINAL ONLY WORKSTATIONS!!!!!
+  I CAN'T DO WHIT WITH THIS 1908'S ERA CRAP!!!!
+  </file>
+ 
+
+  
+</Computer>
