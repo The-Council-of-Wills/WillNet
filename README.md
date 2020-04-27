@@ -3,11 +3,10 @@ This is a Hacknet extension that focuses on the chaotic "Will Council."
 
 Completion of Hacknet is recommended.
 
-```
-Some time after the events of Bit, you have been scouted by The Council of Wills. 
-They're actually quite a friendly bunch; And what's more, they claim to have a working copy of Hacknet you want. 
-There's work to be done.
-```
+# Plot Synopsis 
+Some time after the events involving Bit, you stumble accross a hacker forum by the name of "The Council of Wills".
+They have a number of software projects on the go, but one in particular catches your eye: A Crack of HacknetOS.
+They say it's not finished, but it might just be enough to get you back in the scene.
 
 ## Development
 Symlink `src` to a folder under your Hacknet install's `Extensions` folder.
