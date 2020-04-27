@@ -1,20 +1,20 @@
 <?xml version = "1.0" encoding = "UTF-8" ?>
-<Computer id="ComSoftWS1" name="ComSoft Workstation 1" type="3" ip="222.51.39.10">
+<Computer id="ComSoftWS2" name="ComSoft Workstation 2" type="3" ip="222.51.39.20">
 
-  <portsForCrack val="4"/>
+  <firewall level="8" solution="TTY4LYFE" additionalTime="0.5"/>
+  <portsForCrack val="101"/>
   <ports>1433, 80, 22, 443</ports>
   <trace time="-1" />
   <admin type="progress" resetPassword="false" isSuper="false"/>
-  <adminPass pass="TerminalEnthusiast"/>
-
-  <dlink target="ScndServer"/>
+  <adminPass pass="TTY4LYFE"/>
 
 
-
-  <file path="home" name="Memo.txt">
-  God, I just love the terminal!
+  <file path="home" name="memo.txt">
+In case of emergency, backups are stored here: 181.189.28.57
+DEC encryption will keep them safe in case of attack :)
   </file>
- 
+
+  <dlink target="ComSoftG1" />
 
   
 </Computer>

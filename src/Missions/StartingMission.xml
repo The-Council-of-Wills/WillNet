@@ -1,7 +1,7 @@
 <?xml version = "1.0" encoding = "UTF-8" ?>
 <mission id="startingMission" activeCheck="true">
   <goals> 
-    <goal type="getadmin" target="M1END"/>
+    <goal type="getadmin" target="HackermanL"/>
   </goals>
   <!-- 
   Add your mission start and end items here

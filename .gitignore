@@ -1,3 +1,3 @@
 *.code-workspace
-# Extension logs
+# Extension self-test result
 src/*report.txt
