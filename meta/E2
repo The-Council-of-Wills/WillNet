@@ -1,0 +1,21 @@
+The reason nobody has a good xserver: they don't have hacknet
+
+P
+\_ todo -> L1
+\_ bin: HTTP, SQL, FTP, SSH
+
+organisation type: the DEC company
+
+E2M1: Steal the RCE suite from some guy (# M? OffensiveKid mission?)
+E2M2: DEC entrypoint
+E2M3: DEC source control
+E2M4: upload encrypted x-server and DEC files to the Wills
+
+XSERVERS DON'T EXIST OR ARE IN #BINARY#
+
+E2M1:
+  \_ L1:
+    \_ S = 4: HTTP, SQL, FTP, SSH
+    \_ R = RCESuite, Torrent
+
+hackerscript -> immediate attack IF logs not cleared
