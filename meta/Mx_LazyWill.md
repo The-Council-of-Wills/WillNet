@@ -1,6 +1,6 @@
 # M? LazyWill mission
 
-* _mission_parameters
+Lazy Will just doesn't tighten up his security. Give this brother a needed scare.
 
   * _server_1_prompt
 
