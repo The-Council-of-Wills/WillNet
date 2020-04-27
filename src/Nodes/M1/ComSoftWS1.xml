@@ -1,7 +1,7 @@
 <?xml version = "1.0" encoding = "UTF-8" ?>
-<Computer id="FrstServer" name="ComSoft Distribution Server" type="3" ip="222.51.39.10"\>
+<Computer id="ComSoftWS1" name="ComSoft Workstation 1" type="3" ip="222.51.39.10">
 
-  <portsForCrack val="4" />
+  <portsForCrack val="4"/>
   <ports>1433, 80, 22, 443</ports>
   <trace time="-1" />
   <admin type="progress" resetPassword="false" isSuper="false"/>
