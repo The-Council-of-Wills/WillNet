@@ -1,31 +1,30 @@
 <ConditionalActions>
   
   <Instantly>
-    <AddAsset FileName="WebServerWorm.exe" FileContents="#WEB_CRACK#" TargetComp="playerComp" TargetFolderpath="bin" />
-    <AddAsset FileName="SQLInject.exe" FileContents="#SQL_CRACK#" TargetComp="playerComp" TargetFolderpath="bin"/>
-    <AddAsset FileName="DNotes.exe" FileContents="#NOTES_DUMPER_EXE#" TargetComp="playerComp" TargetFolderpath="bin"/>
-    
 
+    <!-- no longer needed but great example of workaround for missing folders -->
+    <!--
     <AddAsset FileName="t.txt" FileContents="" TargetComp="playerComp" TargetFolderpath="home"/>
     <CopyAsset DestFilePath="home/tasks" DestComp="playerComp" SourceComp="playerComp" SourceFileName="t.txt" SourceFilePath="home" />
     <AddAsset FileName="Getting Started.txt" FileContents=
-    
     "
-    &#13;&#10;If you are reading this, you have found an incomplete build of HackNet by the Will Council.
-    &#13;&#10;Your current xserver has basic functionality: 
-    &#13;&#10;You should be able to backup, shutdown, see your IP, and connect to the email server you have set as default through the GUI.
-    &#13;&#10;You should also have a few tools on your system. Check /bin for more info
+    &#13;&#10;This is a basic deployment of Hacknet designed by the Will Council.
+    &#13;&#10;Your current x-server.sys provides basic functionality.
+	&#13;&#10;
+    &#13;&#10;You are able to backup, shutdown, see your IP, connect to your
+	&#13;&#10;email server, and access a barebones command shell.
+    &#13;&#10;You also have a few programs on your system under the /bin folder.
     &#13;&#10;
-    &#13;&#10;However, this meagre set of tools simply will not do.
-    &#13;&#10;Find a complete xserver. Then Find us.
+    &#13;&#10;However, this meagre set of tools is far from complete.
+    &#13;&#10;Find a complete x-server.sys. Then find us.
     &#13;&#10;
-    &#13;&#10;We're waiting.
-    &#13;&#10;   
+    &#13;&#10;We will be waiting.
+    &#13;&#10;
     &#13;&#10;222.51.39.138
     " TargetComp="playerComp" TargetFolderpath="home/tasks"/>
     <DeleteFile TargetComp="playerComp" FilePath="home/" FileName="t.txt"/>
     <DeleteFile TargetComp="playerComp" FilePath="home/tasks" FileName="t.txt"/>
-
+    -->
 
     <!--<DeleteFile TargetComp="advExamplePC" FilePath="bin" FileName="Binary_File" DelayHost="advExamplePC" Delay="5.5"/>-->
     <DeleteFile TargetComp="FrstServer" FilePath="sys" FileName="x-server.sys"/>
