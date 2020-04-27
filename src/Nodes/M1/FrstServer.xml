@@ -5,7 +5,7 @@
   <ports>1433, 80</ports>
   <trace time="-1" />
   <admin type="progress" resetPassword="false" isSuper="false"/>
-  <adminPass pass="we like crack"/>
+  <adminPass pass="TTY4LYFE"/>
 
   <dlink target="ScndServer"/>
 

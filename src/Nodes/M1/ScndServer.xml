@@ -5,7 +5,7 @@
     <ports>22, 80, 1433</ports>
     <trace time="-1"/>
     <admin type="progress" resetPassword="false" isSuper="false"/>
-    <adminPass pass="we like pot"/>
+    <adminPass pass="TTY4LYFE"/>
 
     <dlink target="FrstServer"/>
     <dlink target="ComSoftWS1"/>
