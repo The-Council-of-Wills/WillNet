@@ -9,8 +9,8 @@
 
     <file path="home/themes" name="Memo.txt">Who needs X when you can use a tty? Kids these days...</file>
 
-    <file path="home" name="hitlist.txt">ComSoft Gateway: 222.51.39.2</file>
-    
+    <file path="home" name="hitlist.txt">ComSoft Gateway: 222.51.39.2
+Don't mess with me. You have no idea how ugly it gets.</file>
 
     <file path="bin/utils" name="NetMapOrganizer.exe">#NETMAP_ORGANIZER_EXE#</file>
     <file path="bin/utils" name="Tuneswap.exe">#DLC_MUSIC_EXE#</file>
