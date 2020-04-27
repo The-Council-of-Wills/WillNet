@@ -1,6 +1,6 @@
 <?xml version = "1.0" encoding = "UTF-8" ?>
 <mission id="startingMission" activeCheck="true">
-  <goals> 
+  <goals>
     <goal type="getadmin" target="HackermanL"/>
   </goals>
   <!-- 
@@ -13,7 +13,7 @@
   <!-- 
   <posting title="startingMission">This would be the post on a message board if it was on them.</posting>
   -->
-<email>
+  <email>
     <sender>WILL</sender>
     <subject>THE COUNCIL</subject>
     <body>
@@ -23,9 +23,9 @@
     Our server is attached below.
     
     -- WILL
-</body>
+    </body>
     <attachments>
       <!-- TODO: WILL IRC node, and some mission nodes because funsies -->
     </attachments>
-  </email>  
+  </email>
 </mission>

@@ -1,25 +1,22 @@
 <?xml version = "1.0" encoding = "UTF-8" ?>
 <Computer id="ComSoftWS1" name="ComSoft Workstation 1" type="3" ip="222.51.39.10">
 
-  <firewall level="8" solution="TTY4LYFE" additionalTime="0.5"/>
+  <!--<firewall level="8" solution="TTY4LYFE" additionalTime="0.5"/>-->
   <portsForCrack val="4"/>
   <ports>1433, 80, 22, 21</ports>
   <trace time="-1" />
   <admin type="progress" resetPassword="false" isSuper="false"/>
   <adminPass pass="TTY4LYFE"/>
 
-
   <file path="home" name="IRC_Dave.txt">
 Dave: Y'know what?
-SteveO: What?
-Dave: Humans really are the weak point in IT
-SteveO: What's brought this on?
-Dave: I just had a word with our IT guy and it turns out he uses the same password everywhere.
-SteveO: Shit, man
+SteveO: what
+Dave: Humans really are the weak point in IT,
+SteveO: whats brought this on
+Dave: I just had a word with our IT guy. It turns out he uses the same password everywhere.
+SteveO: shit man
   </file>
 
   <dlink target="ComSoftG1"/>
- 
 
-  
 </Computer>

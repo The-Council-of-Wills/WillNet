@@ -6,6 +6,7 @@
 <nextMission IsSilent = "true">NONE</nextMission>
 
 <email>
+<!-- TODO write this email (currently dupe of M1) -->
     <sender>WILL</sender>
     <subject>THE COUNCIL</subject>
     <body>
