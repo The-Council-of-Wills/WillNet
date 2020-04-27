@@ -1,0 +1,41 @@
+P
+\_ todo -> S1
+\_ bin: SQL, HTTP
+
+E1M1: NONE OF THESE HAVE XSERVER
+  \_ S1:
+    \_ S = 2: SQL, HTTP
+    \_ R = SSH
+    \_ N = suggest LAN
+    \_ L = S2
+
+  \_ S2:
+    \_ S = 3: SQL, HTTP, SSH
+    \_ L = S1
+    \_ R = hackerman IP
+
+  \_ hackerman
+    \_ S = 3: SQL, HTTP, SSH
+    \_ R = FTP, "hitlist" -> Gateway: S3, S4
+    \_ E = LOIC joke
+    \_ tracker
+
+  \_ Gateway: S3, s4:
+    \_ S = 1: HTTP
+    \_ F = [come up with a password]
+    \_ L = S3; S4
+
+  \_ S3:
+    \_ S = 4: HTTP, FTP, SQL, SSH
+    \_ R = note about S4 admin password being the firewall password
+    \_ L = Gateway: S3, S4
+
+  \_ S4:
+    \_ S = inviolability
+    \_ R = backups server IP
+    \_ L = Gateway: S3, S4
+
+  \_ backups server:
+    \_ S = proxy, firewall, 4: SQL, HTTP, SSH, FTP
+    \_ R = XSERVER except it's DEC encrypted lol PASSWORD = correct horse battery staple
+    \_ N = Easter Egg IPs

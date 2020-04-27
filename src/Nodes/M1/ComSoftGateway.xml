@@ -1,0 +1,14 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="ComSoftG1" name="ComSoft Gateway 1" type="4" ip="222.51.39.2">
+
+  <firewall level="8" solution="TTY4LYFE" additionalTime="0.5"/>
+  <portsForCrack val="1"/>
+  <ports>80</ports>
+  <trace time="-1" />
+  <admin type="progress" resetPassword="true" isSuper="false"/>
+  <adminPass pass="TTY4LYFE"/>
+
+  <dlink target="ComSoftWS1"/>
+  <dlink target="ComSoftWS2"/>
+
+</Computer>

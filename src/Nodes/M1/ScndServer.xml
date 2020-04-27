@@ -1,11 +1,11 @@
 <?xml version = "1.0" encoding = "UTF-8" ?>
 <Computer id="ScndServer" name="ComSoft Source Control" type = "3" ip = "222.51.39.139">
 
-    <portsForCrack val="4" />
-    <ports>22, 80, 1433, 21, 25, 443, 6881</ports>
+    <portsForCrack val="3" />
+    <ports>22, 80, 1433</ports>
     <trace time="-1"/>
     <admin type="progress" resetPassword="false" isSuper="false"/>
-    <adminPass pass="we like pot"/>
+    <adminPass pass="TTY4LYFE"/>
 
     <dlink target="FrstServer"/>
     <dlink target="ComSoftWS1"/>
@@ -13,14 +13,14 @@
 
 
     <file path="home/EVIDENCE" name="bot.cfg">//remember to do this before uploading the bot!</file>
-    <file path="home/evidence" name="LOIC_Headless.exe">#SECURITYTRACER_PROGRAM#</file>
+    <file path="home/EVIDENCE" name="LOIC_Headless.exe">#SECURITYTRACER_PROGRAM#</file>
 
     <file path="home" name="admins.txt">We've got a potential lead on the service outages lately.
 See those files in evidence? Some jackass was using those one our servers, and causing all kinds of problems.
 Looks like he might've been trying to BotNet us?
 Either way, we'll need those files if we're to win in court, so nobody delete them!</file>
 
-    <file path="home/evidence" name="OffendingLogs.txt">
+    <file path="home/EVIDENCE" name="OffendingLogs.txt">
 Connection opened from 60.46.52.223
 Connection from 60.46.52.223 overflowed port 25
 Connection from 60.46.52.223 overflowed port 443
