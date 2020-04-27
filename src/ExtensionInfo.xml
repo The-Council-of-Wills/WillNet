@@ -15,11 +15,11 @@
   <StartingActions>Actions/StartingActions.xml</StartingActions>
 
   <!-- Description that appears within Hacknet -->
-  <Description> --- Hacktermnet ---
-
-Some time after the events of Bit, you have been scouted by The Council of Wills. 
-They're actually quite a friendly bunch; And what's more, they claim to have a working copy of Hacknet you want. 
-There's work to be done.</Description>
+  <Description> --- WillNet ---
+Some time after the events involving Bit, you stumble accross a hacker forum by the name of "The Council of Wills".
+They have a number of software projects on the go, but one in particular catches your eye: A Crack of HacknetOS.
+They say it's not finished, but it might just be enough to get you back in the scene.
+</Description>
 
   
   <!-- Factions involved in this extension! You can define as many or as few as you like -->
@@ -28,7 +28,7 @@ There's work to be done.</Description>
   <StartsWithTutorial>False</StartsWithTutorial>
   
   <!-- this makes the extension start with the standard restart bootup sequence -->
-  <HasIntroStartup>false</HasIntroStartup>
+  <HasIntroStartup>true</HasIntroStartup>
   
   <StartingTheme>TerminalOnlyBlack</StartingTheme>
   <!-- 
@@ -62,9 +62,11 @@ There's work to be done.</Description>
         public string WorkshopPreviewImagePath;
   -->
   <WorkshopDescription>
-Some time after the events of Bit, you have been scouted by The Council of Wills. 
-They're actually quite a friendly bunch; And what's more, they claim to have a working copy of Hacknet you want. 
-There's work to be done.</WorkshopDescription>
+--- WillNet ---
+Some time after the events involving Bit, you stumble accross a hacker forum by the name of "The Council of Wills".
+They have a number of software projects on the go, but one in particular catches your eye: A Crack of HacknetOS.
+They say it's not finished, but it might just be enough to get you back in the scene.
+</WorkshopDescription>
 
   <!-- Language that this is set to. -->
   <WorkshopLanguage>English</WorkshopLanguage>
