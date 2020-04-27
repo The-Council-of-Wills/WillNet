@@ -12,9 +12,7 @@
     <dlink target="ComSoftWS2"/>
 
 
-    <file path = "home/evidence" name = "SMTPOverflow.exe">#SMTP_CRACK#</file>
-    <file path = "home/evidence" name = "SSLTrojan.exe">#SSL_EXE#</file>
-    <file path = "home/evidence" name = "TorrentStreamInjector.exe">#TORRENT_EXE#</file>
+    <file path="home/EVIDENCE" name="bot.cfg">//remember to do this before uploading the bot!</file>
     <file path="home/evidence" name="LOIC_Headless.exe">#SECURITYTRACER_PROGRAM#</file>
 
     <file path="home" name="admins.txt">We've got a potential lead on the service outages lately.
