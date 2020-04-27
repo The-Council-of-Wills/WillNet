@@ -5,7 +5,7 @@
     <ports>22, 80, 1433, 21, 25, 443, 6881</ports>
     <trace time="-1"/>
     <admin type="progress" resetPassword="false" isSuper="false"/>
-    <adminPass pass="hackerman"/>
+    <adminPass pass="hackermanR0x101"/>
 
     <file path="home/themes" name="White-Theme.sys">#WHITE_THEME#</file>
     <file path="home/themes" name="Green-Theme.sys">#GREEN_THEME#</file>
