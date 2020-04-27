@@ -1,5 +1,5 @@
 <?xml version = "1.0" encoding = "UTF-8" ?>
-<Computer id="FrstServer" name="Crackheads Incorporated" type="3" ip="222.51.39.138">
+<Computer id="FrstServer" name="ComSoft Distrobution Server" type="3" ip="222.51.39.138">
 
   <portsForCrack val="2" />
   <ports>1433, 80</ports>
@@ -13,9 +13,9 @@
   <file path="bin" name="FTPCrack.exe">#FTP_FAST_EXE#</file>
 
   <file path="home" name="admins.txt">Hey all.
-Just a note, the other server on our LAN sometimes refuses legitimate connections. We're still figuring out why.
+Just a note, the other version control server sometimes refuses legitimate connections. We're still figuring out why.
 In the meantime, I've uploaded some crackers to /bin, which you'll probably need for remote maintenance.
-Please don't abuse them, and don't let any of these crackheads get their hands on them.</file>
+Please don't abuse them, and don't let any of these crackhead script kiddies get their hands on them.</file>
 
   
 </Computer>
