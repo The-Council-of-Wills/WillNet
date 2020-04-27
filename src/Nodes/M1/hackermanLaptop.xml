@@ -1,13 +1,15 @@
 <?xml version = "1.0" encoding = "UTF-8" ?>
-<Computer id="M1END" name="hackerman's laptop" type = "3" ip = "60.46.52.223">
+<Computer id="HackermanL" name="hackerman's laptop" type = "3" ip = "60.46.52.223">
 
-    <portsForCrack val="7" />
-    <ports>22, 80, 1433, 21, 25, 443, 6881</ports>
+    <portsForCrack val="3" />
+    <ports>22, 80, 1433</ports>
     <trace time="-1"/>
     <admin type="progress" resetPassword="false" isSuper="false"/>
     <adminPass pass="hackermanR0x101"/>
 
     <file path="home/themes" name="Memo.txt">Who needs X when you can use a tty? Kids these days...</file>
+
+    <file path="home" name="hitlist.txt">ComSoft Gateway: 222.51.39.2</file>
     
 
     <file path="bin/utils" name="NetMapOrganizer.exe">#NETMAP_ORGANIZER_EXE#</file>

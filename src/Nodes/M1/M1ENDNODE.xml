@@ -1,0 +1,15 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+
+<Computer id="M1ENDNODE" name="Glargle Backups Drive" type="3" ip="181.189.28.57">
+
+    <portsForCrack val="4"/>
+    <ports>1433, 80, 22, 21</ports>
+    <trace time="-1"/>
+    <admin type="fast" isSuper="true" resetPassword="true"/>
+    <adminPass pass="Fdf490;:fd~"/>
+
+    <encryptedFile path="home/ComSoft" name="x-server.dec" extension=".sys" ip="181.189.28.57" header="x server if engineers whine too much" pass="correct horse battery staple">#GREEN_THEME#</encryptedFile>
+
+    <!--Add more filler so that this backup server isn't just "ooh Xorg why didn't I use a package manager"-->
+
+</Computer>

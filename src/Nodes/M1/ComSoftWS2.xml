@@ -1,20 +1,24 @@
 <?xml version = "1.0" encoding = "UTF-8" ?>
-<Computer id="ComSoftWS2" name="ComSoft Workstation 2" type="3" ip="222.51.39.10">
+<Computer id="ComSoftWS1" name="ComSoft Workstation 1" type="3" ip="222.51.39.10">
 
+  <firewall level="8" solution="TTY4LYFE" additionalTime="0.5"/>
   <portsForCrack val="4"/>
-  <ports>1433, 80, 22, 443</ports>
+  <ports>1433, 80, 22, 21</ports>
   <trace time="-1" />
   <admin type="progress" resetPassword="false" isSuper="false"/>
-  <adminPass pass="TerminalEnthusiast"/>
-
-  <dlink target="ScndServer"/>
+  <adminPass pass="TTY4LYFE"/>
 
 
-
-  <file path="home" name="Memo.txt">
-  WHY DOES THE MANAGER INSIST WE HAVE TERMINAL ONLY WORKSTATIONS!!!!!
-  I CAN'T DO WHIT WITH THIS 1908'S ERA CRAP!!!!
+  <file path="home" name="IRC_Dave.txt">
+Dave: Y'know what?
+SteveO: What?
+Dave: Humans really are the weak point in IT
+SteveO: What's brought this on?
+Dave: I just had a word with our IT guy and it turns out he uses the same password everywhere.
+SteveO: Shit, man
   </file>
+
+  <dlink target="ComSoftG1"/>
  
 
   

@@ -10,7 +10,6 @@
   <dlink target="ScndServer"/>
 
   <file path="bin" name="SSHCrack.exe">#SSH_CRACK#</file>
-  <file path="bin" name="FTPCrack.exe">#FTP_FAST_EXE#</file>
 
   <file path="home" name="admins.txt">Hey all.
 Just a note, the other version control server sometimes refuses legitimate connections. We're still figuring out why.

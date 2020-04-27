@@ -1,5 +1,7 @@
 <mission id="E1M2">
-<goals></goals>
+<goals>
+  <goal type="filedownload" target="M1ENDNODE" file="x-server.dec" path="home/ComSoft"/>
+</goals>
 <missionStart>loadConditionalActions:Actions/E1M2.xml</missionStart>
 <nextMission IsSilent = "true">NONE</nextMission>
 

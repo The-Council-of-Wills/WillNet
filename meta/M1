@@ -32,10 +32,10 @@ E1M1: NONE OF THESE HAVE XSERVER
 
   \_ S4:
     \_ S = inviolability
-    \_ R = backups server IP, DEC, backup DEC password
+    \_ R = backups server IP
     \_ L = Gateway: S3, S4
 
   \_ backups server:
     \_ S = proxy, firewall, 4: SQL, HTTP, SSH, FTP
-    \_ R = XSERVER
+    \_ R = XSERVER except it's DEC encrypted lol PASSWORD = correct horse battery staple
     \_ N = Easter Egg IPs
