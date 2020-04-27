@@ -1,0 +1,29 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="playerComp" name="#PLAYERNAME# VM(1)" security="3" allowsDefaultBootModule="false" type="1">
+
+    <adminPass pass="rememberbit" />
+    <account username="#PLAYERNAME#" password="Q2FudEhhY2tUaGlz" type="ADMIN" />
+
+    <ports>21, 22, 25, 80</ports>
+
+    <proxy time="-1" />
+    <portsForCrack val="101" />
+    <trace time="300" />
+
+    <!-- Intentional starting newline -->
+    <file path="home/tasks" name="Getting_Started.txt">
+This is a basic deployment of Hacknet designed by the Will Council.
+Your current x-server.sys provides basic functionality.
+
+You are able to backup, shutdown, see your IP, connect to your
+email server, and access a barebones command shell.
+You also have a few programs on your system under the /bin folder.
+
+However, this meagre set of tools is far from complete.
+Find a complete x-server.sys. Then find us.
+
+We will be waiting.
+
+222.51.39.138</file>
+
+</Computer>
