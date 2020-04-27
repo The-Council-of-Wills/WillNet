@@ -1,10 +1,7 @@
 <ConditionalActions>
   
   <Instantly>
-    <AddAsset FileName="WebServerWorm.exe" FileContents="#WEB_CRACK#" TargetComp="playerComp" TargetFolderpath="bin" />
-    <AddAsset FileName="SQLInject.exe" FileContents="#SQL_CRACK#" TargetComp="playerComp" TargetFolderpath="bin"/>
-    <AddAsset FileName="DNotes.exe" FileContents="#NOTES_DUMPER_EXE#" TargetComp="playerComp" TargetFolderpath="bin"/>
-    
+
     <!-- no longer needed but great example of workaround for missing folders -->
     <!--
     <AddAsset FileName="t.txt" FileContents="" TargetComp="playerComp" TargetFolderpath="home"/>
