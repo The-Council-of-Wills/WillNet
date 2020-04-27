@@ -1,0 +1,9 @@
+<ConditionalActions>
+    <Instantly needsMissionComplete="false">
+        <CopyAsset DestFilePath="home/tasks" DestComp="playerComp" SourceComp="assetNode" SourceFileName="Well_Done.txt" SourceFilePath="home/tasks"/>
+    </Instantly>
+    <OnDisconnect target="M1END">
+        <LaunchHackScript Filepath="Scripts/newjob.txt" TargetComp='playerComp'/>
+    </OnDisconnect>
+</ConditionalActions>
+

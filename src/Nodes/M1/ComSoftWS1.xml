@@ -1,0 +1,20 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="ComSoftWS1" name="ComSoft Workstation 1" type="3" ip="222.51.39.10">
+
+  <portsForCrack val="4"/>
+  <ports>1433, 80, 22, 443</ports>
+  <trace time="-1" />
+  <admin type="progress" resetPassword="false" isSuper="false"/>
+  <adminPass pass="TerminalEnthusiast"/>
+
+  <dlink target="ScndServer"/>
+
+
+
+  <file path="home" name="Memo.txt">
+  God, I just love the terminal!
+  </file>
+ 
+
+  
+</Computer>
