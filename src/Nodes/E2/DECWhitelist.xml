@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Computer id="DECwhitelist" name="DEC Solutions Whitelist Server" type="4" ip="57.241.213.114">
+
+    <firewall level="7" solution="tumbler" additionalTime="0.0"/>
+    <ports>80, 1433, 21, 22, 6881</ports>
+    <portsForCrack val="5"/>
+    <trace time="-1"/>
+    <admin type="basic" isSuper="false" resetPassword="false"/>
+
+    <!--dlink computers on DEC network-->
+
+</Computer>
