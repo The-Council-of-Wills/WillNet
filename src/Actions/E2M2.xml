@@ -1,7 +1,7 @@
 <ConditionalActions>
     <Instantly needsMissionComplete="false">
         <CopyAsset DestFilePath="home/tasks" DestComp="playerComp" SourceComp="assetNode" SourceFileName="DEC_Access.txt" SourceFilePath="home/tasks"/>
-        <CopyAsset DestFilePath="home" DestComp="playerComp" SourceComp="assetNode" SourceFileName="RCE.exe" SourceFilePath="home"/>
+        <CopyAsset DestFilePath="home" DestComp="playerComp" SourceComp="assetNode" SourceFileName="qRCEsuite.exe" SourceFilePath="home"/>
     </Instantly>
     <OnDisconnect target="DECwhitelist">
         <LaunchHackScript Filepath="Scripts/newjob.txt" TargetComp="playerComp"/>
