@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Computer id="E2M2B" name="DEC Affairs Reporting Hub" ip="79.5.102.69">
+
+    <ports>21, 6881, 80</ports>
+    <portsForCrack val="88"/>
+    <admin type="fast" isSuper="false" resetPassword="false"/>
+    <adminPass pass="hubdotbat"/>
+    <file path="Drop" name="report_10_01_10.txt">
+Name: John Whittlebury
+EIN: 33738
+Joan's not been treating me with the same respect as the other employees.
+I don't know what's going on, but I haven't been called into the planning
+meetings or anything.
+</file>
+    <file path="Drop" name="backup.txt">
+身体を蝕む　基盤ごと壊せ
+コダワリ捨てたら
+記憶(メモリ)解放　そこのけ大音量(フルボリューム)
+ほらね　ほらね
+
+トロけて　蛍光塗料ぶちまけ　道路に寝転び
+アブない　感覚だけ　心の依り代
+
+終わりと
+ここが最後の砦さ
+再生
+キミが掴めるチャンスさ
+
+ここまで来たら　止められない
+最初から分かってたの
+
+嫌いになれたら　も一度会えたら
+高速処理して操作→
+痛い辛いのは消去→
+伝達物質不足=
+深層心理はエラー×
+変えられないなら　抗えないなら
+砕けて散るだけ
+記憶(メモリ)損失　警報(アラーム)鳴り響く
+ほらね　ほらね
+
+オドけて　計画無視これだけ　道化に徹して
+サエない　外敵だけ　心を抑制
+ムクッと起きたらシリアル
+
+サクッと食べたら出発
+転んで泣いたらふりだし
+怪我して塞いでマイナス
+基準を決めるの簡単
+他人が決めてるものさし
+そんなん自分で壊していけると誓えよ！
+
+(永遠)
+ここに辿り着いたなら
+(一瞬)
+キミは必ず出来るさ
+ここまでくれば　すべて開く
+最初から分かってたの
+
+後悔するなら　オモチャにされたら
+無意識概念葛藤→
+重なりあって崩壊→
+心的遺産を撹乱=
+真実の確定延期×
+逆らえないなら　あしらえないなら
+砕けて散るだけ
+
+記憶(メモリ)上書き　いつも音信不通(ノーリアクション)
+
+MI A O U (ミヤオウ)
+
+覗けない箱　生き残る？
+見られない幻影　死に絶える？
+確率は　そう　揺らいでる
+重ね合う　意図　矛盾して
+
+終わりと
+ここが最後の砦さ
+再生
+キミが掴めるチャンスさ
+ここまで来たら　止められない
+最初から分かってたの
+
+確かめあえたら　抱きしめあえたら
+高速処理して操作→
+痛い辛いのは消去→
+伝達物質不足=
+深層心理はエラー×
+
+身体を蝕む　基盤ごと壊せ
+コダワリ捨てたら
+記憶(メモリ)解放　そこのけ大音量(フルボリューム)
+ほらね　ほらね
+
+MI A O U (ミヤオウ)
+    </file>
+
+      <uploadServerDaemon name="Upload Report" folder="Drop" 
+                      needsAuth="false" color="255,127,127"/>
+
+</Computer>

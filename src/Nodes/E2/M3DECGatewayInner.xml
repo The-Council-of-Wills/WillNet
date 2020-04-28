@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Computer id="E2M3G" name="Sisko Company Router" type="4" ip="79.5.105.1">
+
+    <firewall level="7" solution="tumbler" additionalTime="0.0"/>
+    <ports>80, 22</ports>
+    <portsForCrack val="2"/>
+
+    <dlink target="E2M3S_DECend"/>
+    <dlink target="E2M3P1"/>
+    <dlink target="E2M3P2"/>
+    <dlink target="E2M3P3"/>
+
+</Computer>
