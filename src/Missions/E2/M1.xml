@@ -1,6 +1,6 @@
 <mission id="E2M1">
 <goals>
-    <goal type="filechange" target="DECwhitelist" file="whitelist.txt" path="home" keyword="#PLAYER_IP#" caseSensetive="false"/>
+    <goal type="filechange" target="DECwhitelist" file="list.txt" path="Whitelist" keyword="#PLAYER_IP#" caseSensetive="false"/>
 </goals>
 <missionStart>loadConditionalActions:Actions/E2M1.xml</missionStart>
 <nextMission IsSilent="true">NONE</nextMission>

@@ -7,6 +7,13 @@
     <trace time="-1"/>
     <admin type="basic" isSuper="false" resetPassword="false"/>
 
+    <WhitelistAuthenticatorDaemon SelfAuthenticating="false" />
+
+    <file path="Whitelist" name="list.txt">
+    placeholdertext
+    <!--ADD SOME IPs-->
+    </file>
+
     <!--dlink computers on DEC network-->
 
 </Computer>
