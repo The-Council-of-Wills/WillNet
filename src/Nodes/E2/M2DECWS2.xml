@@ -2,7 +2,7 @@
 <Computer id="E2M2P2" name="DEC Internal Workstation John" ip="79.5.102.61">
 
     <ports>21, 6881, 80</ports>
-    <portsForCrack val="101"/>
+    <portsForCrack val="8"/>
     <admin type="fast" isSuper="false" resetPassword="false"/>
     <adminPass pass="soccerstud2"/>
 
