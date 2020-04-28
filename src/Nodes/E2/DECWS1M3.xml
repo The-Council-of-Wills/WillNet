@@ -16,4 +16,6 @@ The prototype comshell is just about ready for use as well.
 I hope I get another promotion for this
     </file>
 
+    <file path="home" name="comshell.exe">#SHELL_CONTROLLER_EXE#</file>
+
 </Computer>
