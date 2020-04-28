@@ -9,20 +9,19 @@
   missionEnd val="1">addRank</missionEnd> 
   -->
   <missionStart>loadConditionalActions:Actions/E1M1.xml</missionStart>
-  <nextMission IsSilent="true">Missions/E1/M2.xml</nextMission>
+  <!--
+    Uncomment this to test the OS upgrade upon fh'ing hackerman
+    <missionEnd>loadConditionalActions:Actions/OSUpgrade.xml</missionEnd>
+  -->
+  <nextMission IsSilent="true"><!--Missions/E1/M2.xml-->NONE</nextMission>
   <!-- 
   <posting title="startingMission">This would be the post on a message board if it was on them.</posting>
   -->
-  <email>
-    <sender>WILL</sender>
-    <subject>THE COUNCIL</subject>
+<email>
+    <sender>Filler</sender>
+    <subject>Filler</subject>
     <body>
-    Hi,
-    The Council of Wills extends an invitation towards you.
-    If you can read this email, you have already passed the trials.
-    Our server is attached below.
-    
-    -- WILL
+    The nextMission element has IsSilent on it, this email will not be sent.
     </body>
     <attachments>
       <!-- TODO: WILL IRC node, and some mission nodes because funsies -->
