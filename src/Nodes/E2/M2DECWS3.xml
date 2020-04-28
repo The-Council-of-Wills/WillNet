@@ -15,4 +15,6 @@ Steve: You sure you're fine handing out his password though?
 Joan: Tough. I'm sure half the building knows it already.
     </file>
 
+    <file path="sys" name="x-server.sys">#BIANRY#</file>
+
 </Computer>
