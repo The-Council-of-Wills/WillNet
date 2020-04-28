@@ -8,7 +8,7 @@
     <admin type="fast" isSuper="true" resetPassword="true"/>
     <adminPass pass="Fdf490;:fd~"/>
 
-    <encryptedFile path="home/ComSoft" name="x-server.dec" extension=".sys" ip="181.189.28.57" header="x server if engineers whine too much" pass="correct horse battery staple">#GREEN_THEME#</encryptedFile>
+    <encryptedFile path="home/ComSoft" name="x-server.dec" extension=".sys" ip="181.189.28.57" header="x server if engineers whine too much" pass="correct horse battery staple">#BINARY#</encryptedFile>
 
     <!--Add more filler so that this backup server isn't just "ooh Xorg why didn't I use a package manager"-->
 
