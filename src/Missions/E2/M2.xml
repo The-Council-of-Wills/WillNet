@@ -1,7 +1,7 @@
 <?xml version = "1.0" encoding = "UTF-8" ?>
 <mission id="E2M2" activeCheck="true">
     <goals>
-        <goal type="fileupload" target="playerComp" file="qRCEsuite.exe" path="home" destTarget="E2M2B" destPath="Drop/Uploads"/>
+        <goal type="fileupload" target="assetNode" file="qRCEsuite.exe" path="home" destTarget="E2M2B" destPath="Drop/Uploads"/>
     </goals>
 
     <missionStart>loadConditionalActions:Actions/E2M2.xml</missionStart>

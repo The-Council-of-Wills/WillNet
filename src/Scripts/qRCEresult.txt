@@ -18,6 +18,9 @@ writel Success! Found the following credentials: $#%#$
 writel_silent admin | hubdotbat $#%#$
 delay 1 $#%#$
 writel_silent  $#%#$
+delay 1 $#%#$
+writel_silent Cleaning up... $#%#$
+writel_silent  $#%#$
 delay 5 $#%#$
 writel Thanks for using Quartz's RCESuite. $#%#$
 writel Now closing reverse tunnel.... $#%#$
