@@ -41,6 +41,8 @@
     <DeleteFile TargetComp="E2M1P" FilePath="sys" FileName="x-server.sys"/>
     <DeleteFile TargetComp="E2M1EOS" FilePath="sys" FileName="x-server.sys"/>
 
+    <CopyAsset DestFilePath="home/tasks" DestComp="playerComp" SourceComp="assetNode" SourceFileName="Getting_Started.txt" SourceFilePath="home/tasks"/>
+    <CopyAsset DestFilePath="bin" DestComp="playerComp" SourceComp="assetNode" SourceFileName="ReadMe.txt" SourceFilePath="bin"/>
 
   </Instantly>
   
