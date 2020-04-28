@@ -1,12 +1,11 @@
-<mission id="E1M2">
+<mission id="E1M2" activeCheck="true">
 <goals>
   <goal type="filedownload" target="M1ENDNODE" file="x-server.dec" path="home/ComSoft"/>
 </goals>
 <missionStart>loadConditionalActions:Actions/E1M2.xml</missionStart>
-<nextMission IsSilent = "true">NONE</nextMission>
+<nextMission IsSilent = "true">Missions/E2/M1.xml</nextMission>
 
 <email>
-<!-- TODO write this email (currently dupe of M1) -->
     <sender>WILL</sender>
     <subject>THE COUNCIL</subject>
     <body>

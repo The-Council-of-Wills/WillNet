@@ -1,0 +1,21 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="E2M1G" name="Sisko Home Router" type="4" ip="79.5.101.1">
+
+  <portsForCrack val="1"/>
+  <ports>80</ports>
+  <trace time="-1" />
+  <admin type="progress" resetPassword="true" isSuper="false"/>
+
+  <dlink target="E2M1L"/>
+  <dlink target="E2M1P"/>
+  
+  <eosDevice name="John's Ephone 6" id="E2M1EOS" icon="ePhone2" empty="true">
+      <note>Whitelist
+DEC admin password: 9wZ4jDYj
+Use this if new employees need to be added to make the connection
+      </note>
+      
+      <mail username="john@jmail.com" pass="jonathan"/>
+      
+  </eosDevice>
+</Computer>
