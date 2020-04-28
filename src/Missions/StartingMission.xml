@@ -10,8 +10,8 @@
   -->
   <missionStart>loadConditionalActions:Actions/E1M1.xml</missionStart>
   <!--
-    Uncomment this to test the OS upgrade upon fh'ing hackerman
-    <missionEnd>loadConditionalActions:Actions/OSUpgrade.xml</missionEnd>
+    Uncomment this and prefix with "<" to test the OS upgrade upon fh'ing hackerman
+    missionEnd>loadConditionalActions:Actions/OSUpgrade.xml</missionEnd>
   -->
   <nextMission IsSilent="true"><!--Missions/E1/M2.xml-->NONE</nextMission>
   <!-- 
