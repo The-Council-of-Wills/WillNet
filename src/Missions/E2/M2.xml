@@ -5,8 +5,8 @@
     </goals>
 
     <missionStart>loadConditionalActions:Actions/E2M2.xml</missionStart>
-    <nextMission IsSilent="true">NONE</nextMission>
     <missionEnd>loadConditionalActions:Actions/E2M2E.xml</missionEnd>
+    <nextMission IsSilent="true">NONE</nextMission>
 
     <email>
         <sender></sender>
