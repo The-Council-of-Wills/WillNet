@@ -5,7 +5,6 @@
     <portsForCrack val="69420"/>
     <admin type="fast" isSuper="false" resetPassword="false"/>
 
-      <uploadServerDaemon name="Uploads" folder="Drop" 
-                      needsAuth="false" color="255,127,127"/>
+    <uploadServerDaemon name="Uploads" folder="Drop" needsAuth="false" color="255,127,127"/>
 
 </Computer>
