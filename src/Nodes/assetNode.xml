@@ -32,6 +32,24 @@ Get going.
 
 <file path="bin" name="SSHCrack.exe">#SSH_CRACK#</file>
 <file path="bin" name="FTPBounce.exe">#FTP_CRACK#</file>
+<file path="home/tasks" name="Next_steps.txt">
+Well done.
+You should now have an encrypted x-server.sys.
+All the same it IS encrypted. Worry not, we know exactly the company that develops this form of encryption.
+It... really isn't that strong. All the same, you'll need the DEC suite of tools.
+Connect to 79.5.101.1 for an administrator's home network. You'll fine there the information you need to put yourself on the whitelist for the DEC network.
+We'll stay in touch.
+</file>
+
+<file path="home/tasks" name="DEC_Access.txt">
+Now that you have whitelisted yourself for the DEC network, you need to gain further access to their network.
+There is another layer, however, and the inner one is far stronger than the outer one you have already had victory over.
+You now have in your home folder a Remote Code Execution script, which you must upload to their secondary internal server.
+This will allow us to get the IP you will need to enter their private network, where you will find the source control server.
+</file>
+
+<file path="home/RCE" name="RCE.exe">#BINARY#</file>
+
 <file path="bin" name="WebServerWorm.exe">#WEB_CRACK#</file>
 <file path="bin" name="SMTPOverflow.exe">#SMTP_CRACK#</file>
 <file path="bin" name="SQLBufferOverflow.exe">#SQL_CRACK#</file>
