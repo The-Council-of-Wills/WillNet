@@ -5,4 +5,20 @@
 <missionStart>loadConditionalActions:Actions/E1M2.xml</missionStart>
 <nextMission IsSilent = "true">Missions/E2/M1.xml</nextMission>
 
+<email>
+    <sender>WILL</sender>
+    <subject>THE COUNCIL</subject>
+    <body>
+    Hi,
+    The Council of Wills extends an invitation towards you.
+    If you can read this email, you have already passed the trials.
+    Our server is attached below.
+    
+    -- WILL
+</body>
+    <attachments>
+      <!-- TODO: WILL IRC node, and some mission nodes because funsies -->
+    </attachments>
+  </email>
+
 </mission>
