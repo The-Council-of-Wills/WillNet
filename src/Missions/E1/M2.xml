@@ -6,7 +6,6 @@
 <nextMission IsSilent = "true">Missions/E2/M1.xml</nextMission>
 
 <email>
-<!-- TODO write this email (currently dupe of M1) -->
     <sender>WILL</sender>
     <subject>THE COUNCIL</subject>
     <body>
