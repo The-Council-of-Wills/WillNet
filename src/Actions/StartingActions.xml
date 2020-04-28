@@ -35,6 +35,7 @@
     <CopyAsset DestFilePath="sys" DestComp="ComSoftWS1" SourceComp="playerComp" SourceFileName="x-server.sys" SourceFilePath="sys"/>
     <CopyAsset DestFilePath="sys" DestComp="ComSoftWS2" SourceComp="playerComp" SourceFileName="x-server.sys" SourceFilePath="sys"/>
     <DeleteFile TargetComp="M1ENDNODE" FilePath="sys" FileName="x-server.sys"/>
+    
     <DeleteFile TargetComp="DECwhitelist" FilePath="sys" FileName="x-server.sys"/>
     <DeleteFile TargetComp="E2M1G" FilePath="sys" FileName="x-server.sys"/>
     <DeleteFile TargetComp="E2M1L" FilePath="sys" FileName="x-server.sys"/>
@@ -42,7 +43,6 @@
     <DeleteFile TargetComp="E2M1EOS" FilePath="sys" FileName="x-server.sys"/>
     <DeleteFile TargetComp="E2M2G" FilePath="sys" FileName="x-server.sys"/>
     <DeleteFile TargetComp="E2M2S" FilePath="sys" FileName="x-server.sys"/>
-    <DeleteFile TargetComp="E2M2P1" FilePath="sys" FileName="x-server.sys"/>
     <DeleteFile TargetComp="E2M2P1" FilePath="sys" FileName="x-server.sys"/>
     <DeleteFile TargetComp="E2M2P2" FilePath="sys" FileName="x-server.sys"/>
     <DeleteFile TargetComp="E2M2P3" FilePath="sys" FileName="x-server.sys"/>
