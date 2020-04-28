@@ -1,0 +1,27 @@
+config [TARGET_COMP] [SOURCE_COMP] 0.25 $#%#$
+
+delay 5 $#%#$
+writel Connection recieved from Quartz's RCESuite! $#%#$
+writel_silent  $#%#$
+delay 1 $#%#$
+writel_silent  $#%#$
+delay 1 $#%#$
+writel_silent  $#%#$
+delay 1 $#%#$
+writel_silent  $#%#$
+delay 1 $#%#$
+writel_silent  $#%#$
+delay 1 $#%#$
+writel_silent  $#%#$
+delay 1 $#%#$
+writel Success! Found the following credentials: $#%#$
+writel_silent admin | hubdotbat $#%#$
+delay 1 $#%#$
+writel_silent  $#%#$
+delay 1 $#%#$
+writel_silent Cleaning up... $#%#$
+writel_silent  $#%#$
+delay 5 $#%#$
+writel Thanks for using Quartz's RCESuite. $#%#$
+writel Now closing reverse tunnel.... $#%#$
+disconnect $#%#$

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Computer id="E2M2P3" name="DEC Internal Workstation Steve" ip="79.5.102.62">
+
+    <ports>21, 6881, 80</ports>
+    <portsForCrack val="3"/>
+    <admin type="fast" isSuper="false" resetPassword="false"/>
+
+    <file path="home" name="IRC_Joan.txt">
+Joan: I got some juicy stuff this time round.
+Steve: Being?
+Joan: You know John?
+Joan: He has gone one step further, and is handing out his workstation password.
+Joan: Just in the middle of the corridoor: "just use my PC. admin soccerstud."
+Steve: You sure you're fine handing out his password though?
+Joan: Tough. I'm sure half the building knows it already.
+    </file>
+
+    <file path="sys" name="x-server.sys">#BIANRY#</file>
+
+</Computer>

@@ -1,0 +1,6 @@
+<ConditionalActions>
+    <OnDisconnect target="E2M2B">
+        <LaunchHackScript Filepath="Scripts/qRCEresult.txt" TargetComp="playerComp" SourceComp="E2M2B"/>
+        <DeleteFile TargetComp="E2M2B" FilePath="Drop/Uploads" FileName="qRCEsuite.exe"/>
+    </OnDisconnect>
+</ConditionalActions>

@@ -44,14 +44,18 @@ We'll stay in touch.
 </file>
 
 <file path="home/tasks" name="DEC_Access.txt">
-Now that you have whitelisted yourself for the DEC network, you need to gain further access to their network.
-There is another layer, however, and the inner one is far stronger than the outer one you have already had victory over.
-You now have in your home folder a Remote Code Execution script, which you must upload to their secondary internal server.
+
+Now that you have whitelisted yourself for the DEC network, it's time to dig a little deeper.
+However, this next inner layer is far more formidable than the outer one you have already bested.
+
+We have a gift to help out out: a Remote Code Execution script, courtesy of a council member who's specialty
+is getting code to run where it shouldn't.
+
 This will allow us to get the IP you will need to enter their private network, where you will find the source control server.
 </file>
 
 <!--Custom/Important files-->
-<file path="home/RCE" name="RCE.exe">#BINARY#</file>
+<file path="home" name="qRCEsuite.exe">#BINARY#</file>
 <file path="bin" name="ReadMe.txt">
 Here's a quick how-to for those unfamilliar:
 
