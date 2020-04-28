@@ -2,7 +2,7 @@
 <Computer id="ComSoftWS2" name="ComSoft Workstation 2" type="3" ip="222.51.39.20">
 
   <firewall level="8" solution="TTY4LYFE" additionalTime="0.5"/>
-  <portsForCrack val="101"/>
+  <portsForCrack val="7"/>
   <ports>1433, 80, 22, 443</ports>
   <trace time="-1" />
   <admin type="progress" resetPassword="false" isSuper="false"/>
