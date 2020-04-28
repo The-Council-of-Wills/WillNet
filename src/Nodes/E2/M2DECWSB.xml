@@ -5,14 +5,14 @@
     <portsForCrack val="88"/>
     <admin type="fast" isSuper="false" resetPassword="false"/>
     <adminPass pass="hubdotbat"/>
-    <file path="Drop" name="report_10_01_10.txt">
+    <file path="Drop/Uploads" name="report_10_01_10.txt">
 Name: John Whittlebury
 EIN: 33738
 Joan's not been treating me with the same respect as the other employees.
 I don't know what's going on, but I haven't been called into the planning
 meetings or anything.
 </file>
-    <file path="Drop" name="backup.txt">
+    <file path="Drop/Uploads" name="jw_miaou_backup.txt">
 身体を蝕む　基盤ごと壊せ
 コダワリ捨てたら
 記憶(メモリ)解放　そこのけ大音量(フルボリューム)
@@ -94,6 +94,14 @@ MI A O U (ミヤオウ)
 
 MI A O U (ミヤオウ)
     </file>
+    <file path="Drop/Uploads" name="report_10_04_10.txt">
+Name: Joan Rider
+EIN: 33381
+John constantly spends his time browsing hacker forums and neglects his current projects.
+We've had to remove several of his responsibilities already.
+His failure to adhere to company security guidelines doesn't help.
+We really need some disciplinary actions to be taken.
+</file>
 
       <uploadServerDaemon name="Upload Report" folder="Drop" 
                       needsAuth="false" color="255,127,127"/>
