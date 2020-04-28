@@ -4,5 +4,14 @@
 </goals>
 <missionStart>loadConditionalActions:Actions/E2M1.xml</missionStart>
 <nextMission IsSilent="true">NONE</nextMission>
+<email>
+    <sender>WILL</sender>
+    <subject>THE COUNCIL</subject>
+    <body>
+    You should never see this
+</body>
+<attachments></attachments>
+
+  </email>
 
 </mission>
