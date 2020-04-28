@@ -9,13 +9,4 @@
   <dlink target="E2M1L"/>
   <dlink target="E2M1P"/>
   
-  <eosDevice name="John's Ephone 6" id="E2M1EOS" icon="ePhone2" empty="true">
-      <note>Whitelist
-DEC admin password: 9wZ4jDYj
-Use this if new employees need to be added to make the connection
-      </note>
-      
-      <mail username="john@jmail.com" pass="jonathan"/>
-      
-  </eosDevice>
 </Computer>
