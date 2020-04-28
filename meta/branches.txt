@@ -1,0 +1,3 @@
+nodeDev for adding nodes, pr to missionDev if needed
+missionDev: merge in nodeDev changes, configure missions pr from here to master
+loreDev: adding filler files, extra nodes, etc. pr into master
