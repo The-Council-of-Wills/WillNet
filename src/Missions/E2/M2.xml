@@ -1,11 +1,12 @@
-><?xml version = "1.0" encoding = "UTF-8" ?>
+<?xml version = "1.0" encoding = "UTF-8" ?>
 <mission id="E2M2" activeCheck="true">
     <goals>
-        <goal type="fileupload" target="playerComp" file="qRCEsuite.exe" path="home" destTarget="tbd" destPath="sys"/>
+        <goal type="fileupload" target="playerComp" file="qRCEsuite.exe" path="home" destTarget="E2M2B" destPath="Drop/Uploads"/>
     </goals>
 
     <missionStart>loadConditionalActions:Actions/E2M2.xml</missionStart>
     <nextMission IsSilent="true">NONE</nextMission>
+    <missionEnd>loadConditionalActions:Actions/E2M2E.xml</missionEnd>
 
     <email>
         <sender></sender>
