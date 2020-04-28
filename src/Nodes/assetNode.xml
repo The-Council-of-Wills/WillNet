@@ -63,5 +63,5 @@ on the host machine.
 
 Good Luck.
 </file>
-
+<customthemefile path="sys" name="allblack-x-server.sys" themePath="Themes/AllBlack.xml"/>
 </Computer>

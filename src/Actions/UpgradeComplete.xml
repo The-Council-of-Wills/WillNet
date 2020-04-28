@@ -1,0 +1,8 @@
+<ConditionalActions>
+    <Instantly needsMissionComplete="false">
+        <CrashComputer TargetComp="playerComp" CrashSource="playerComp"/>
+        <SetLock Module="display" IsLocked="false" IsHidden="false"/>
+        <SetLock Module="ram" IsLocked="false" IsHidden="false"/>
+        <SetLock Module="netmap" IsLocked="false" IsHidden="false"/>
+    </Instantly>
+</ConditionalActions>
