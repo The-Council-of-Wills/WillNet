@@ -1,21 +1,96 @@
 The reason nobody has a good xserver: they don't have hacknet
 
 P
-\_ todo -> L1
-\_ bin: HTTP, SQL, FTP, SSH
+  \_ todo -> G1
+  \_ bin: HTTP, SQL, FTP, SSH
 
-organisation type: the DEC company
 
-E2M1: Steal the RCE suite from some guy (# M? OffensiveKid mission?)
-E2M2: DEC entrypoint
-E2M3: DEC source control
-E2M4: upload encrypted x-server and DEC files to the Wills
 
 XSERVERS DON'T EXIST OR ARE IN #BINARY#
 
-E2M1:
-  \_ L1:
-    \_ S = 4: HTTP, SQL, FTP, SSH
-    \_ R = RCESuite, Torrent
+E2M1: home network
+  \_ G1:
+    \_ S = 1: HTTP
+    \_ L = L1, P1, E1
 
-hackerscript -> immediate attack IF logs not cleared
+  \_ L1:
+    \_ S = 4: HTTP, FTP, SSH, Torrent
+    \_ R = EOSDeviceScan
+    \_ N = Trying to be edgy and hack his dad's phone what a noob
+
+  \_ E1:
+    \_ S = admin alpine
+    \_ R = Jmail password for this guy -> spam, DEC whitelist server password
+
+  \_ P1:
+    \_ S = 4: HTTP, FTP, SSH, Torrent
+    \_ L = the DEC whitelist server because VPNs or smth
+
+  \_ DEC whitelist:
+    \_ S = HTTP, SQL, FTP, SSH, Torrent
+    \_ F = [come up with a password]
+    \_ END E2M1
+
+Wills give you the RCE
+
+E2M2: DEC Network Outer
+  \_ DEC whitelist:
+    \_ SF = should already be cracked
+    \_ L = G2
+
+  \_ G2:
+    \_ S = 2: HTTP, SSH
+    \_ F = [DEC password as before]
+    \_ L = P2, P3, P4, S1 (S1 is the goal)
+
+  \_ S1:
+    \_ S = inviolability
+    \_ R = upload RCE here to end E2M2
+
+  \_ P2:
+    \_ S = 3: FTP, Torrent, HTTP
+    \_ R = P3 account + how they changed their password
+
+  \_ P3:
+    \_ S = inviolability
+    \_ N = subtle check for a phone
+    \_ R = L = E2
+
+  \_ E2:
+    \_ S = admin alpine
+    \_ R = an account for S1
+
+  \_ P4:
+    \_ S = 3: FTP, Torrent, HTTP
+    \_ R = P3's former password and a laugh + "their security is great, except they give out their password so F"
+
+Wills give you G2 IP
+
+E2M3:
+  \_ G2:
+    \_ S = 3: HTTP, SSH, FTP
+    \_ F = [come up with a different password]
+    \_ L = P5, P6, P7, S_decend, S1
+
+  \_ P5:                     |
+    \_ S = something easy    |
+    \_ L = Comshell          |
+                             |
+  \_ P6:                     |- fodder for server proxy
+    \_ S = something easy    |
+                             |
+  \_ P7:                     |
+    \_ S something easy      |
+
+  \_ S_decend:
+    \_ S = proxy; 5: HTTP, SQL, SSH, FTP, Torrent
+    \_ F = [another new password]
+    \_ R = DECSuite, END
+
+Wills give you upload server IP
+
+E2M4:
+  \_ Upload DEC
+  \_ Upload X
+  \_ Get X worth something
+  \_ Join the Council of Wills Official
