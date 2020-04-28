@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Computer id="E2M2P1" name="DEC Internal Workstation Joan" ip="79.5.102.60">
+
+    <ports>21, 6881, 80</ports>
+    <portsForCrack val="3"/>
+    <admin type="fast" isSuper="false" resetPassword="false"/>
+
+    <file path="home" name="Steve_IRC.txt">
+Steve: You hear what John did?
+Joan: No, tell me.
+Steve: IT guy caught him using the same password for a couple months now.
+Joan: Oh, he's pretty strict about changing those.
+Steve: yeah
+Steve: Anyway, all John did was stick a 2 on the end.
+Joan: That's one way to remember at least.
+Steve: wym?
+Joan: Isn't that what we all do?
+    </file>
+
+</Computer>

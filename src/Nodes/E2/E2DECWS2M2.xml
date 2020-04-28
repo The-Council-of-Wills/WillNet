@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Computer id="E2M2P2" name="DEC Internal Workstation John" ip="79.5.102.61">
+
+    <ports>21, 6881, 80</ports>
+    <portsForCrack val="101"/>
+    <admin type="fast" isSuper="false" resetPassword="false"/>
+    <adminPass pass="soccerstud2"/>
+
+    <file path="home" name="haha.txt">
+Step 1: modify your Workstation with new EnTech inviolability
+Step 2: prevent the engineers from accessing your Workstation
+Step 3: Use company wifi for your phone :sunglasses:
+Step 4: Get emojis in text files.
+    </file>
+
+    <eosDevice name="John's EOS4" id="DECPhone" icon="ePhone2" empty="true">
+        <note>Internal Server
+username: John
+password: soccerstud3</note>
+        
+        <mail username="john2@jmail.com" pass="whoevertooktheotherjohnusernamefuckyou"/>
+    </eosDevice>
+
+</Computer>
