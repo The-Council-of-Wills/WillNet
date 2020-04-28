@@ -1,7 +1,6 @@
 <ConditionalActions>
   
   <Instantly>
-
     <!-- no longer needed but great example of workaround for missing folders -->
     <!--
     <AddAsset FileName="t.txt" FileContents="" TargetComp="playerComp" TargetFolderpath="home"/>
@@ -39,5 +38,11 @@
 
     
   </Instantly>
-
+  
+  <OnConnect target="FrstServer" needsMissionComplete="false">
+    <SetLock Module="display" IsLocked="true" IsHidden="true"/>
+    <SetLock Module="ram" IsLocked="true" IsHidden="true"/>
+    <SetLock Module="netmap" IsLocked="true" IsHidden="true"/>
+    <!--<AddConditionalActions FilePath="Actions/OSUpgrade.xml"/>-->
+  </OnConnect> 
 </ConditionalActions>
