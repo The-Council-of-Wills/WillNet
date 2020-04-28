@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Computer id="WillDrop" name="The Will Council Drop Server" ip="10.10.10.100">
+
+    <ports>21, 22, 25, 80, 443, 1433, 6881</ports>
+    <portsForCrack val="69420"/>
+    <admin type="fast" isSuper="false" resetPassword="false"/>
+
+      <uploadServerDaemon name="Uploads" folder="Drop" 
+                      needsAuth="false" color="255,127,127"/>
+
+</Computer>
