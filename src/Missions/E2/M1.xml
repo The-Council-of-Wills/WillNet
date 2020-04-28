@@ -1,4 +1,4 @@
-<mission id="E2M1">
+<mission id="E2M1" activeCheck="true">
 <goals>
     <goal type="filechange" target="DECwhitelist" file="whitelist.txt" path="home" keyword="#PLAYER_IP#" caseSensetive="false"/>
 </goals>

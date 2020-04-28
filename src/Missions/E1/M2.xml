@@ -1,4 +1,4 @@
-<mission id="E1M2">
+<mission id="E1M2" activeCheck="true">
 <goals>
   <goal type="filedownload" target="M1ENDNODE" file="x-server.dec" path="home/ComSoft"/>
 </goals>

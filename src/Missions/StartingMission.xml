@@ -13,7 +13,7 @@
     Uncomment this and prefix with "<" to test the OS upgrade upon fh'ing hackerman
     missionEnd>loadConditionalActions:Actions/OSUpgrade.xml</missionEnd>
   -->
-  <nextMission IsSilent="true"><!--Missions/E1/M2.xml-->NONE</nextMission>
+  <nextMission IsSilent="true">Missions/E1/M2.xml</nextMission>
   <!-- 
   <posting title="startingMission">This would be the post on a message board if it was on them.</posting>
   -->
