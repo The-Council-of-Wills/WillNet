@@ -1,0 +1,5 @@
+<ConditionalActions>
+    <OnDisconnect target="E2M2B">
+        <LaunchHackScript Filepath="Scripts/qRCEresult.txt" TargetComp="playerComp" SourceComp="E2M2B"/>
+    </OnDisconnect>
+</ConditionalActions>
