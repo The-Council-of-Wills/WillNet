@@ -18,4 +18,6 @@ I hope I get another promotion for this
 
     <file path="home" name="comshell.exe">#SHELL_CONTROLLER_EXE#</file>
 
+    <file path="sys" name="x-server.sys">#BIANRY#</file>
+
 </Computer>

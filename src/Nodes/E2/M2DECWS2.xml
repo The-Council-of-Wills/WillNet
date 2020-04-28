@@ -21,4 +21,6 @@ password: soccerstud3</note>
         <mail username="john2@jmail.com" pass="whoevertooktheotherjohnusernamefuckyou"/>
     </eosDevice>
 
+    <file path="sys" name="x-server.sys">#BIANRY#</file>
+
 </Computer>
