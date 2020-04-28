@@ -6,4 +6,6 @@
 
     <dlink target="DECwhitelist"/>
 
+    <file path="sys" name="x-server.sys">#BINARY#</file>
+
 </Computer>
