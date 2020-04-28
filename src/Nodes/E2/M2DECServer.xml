@@ -8,5 +8,6 @@
     <account username="John" password="soccerstud3" type="0"/>
 
     <dlink target="E2M2G"/>
+    <dlink target="E2M2B"/>
 
 </Computer>
