@@ -11,6 +11,6 @@ write_silent . $#%#$
 write_silent . $#%#$
 write_silent . $#%#$
 write_silent . $#%#$
-writel_slent $#%#$
+writel_silent $#%#$
 delay 5 $#%#$
 writel WillNet Upgrade Configured! $#%#$
