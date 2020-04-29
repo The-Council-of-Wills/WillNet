@@ -1,0 +1,48 @@
+P
+  \_ bin: HTTP, SQL, FTP, SSH, Torrent, EosDeviceScan, comshell
+  \_ WILLCOME.txt -> /el style Will node
+  
+Will /el style server
+  \_ contains leads on all the following missions
+  \_ gain admin to end E3
+  \_ S = EVERYTHING
+  \_ L = THE GREAT FIREWALL OF DOOM // return to this in E4 doc
+
+Order of completion, from top to bottom:
+
+M1      M2  <- v. easy
+    M3      <- slightly hard
+    M4      <- slightly harder
+    M5      <- v. hard
+
+
+M1
+  \_ Getting the netmap // so yes you can skip it. Should you? Not so much.
+
+  \_ L
+    \_ DEC encrypted netmap bit of hacknet
+    \_ phone
+      \_ the DEC password
+
+
+well that was a short, easy, refreshing mission.
+as will be the next.
+
+M2
+  \_ SSL - standard get your portcraker mission - small
+
+  \_ L
+    \_ some decent security, no firewall
+    \_ SSL portcracker right there
+    \_ <tracker/> reminds the player that they need to be on guard, setting up for difficulty in following missions
+
+these missions will be harder. We just needed portcrackers, but now you're hacking corporations, companies, other big things.
+
+M3
+  \_ RTSP - uuuh something to do with youtube because that's kinda what the protocols for? Small tho.
+
+M4
+  \_ Getting the GUI display :. a website daemon somewhere so the player can do something funny
+
+M5
+  \_ KBT - request to place somone wrongly on a DNR. The player doesn't have to do this ;) as they only need the portcracker, but if they don't stop to think, it's likely they will// requires SSL, large network :. netmap, player advised to have all parts described above first.
