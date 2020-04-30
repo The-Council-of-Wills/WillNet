@@ -5,7 +5,7 @@
     <ports>80, 22</ports>
     <portsForCrack val="2"/>
 
-    <dlink target="E2M3S_DECend"/>
+    <dlink target="DECSuiteServer"/>
     <dlink target="E2M3P1"/>
     <dlink target="E2M3P2"/>
     <dlink target="E2M3P3"/>

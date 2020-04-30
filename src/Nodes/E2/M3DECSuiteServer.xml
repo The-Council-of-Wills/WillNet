@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Computer id="E2M3S" name="DEC Source" type="3" ip="79.5.105.100">
+<Computer id="DECSuiteServer" name="DEC Source" type="3" ip="79.5.105.100">
 
     <firewall level="7" solution="pedroso" additionalTime="0.0"/>
     <proxy time="2"/>
