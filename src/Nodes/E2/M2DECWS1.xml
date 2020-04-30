@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Computer id="E2M2P1" name="DEC Internal Workstation Joan" ip="79.5.102.60">
+<Computer id="E2M2P1" type="1" name="DEC Internal Workstation Joan" ip="79.5.102.60">
 
     <ports>21, 6881, 80</ports>
     <portsForCrack val="3"/>

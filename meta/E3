@@ -1,3 +1,5 @@
+at this point we can just leave xservers in. The player has one, so...
+
 P
   \_ bin: HTTP, SQL, FTP, SSH, Torrent, EosDeviceScan, comshell
   \_ WILLCOME.txt -> /el style Will node
@@ -32,7 +34,7 @@ M2
   \_ SSL - standard get your portcraker mission - small
 
   \_ L
-    \_ some decent security, no firewall
+    \_ some decent security
     \_ SSL portcracker right there
     \_ <tracker/> reminds the player that they need to be on guard, setting up for difficulty in following missions
 
