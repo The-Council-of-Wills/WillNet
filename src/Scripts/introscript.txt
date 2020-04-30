@@ -1,16 +1,17 @@
 config playerComp playerComp 1.5 $#%#$
 
-delay 5 $#%#$
+delay 2 $#%#$
 writel_silent  $#%#$
+delay 4 $#%#$
 writel Hello, #PLAYERNAME# $#%#$
 writel_silent  $#%#$
-delay 2 $#%#$
-
-writel_silent This is an incomplete build of hacknet,$#%#$
 delay 1 $#%#$
-writel_silent brought to you by The Council of Wills.$#%#$
+
+writel This is an incomplete build of Hacknet, $#%#$
+writel_silent brought to you by The Council of Wills. $#%#$
 writel_silent $#%#$
 delay 2 $#%#$
 
-writel See /home/tasks for how to contribute to development$#%#$
-writel_silent We look forward to seeing you. 
+writel See /home/tasks for how to get up and running $#%#$
+writel_silent and for how to contribute to development. $#%#$
+writel_silent We look forward to seeing you.
