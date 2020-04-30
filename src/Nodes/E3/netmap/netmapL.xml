@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Computer id="E3NetmapL" name="Grace's Laptop" type="2" ip="135.177.240.110">
+    
+    <ports>21, 22, 80, 6881</ports>
+    <portsForCrack val="3"/>
+    <trace time="-1"/>
+
+    <file path="home" name="EOS.txt">
+It's surprisingly easy to hack on a cracked EOS phone.
+Stronger security is also possible, as you can change the administrator password, overcoming the infamous alpine hack.
+
+In case I forget: graceful</file>
+
+    <encryptedFile path="home" name="netmap.dec" extension=".sys" ip="135.177.240.110" header="Grace's DEC nmap :)" pass="1dancer">#BINARY#</encryptedFile>
+
+    <eosDevice name="Grace's ePhone 4" id="E3NetmapPhone" icon="ePhone2" empty="true" passOverride="graceful">
+        <note>netmap
+        DEC password: 1dancer
+        DO NOT FORGET!!!</note>
+                
+        <mail username="grace@jmail.com" pass="gracefully"/>
+        
+    </eosDevice>
+    
+</Computer>
