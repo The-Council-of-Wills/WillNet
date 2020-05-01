@@ -12,6 +12,14 @@
   <file path="home" name="memo.txt">
 In case of emergency, backups are stored here: 181.189.28.57
 DEC encryption will keep them safe in case of attack :)</file>
+<file path="home" name="emailToAdmin.txt">
+Why does the source control server have to be off-site?
+The wait times are seriously hampering our productivity!
+The added security probably won't matter given that they've
+been used in some script-kiddie's botnet recently, please 
+move them back on-site so we can work at a speed that's not 
+reminiscent of the early nineties.
+</file>
 
   <dlink target="ComSoftG1" />
   <dlink target="ComSoftWS1" />
