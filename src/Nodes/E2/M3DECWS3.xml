@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Computer id="E2M3P3" name="DEC Internal 3" type="1" ip="79.5.105.45">
+<Computer id="E2M3P3" name="DEC Internal Sparrow" type="1" ip="79.5.105.45">
 
     <ports>21, 22</ports>
     <portsForCrack val="2"/>
@@ -8,5 +8,7 @@
     <file path="home" name="fromtheboss.txt">Do. More. Work.</file>
 
     <file path="sys" name="x-server.sys">#BIANRY#</file>
+
+    <dlink target="E2M3G"/>
 
 </Computer>
