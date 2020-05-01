@@ -13,7 +13,11 @@
 EOSDeviceScan.exe will find EOS devices connected to the device you're running it from.
 
 The login for any EOS device should always be "admin" "alpine," and now I can hack dad. I win.</file>
-
+    <file path="bin" name="TorrentStreamInjector.exe">#TORRENT_EXE#</file>
+    <file path="bin" name="note.txt">
+    This should let me bypass that kid filter and download cool
+    programs like that eOS one.
+    <file>
     <file path="sys" name="x-server.sys">#BINARY#</file>
 
 </Computer>
