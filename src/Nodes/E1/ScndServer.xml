@@ -8,8 +8,6 @@
     <adminPass pass="TTY4LYFE"/>
 
     <dlink target="FrstServer"/>
-    <dlink target="ComSoftWS1"/>
-    <dlink target="ComSoftWS2"/>
 
 
     <file path="home/EVIDENCE" name="bot.cfg">//remember to do this before uploading the bot!</file>

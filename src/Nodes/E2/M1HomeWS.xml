@@ -2,14 +2,15 @@
 <Computer id="E2M1P" name="John's home computer" type="2" ip="79.5.101.20">
 
     <ports>21, 22, 80, 6881, 443</ports>
-    <portsForCrack val="4"/>
+    <portsForCrack val="3"/>
 
+    <dlink target="E2M2G"/>
     <dlink target="DECwhitelist"/>
 
     <file path="sys" name="x-server.sys">#BINARY#</file>
     <eosDevice name="John's Ephone 6" id="E2M1EOS" icon="ePhone2" empty="true">
     <note>Whitelist
-DEC admin password: 9wZ4jDYj
+DEC whitelist admin password: 9wZ4jDYj
 Use this if new employees need to be added to make the connection
     </note>
       
