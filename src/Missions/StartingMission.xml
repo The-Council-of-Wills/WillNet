@@ -14,17 +14,12 @@
     missionEnd>loadConditionalActions:Actions/OSUpgrade.xml</missionEnd>
   -->
   <nextMission IsSilent="true">Missions/E1/M2.xml</nextMission>
-  <!-- 
-  <posting title="startingMission">This would be the post on a message board if it was on them.</posting>
-  -->
-<email>
-    <sender>Filler</sender>
-    <subject>Filler</subject>
-    <body>
-    The nextMission element has IsSilent on it, this email will not be sent.
-    </body>
-    <attachments>
-      <!-- TODO: WILL IRC node, and some mission nodes because funsies -->
-    </attachments>
-  </email>
+
+    <email>
+        <sender></sender>
+        <subject></subject>
+        <body>Never sent</body>
+        <attachments>
+        </attachments>
+    </email>
 </mission>
