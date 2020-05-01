@@ -17,7 +17,7 @@ The login for any EOS device should always be "admin" "alpine," and now I can ha
     <file path="bin" name="note.txt">
     This should let me bypass that kid filter and download cool
     programs like that eOS one.
-    <file>
+    </file>
     <file path="sys" name="x-server.sys">#BINARY#</file>
 
 </Computer>
