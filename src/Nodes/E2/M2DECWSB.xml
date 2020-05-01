@@ -106,4 +106,7 @@ We really need some disciplinary actions to be taken.
       <uploadServerDaemon name="Upload Report" folder="Drop" 
                       needsAuth="false" color="255,127,127"/>
 
+    <dlink target="E2M2G"/>
+    <dlink target="E2M3G"/>
+
 </Computer>

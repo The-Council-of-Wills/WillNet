@@ -1,10 +1,10 @@
 <?xml version = "1.0" encoding = "UTF-8" ?>
 <Computer id="assetNode" name="assetNode" security="5" allowsDefaultBootModule="false" type="1">
 
-    <adminPass pass="You'reGonaaLoveThis,TrustMe" />
+    <adminPass pass="You'reGonnaLoveThis,TrustMe" />
 
 <!--Mission breifings for E1 and E2-->
-    <file path="home/tasks" name="Getting_Started.txt">
+    <file path="home/tasks" name="01_Getting_Started.txt">
 This is a basic deployment of Hacknet designed by us, your
 friendly international Will Council. As a reminder, we would
 rather that you not share this operating system or any of its
@@ -20,11 +20,13 @@ We recommend a pen and some paper to keep track of the
 networks you encounter, and other useful info, for now.
 
 However, this meagre set of tools is far from complete.
-Find a complete x-server.sys.
+Find a complete x-server.sys. From what we know, there are
+a few organizations that should be in possesion of one.
+
 Don't worry, we WILL help you along.
 
 222.51.39.138</file>
-<file path="home/tasks" name="Well_Done.txt">
+<file path="home/tasks" name="02_Well_Done.txt">
 So you've not only slipped through a corportate network
 without a trace, but you've bested a fellow hacker at
 his own game?
@@ -32,13 +34,13 @@ his own game?
 Consider us impressed, #PLAYERNAME#!
 
 Now, unless hackerman got better at hiding things recently,
-you should be in possesion of a new set of targets. Only
-one address should be of any significance.
+you should have found one of his hitlists on his machine.
+Only one address should be of any significance.
 
 Get going, WILL you?
 </file>
 
-<file path="home/tasks" name="Next_steps.txt">
+<file path="home/tasks" name="03_Next_steps.txt">
 Well done.
 You should now have an encrypted x-server.sys.
 All the same, it IS encrypted. Worry not, we know exactly
@@ -54,7 +56,7 @@ You WILL fine the information you need to put yourself on the
 whitelist for the DEC network.
 </file>
 
-<file path="home/tasks" name="DEC_Access.txt">
+<file path="home/tasks" name="04_DEC_Access.txt">
 Brilliant.
 Now that you have whitelisted yourself for the DEC network,
 it's time to dig a little deeper.
@@ -64,6 +66,10 @@ the outer one you have already bested.
 We have a gift to help out out: a Remote Code Execution script,
 courtesy of a council member whose specialty is getting code
 to run where it shouldn't.
+
+Upload /home/qRCEsuite.exe to a filedrop server. It retrieves
+a login for the server with what can only be described as
+underappreciated genius.
 
 This WILL allow us to get the IP you'll need to enter their
 private network, where you'll then find the source control server.

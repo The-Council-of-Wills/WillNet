@@ -4,7 +4,7 @@
     <firewall level="7" solution="pedroso" additionalTime="0.0"/>
     <proxy time="2"/>
     <ports>80, 1433, 22, 21, 6881</ports>
-    <portsForCrack val="5"/>
+    <portsForCrack val="4"/>
     <admin type="fast" resetPassword="false" isSuper="true" />
 
     <dlink target="E2M3G"/>
