@@ -2,7 +2,7 @@
 <Computer id="E2M1L" name="Alex's laptop" type="2" ip="79.5.101.5">
 
     <ports>80, 21, 22, 6881, 443</ports>
-    <portsForCrack val="4"/>
+    <portsForCrack val="3"/>
     <trace time="-1"/>
     <admin type="basic" isSuper="false" resetPassword="false"/>
     
@@ -12,7 +12,7 @@
     <file path="home" name="Guide.txt">
 EOSDeviceScan.exe will find EOS devices connected to the device you're running it from.
 
-The pass for any EOS device should always be "admin" "alpine," and now I can hack dad!</file>
+The login for any EOS device should always be "admin" "alpine," and now I can hack dad. I win.</file>
 
     <file path="sys" name="x-server.sys">#BINARY#</file>
 

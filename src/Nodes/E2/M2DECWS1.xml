@@ -18,5 +18,7 @@ Joan: Isn't that what we all do?
     </file>
 
     <file path="sys" name="x-server.sys">#BIANRY#</file>
+    
+    <dlink target="E2M2G"/>
 
 </Computer>

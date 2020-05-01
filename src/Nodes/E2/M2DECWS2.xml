@@ -22,5 +22,7 @@ password: soccerstud3</note>
     </eosDevice>
 
     <file path="sys" name="x-server.sys">#BIANRY#</file>
+    
+    <dlink target="E2M2G"/>
 
 </Computer>

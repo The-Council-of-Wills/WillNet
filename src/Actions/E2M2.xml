@@ -1,6 +1,6 @@
 <ConditionalActions>
     <Instantly needsMissionComplete="false">
-        <CopyAsset DestFilePath="home/tasks" DestComp="playerComp" SourceComp="assetNode" SourceFileName="DEC_Access.txt" SourceFilePath="home/tasks"/>
+        <CopyAsset DestFilePath="home/tasks" DestComp="playerComp" SourceComp="assetNode" SourceFileName="04_DEC_Access.txt" SourceFilePath="home/tasks"/>
         <CopyAsset DestFilePath="home" DestComp="playerComp" SourceComp="assetNode" SourceFileName="qRCEsuite.exe" SourceFilePath="home"/>
     </Instantly>
     <OnDisconnect target="DECwhitelist">

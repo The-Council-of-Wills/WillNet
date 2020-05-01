@@ -1,5 +1,6 @@
 <ConditionalActions>
     <Instantly needsMissionComplete="false">
+        <CopyAsset DestFilePath="home/tasks" DestComp="playerComp" SourceComp="assetNode" SourceFileName="01_Getting_Started.txt" SourceFilePath="home/tasks"/>
         <LaunchHackScript Filepath="Scripts/introscript.txt" TargetComp='playerComp'/>
     </Instantly>
 </ConditionalActions>
