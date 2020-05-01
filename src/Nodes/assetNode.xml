@@ -125,5 +125,7 @@ We WILL keep in touch.
 <file path="bin" name="RTSPCrack.exe">#RTSP_EXE#</file>
 <file path="bin" name="ESequencer.exe">#EXT_SEQUENCER_EXE#</file>
 <file path="bin" name="OpShell.exe">#SHELL_OPENER_EXE#</file>
+<file path="bin" name="TorrentStreamInjector.exe">#TORRENT_EXE#</file>
+
 
 </Computer>
