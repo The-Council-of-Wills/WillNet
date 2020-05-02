@@ -1,5 +1,7 @@
 at this point we can just leave xservers in. The player has one, so...
 
+xserver starts with: RAM, terminal, main GUI (no netmap)
+
 P
   \_ bin: HTTP, SQL, FTP, SSH, Torrent, EosDeviceScan, comshell
   \_ WILLCOME.txt -> /el style Will node
@@ -40,11 +42,51 @@ M2
 
 these missions will be harder. We just needed portcrackers, but now you're hacking corporations, companies, other big things.
 
-M3
+M3 you have to hack MeTube, a site for vloggers and gamers. - you need to remove someone's account for reasons - that person steals this other person's stuff, but as they have more money they would just win in court pretty much by default. Little information is given, however, which -> drama in the comments. You just need the portcraker, but it's the player's choice if they want to delete the stuff.
   \_ RTSP - uuuh something to do with youtube because that's kinda what the protocols for? Small tho.
+  
+  \_ G1
+    \_ S: HTTP
+    \_ F: pashnea
+    \_ L: EmailServer, MainServer, G2
 
-M4
-  \_ Getting the GUI display :. a website daemon somewhere so the player can do something funny
+  \_ EmailServer
+    \_ S: uncrackable
+    \_ L: G1
+    \_ N: Pentester's home IP in his emails [pentestIP]
+    \_ user: Javed, marshmellows (aforementioned Pentester)
+
+  \_ [pentestIP]
+    \_ S: FTP, SSH, HTTP, Torrent
+    \_ F: []
+
+
+  \_ G2
+    \_ S: HTTP, SSH, FTP
+    \_ F: pashnea
+    \_ L: AdminWS, PentestWS, WS1, WS2, WS3
+
+  \_ AdminWS
+    \_ S: FTP, SSH, HTTP, Torrent
+    \_ N: Pentester's email
+
+  \_ PentestWS
+    \_ S: FTP, SSH, HTTP, Torrent
+    \_ F: [unique password]
+    \_ N: suggests attached phone
+
+    \_ PentestPhone
+      \_ N: email password
+
+  \_ WS1, WS2, WS3
+    \_ S: FTP, SSH, Torrent
+    \_ N: general gossip about someone supposedly working on an RTSP cracker
+    \_ easter eggs and themes
+
+  \_ MainServer
+    \_ S: FTP, HTTP, RTSP
+    \_ R: delete account to "end mission" // because you kinda don't have to
+
 
 M5
   \_ KBT - request to place somone wrongly on a DNR. The player doesn't have to do this ;) as they only need the portcracker, but if they don't stop to think, it's likely they will// requires SSL, large network :. netmap, player advised to have all parts described above first.
