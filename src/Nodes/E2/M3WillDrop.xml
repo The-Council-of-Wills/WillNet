@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Computer id="E2M3WillDrop" name="W1 Filedrop" ip="83.3.43.117">
+
+    <ports>21, 80, 6881, 22</ports>
+    <portsForCrack val="117"/>
+    <admin type="fast" isSuper="false" resetPassword="false"/>
+    <file path="Drop/Uploads" name="README.md">
+# STOP.
+This sector should be secure against nearly any intrusion.
+If you can see this message, we'd like to invite you to chat @ [anon-node](anch://hyperarch/e9f81b30).
+    </file>
+
+    <uploadServerDaemon name="Upload Data" folder="Drop" needsAuth="false" color="255,127,127"/>
+
+</Computer>
