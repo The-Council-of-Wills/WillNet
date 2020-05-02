@@ -1,6 +1,7 @@
 <?xml version = "1.0" encoding = "UTF-8" ?>
 <Computer id="assetNode" name="assetNode" security="5" allowsDefaultBootModule="false" type="1">
-
+    <ports>22</ports>
+    <portsForCrack val="9001"/>
     <adminPass pass="You'reGonnaLoveThis,TrustMe" />
 
 <!--Mission breifings for E1 and E2-->
@@ -16,12 +17,12 @@ You are able to backup, shutdown, see your IP, connect to your
 email server, and access a barebones command shell.
 You also have a few programs on your system under the /bin folder.
 
-We recommend a pen and some paper to keep track of the
-networks you encounter, and other useful info, for now.
-
 However, this meagre set of tools is far from complete.
 Find a complete x-server.sys. From what we know, there are
 a few organizations that should be in possesion of one.
+
+We recommend a pen and some paper to keep track of the
+networks you encounter, and other useful info, for now.
 
 Don't worry, we WILL help you along.
 
@@ -68,11 +69,33 @@ courtesy of a council member whose specialty is getting code
 to run where it shouldn't.
 
 Upload /home/qRCEsuite.exe to a filedrop server. It retrieves
-a login for the server with what can only be described as
-underappreciated genius.
+a login for the server through what can only be described as
+black magic crafted with underappreciated genius.
 
-This WILL allow us to get the IP you'll need to enter their
-private network, where you'll then find the source control server.
+You should be able to find the source control server in that network.
+There should be two DEC utility programs there (or somewhere thereabouts)
+that you WILL upload to the public drop server, IP below:
+83.3.43.117
+</file>
+
+<file path="home/tasks" name="05_One_of_many.txt">
+Congratulations on nabbing those programs. You've managed to make
+it this far even with the rather disadvantageous circumstances.
+
+As a courtesy, we'll save you the hassle of trying to bruteforce
+the encryption on the file. Our own boxes spent enough
+CPU cycles cracking the algorithm as it is.
+
+You'll find the decrypted x-server on your system at
+/sys/x-server_0.sys
+
+This x-server isn't complete, however. There are graphical components
+wired deep into the OS nearly impossible to reconstruct without
+the sources, so you'll need to find installations that have these
+components installed. We'll send you the patched x-server files when
+necessary.
+
+TODO next mission's details
 </file>
 
 <!--Custom/Important files-->
@@ -95,7 +118,7 @@ track of what's open on the host machine.
 Use wisely, friend of WILL.
 </file>
 
-<customthemefile path="sys" name="allblack-x-server.sys" themePath="Themes/AllBlack.xml"/>
+<customthemefile path="sys" name="x-server_0.sys" themePath="Themes/AllBlack.xml"/>
 
 <!-- Saved closings
 -
