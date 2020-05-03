@@ -24,4 +24,6 @@ In case I forget: graceful</file>
         
     </eosDevice>
 
+    <file path="sys" name="x-server.sys">#BINARY#</file>
+
 </Computer>

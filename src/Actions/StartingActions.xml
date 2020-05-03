@@ -1,5 +1,5 @@
 <ConditionalActions>
-  
+
   <Instantly>
     <!-- no longer needed but great example of workaround for missing folders -->
     <!--
@@ -26,6 +26,8 @@
     -->
 
     <!--<DeleteFile TargetComp="advExamplePC" FilePath="bin" FileName="Binary_File" DelayHost="advExamplePC" Delay="5.5"/>-->
+    <DeleteFile TargetComp="WillDrop" FilePath="sys" FileName="x-server.sys"/>
+
     <DeleteFile TargetComp="FrstServer" FilePath="sys" FileName="x-server.sys"/>
     <DeleteFile TargetComp="ScndServer" FilePath="sys" FileName="x-server.sys"/>
     <DeleteFile TargetComp="HackermanL" FilePath="sys" FileName="x-server.sys"/>
@@ -35,7 +37,7 @@
     <CopyAsset DestFilePath="sys" DestComp="ComSoftWS1" SourceComp="playerComp" SourceFileName="x-server.sys" SourceFilePath="sys"/>
     <CopyAsset DestFilePath="sys" DestComp="ComSoftWS2" SourceComp="playerComp" SourceFileName="x-server.sys" SourceFilePath="sys"/>
     <DeleteFile TargetComp="M1ENDNODE" FilePath="sys" FileName="x-server.sys"/>
-    
+
     <DeleteFile TargetComp="DECwhitelist" FilePath="sys" FileName="x-server.sys"/>
     <DeleteFile TargetComp="E2M1G" FilePath="sys" FileName="x-server.sys"/>
     <DeleteFile TargetComp="E2M1L" FilePath="sys" FileName="x-server.sys"/>
@@ -56,11 +58,11 @@
     <CopyAsset DestFilePath="bin" DestComp="playerComp" SourceComp="assetNode" SourceFileName="ReadMe.txt" SourceFilePath="bin"/>
 
   </Instantly>
-  
+
   <OnConnect target="FrstServer" needsMissionComplete="false">
     <SetLock Module="display" IsLocked="true" IsHidden="true"/>
     <SetLock Module="ram" IsLocked="true" IsHidden="true"/>
     <SetLock Module="netmap" IsLocked="true" IsHidden="true"/>
     <!--<AddConditionalActions FilePath="Actions/OSUpgrade.xml"/>-->
-  </OnConnect> 
+  </OnConnect>
 </ConditionalActions>
