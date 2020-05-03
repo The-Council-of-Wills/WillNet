@@ -5,6 +5,12 @@
     <portsForCrack val="69420"/>
     <admin type="fast" isSuper="false" resetPassword="false"/>
 
+    <file path="Drop/Uploads" name="README.md">
+# STOP.
+This sector should be secure against nearly any intrusion.
+If you can see this message, we'd like to invite you to chat @ [anon-node](anch://hyperarch/662A2A2A696E676368656174657221).
+</file>
+
     <uploadServerDaemon name="Uploads" folder="Drop" needsAuth="false" color="255,127,127"/>
 
 </Computer>

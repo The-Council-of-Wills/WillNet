@@ -1,8 +1,8 @@
 <?xml version = "1.0" encoding = "UTF-8" ?>
 <mission id="E2M3" activeCheck="true">
     <goals>
-        <goal type="fileupload" target="DECSuiteServer" file="DECHead.exe" path="release" destTarget="E2M3WillDrop" destPath="Drop/Uploads"/>
-        <goal type="fileupload" target="DECSuiteServer" file="Decypher.exe" path="release" destTarget="E2M3WillDrop" destPath="Drop/Uploads"/>
+        <goal type="fileupload" target="DECSuiteServer" file="DECHead.exe" path="release" destTarget="WillDrop" destPath="Drop/Uploads"/>
+        <goal type="fileupload" target="DECSuiteServer" file="Decypher.exe" path="release" destTarget="WillDrop" destPath="Drop/Uploads"/>
     </goals>
 
     <missionEnd>loadConditionalActions:Actions/E2M3E.xml</missionEnd>
