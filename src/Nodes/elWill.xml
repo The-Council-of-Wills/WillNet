@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Computer id="WillEl" name="Council of Wills" ip="137.74.187.103">
+
+    <ports>80, 1433, 21, 22, 6881, 443, 554</ports><!--554 is rtsp-->
+    <portsForCrack val="7"/>
+    <admin type="progress" isSuper="false" resetPassword="false"/>
+    <adminPass pass="a long and complicated password with spaces"/>
+
+    <messageBoard name="The WillBoard">
+        <thread>Docs/WillBoard/netmapThread.txt</thread>
+        <thread>Docs/WillBoard/SLLThread.txt</thread>
+    </messageBoard>
+
+</Computer>

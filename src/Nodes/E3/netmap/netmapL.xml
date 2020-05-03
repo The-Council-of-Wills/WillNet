@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Computer id="E3NetmapL" name="Grace's Laptop" type="2" ip="135.177.240.110">
+<Computer id="E3NetmapL" name="Grace's Laptop" type="2" ip="156.177.240.110">
     
     <ports>21, 22, 80, 6881</ports>
     <portsForCrack val="3"/>
@@ -11,7 +11,7 @@ Stronger security is also possible, as you can change the administrator password
 
 In case I forget: graceful</file>
 
-    <encryptedFile path="home" name="netmap.dec" extension=".sys" ip="135.177.240.110" header="Grace's DEC nmap :)" pass="1dancer">#BINARY#</encryptedFile>
+    <encryptedFile path="home" name="netmap.dec" extension=".sys" ip="156.177.240.110" header="Grace's DEC nmap :)" pass="1dancer">#BINARY#</encryptedFile>
 
     <!--Quartz, check for unencrypted file. Edit above if needed. If the player just uses mv that's cool too I guess?-->
 

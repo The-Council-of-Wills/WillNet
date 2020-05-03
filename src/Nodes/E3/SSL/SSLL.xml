@@ -2,7 +2,7 @@
 <Computer id="E3SSLL" name="Jake's Laptop" type="2" ip="253.230.123.44">
 
     <firewall level="6" solution="orion" additionalTime="0.0"/>
-    <ports>21, 22, 80, 6881</ports>
+    <ports>21, 22, 80, 443</ports>
     <portsForCrack val="3"/>
     <trace time="100"/>
 
