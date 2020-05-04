@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Computer id="E3RTSPG2" ip="89.185.82.2" name="MeTube Gateway 2" type="4">
+    
+    <ports>80, 443, 21</ports>
+    <portsForCrack val="3"/>
+    <firewall level="7" solution="pashnea" additionalTime="0.0"/>
+
+    <dlink target="E3RTSPG1"/>
+
+    <dlink target="E3RTSPAdminWS"/>
+    <dlink target="E3RTSPPentestWS"/>
+
+    <dlink target="E3RTSPWS1"/>
+    <dlink target="E3RTSPWS2"/>
+    <dlink target="E3RTSPWS3"/>
+
+</Computer>

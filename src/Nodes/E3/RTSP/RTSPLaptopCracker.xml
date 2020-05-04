@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Computer id="RTSPL2" name="RTSP laptop" type="2" ip="167.115.181.167">
+
+    <ports>22, 80, 443</ports>
+    <portsForCrack val="3"/>
+
+    <file path="bin" name="RTSPCrack.exe">#RTSP_EXE#</file>
+
+</Computer>
