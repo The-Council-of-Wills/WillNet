@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Computer id="RTSPEmail" ip="89.185.82.30" name="MeTube Email Server" type="4">
+
+    <ports>21,22,25,80,1433,6881,554, 443</ports>
+    <portsForCrack val="8"/>
+    <firewall level="23" solution="longandterriblepassword" additionalTime="5.0"/><!--not the intended way in-->
+    <proxy time="4"/>
+    <trace time="100.0"/>
+
+    <account username="javed" password="jJFo01l" type="2"/>
+    <account username="admin" password="strongcomplicatedpassword" type="0"/>
+    <!--needs more accounts and contents-->
+
+    <mailServer name="Example Mail Server" color="50,237,212" generateJunk="true">
+    <email recipient="javed" sender="admin" subject="connected IP">
+Can you explain why this server logged a new connection from 133.199.235.154 all of a sudden?
+
+No, I know why. But I thought I told you already our email defense is great.
+    </email>
+    <email recipient="admin" sender="javed" subject="Re: connected IP">
+Well done. I'm sure it is.
+Moreover, I've found someone working on a cracker you might be interested in.
+Look at how it works, and fix the vulnerabilities on your server.
+You'll need to "look into" this ip 167.115.181.167
+    </email>
+    </mailServer>
+
+    <dlink target="RTSPG1"/>
+
+</Computer>
