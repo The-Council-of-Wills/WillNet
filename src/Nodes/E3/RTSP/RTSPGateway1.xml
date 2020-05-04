@@ -5,8 +5,8 @@
     <portsForCrack val="2"/>
     <firewall level="7" solution="pashnea" additionalTime="0.0"/>
 
-    <dlink target="E3RTSPEmailServ"/>
-    <dlink target="E3RTSPG2"/>
-    <dlink target="E3RTSPMainServer"/>
+    <dlink target="RTSPEmail"/>
+    <dlink target="RTSPG2"/>
+    <dlink target="RTSPMainServer"/>
 
 </Computer>
