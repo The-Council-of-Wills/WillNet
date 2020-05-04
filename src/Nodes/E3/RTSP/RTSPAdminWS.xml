@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Computer id="E3RTSPAdminWS" ip="89.185.82.121" name="MeTube Admin WS" type="3">
+    
+    <ports>80, 443, 21, 22, 6881</ports>
+    <portsForCrack val="5"/>
+    <firewall level="7" solution="pashnea" additionalTime="0.0"/>
+
+    <dlink target="E3RTSPG2"/>
+
+    <file path="home" name="Pentester.txt">
+We're in the middle of testing, after the boss was complaining about poor security practices.
+Don't let those scrubs find out!!!
+Accept his emails from javed@metube.com</file>
+
+</Computer>
