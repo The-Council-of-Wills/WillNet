@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Computer id="RTSPL1" name="Javed's laptop" type="2" ip="133.199.235.154">
 
-    <firewall level="7" solution="cracker" additionalTime=""/>
+    <firewall level="7" solution="cracker" additionalTime="0.0"/>
     <proxy time="1"/>
     <ports>21, 22, 80, 443, 6881</ports>
     <portsForCrack val="5"/>
