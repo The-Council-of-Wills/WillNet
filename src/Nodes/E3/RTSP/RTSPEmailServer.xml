@@ -19,7 +19,12 @@ No, I know why. But I thought I told you already our email defense is great.
     </email>
     <email recipient="admin" sender="javed" subject="Re: connected IP">
 Well done. I'm sure it is.
+Moreover, I've found someone working on a cracker you might be interested in.
+Look at how it works, and fix the vulnerabilities on your server.
+You'll need to "look into" this ip 167.115.181.167
     </email>
     </mailServer>
+
+    <dlink target="RTSPG1"/>
 
 </Computer>
