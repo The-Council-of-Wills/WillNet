@@ -57,8 +57,9 @@ M3 you have to hack MeTube, a site for vloggers and gamers. - you need to remove
     \_ user: Javed, marshmellows (aforementioned Pentester)
 
   \_ [pentestIP]
-    \_ S: FTP, SSH, HTTP, Torrent
-    \_ F: []
+    \_ S: FTP, SSH, HTTP, Torrent; proxy
+    \_ F: [some strong uniqe password]
+    \_ R: RTSP
 
 
   \_ G2
@@ -88,5 +89,5 @@ M3 you have to hack MeTube, a site for vloggers and gamers. - you need to remove
     \_ R: delete account to "end mission" // because you kinda don't have to
 
 
-M5
+M4
   \_ KBT - request to place somone wrongly on a DNR. The player doesn't have to do this ;) as they only need the portcracker, but if they don't stop to think, it's likely they will// requires SSL, large network :. netmap, player advised to have all parts described above first.
