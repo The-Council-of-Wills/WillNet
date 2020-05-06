@@ -7,6 +7,7 @@
   <trace time="-1" />
   <admin type="progress" resetPassword="false" isSuper="false"/>
   <adminPass pass="TTY4LYFE"/>
+  <adminPass pass="tty4lyfe"/>
 
 
   <file path="home" name="memo.txt">

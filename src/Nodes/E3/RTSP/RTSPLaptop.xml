@@ -3,8 +3,9 @@
 
     <firewall level="7" solution="cracker" additionalTime="0.0"/>
     <proxy time="1"/>
-    <ports>21, 22, 80, 443, 6881</ports>
     <portsForCrack val="5"/>
+    <ports>21, 22, 80, 443, 6881</ports>
+    
 
     <file path="home" name="job.txt">
 email admin: strongcomplicatedpassword

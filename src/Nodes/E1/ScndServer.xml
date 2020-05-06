@@ -11,7 +11,6 @@
 
 
     <file path="home/EVIDENCE" name="bot.cfg">//remember to do this before uploading the bot!</file>
-    <file path="home/EVIDENCE" name="LOIC_Headless.exe">#SECURITYTRACER_PROGRAM#</file>
 
     <file path="home" name="admins.txt">We've got a potential lead on the service outages lately.
 See those files in evidence? Some jackass was using those one our servers, and causing all kinds of problems.

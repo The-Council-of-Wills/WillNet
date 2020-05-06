@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Computer id="E2M2B" name="DEC Affairs Reporting Hub" ip="79.5.102.69">
 
-    <ports>21, 6881, 80</ports>
     <portsForCrack val="9"/>
+    <ports>21, 6881, 80</ports>
+    
     <admin type="fast" isSuper="false" resetPassword="false"/>
     <adminPass pass="hubdotbat"/>
     <file path="Drop/Uploads" name="report_10_01_10.txt">

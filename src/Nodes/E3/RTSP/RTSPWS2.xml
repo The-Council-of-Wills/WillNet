@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Computer id="E3RTSPWS2" ip="89.185.82.146" name="MeTube WS2" type="3">
     
-    <ports>80, 21, 22</ports>
     <portsForCrack val="3"/>
+    <ports>80, 21, 22</ports>
+    
     <adminPass pass="password"/>
 
     <dlink target="E3RTSPG2"/>

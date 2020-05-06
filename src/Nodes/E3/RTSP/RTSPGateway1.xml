@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Computer id="E3RTSPG1" ip="89.185.82.1" name="MeTube Gateway" type="4">
     
-    <ports>80, 443</ports>
     <portsForCrack val="2"/>
+    <ports>80, 443</ports>
+    
     <firewall level="7" solution="pashnea" additionalTime="0.0"/>
 
     <dlink target="RTSPEmail"/>

@@ -3,8 +3,9 @@
 
     <WhitelistAuthenticatorDaemon Remote="DECwhitelist"/>
     <firewall level="7" solution="tumbler" additionalTime="0.0"/>
-    <ports>80, 22</ports>
     <portsForCrack val="2"/>
+    <ports>80, 22</ports>
+    
 
     <dlink target="DECwhitelist"/>
     <dlink target="E2M2S"/>

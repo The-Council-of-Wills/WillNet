@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Computer id="E2M1L" name="Alex's laptop" type="2" ip="79.5.101.5">
 
-    <ports>80, 21, 22, 6881, 443</ports>
     <portsForCrack val="3"/>
+    <ports>80, 21, 22, 6881, 443</ports>
+    
     <trace time="-1"/>
     <admin type="basic" isSuper="false" resetPassword="false"/>
     

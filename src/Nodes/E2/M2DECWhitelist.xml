@@ -3,8 +3,9 @@
 
     <firewall level="7" solution="tumbler" additionalTime="0.0"/>
     <ports>80, 1433, 21, 22, 6881</ports>
-    <adminPass pass="9wZ4jDYj"/>
     <portsForCrack val="5"/>
+    <adminPass pass="9wZ4jDYj"/>
+    
     <trace time="-1"/>
     <admin type="basic" isSuper="false" resetPassword="false"/>
 
