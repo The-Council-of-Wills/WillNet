@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Computer id="E3NetmapL" name="Grace's Laptop" type="2" ip="156.177.240.110">
     
-    <ports>21, 22, 80, 6881</ports>
     <portsForCrack val="3"/>
+    <ports>21, 22, 80, 6881</ports>
+    
     <trace time="-1"/>
 
     <file path="home" name="EOS.txt">

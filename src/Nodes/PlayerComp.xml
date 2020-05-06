@@ -4,10 +4,11 @@
     <adminPass pass="rememberbit" />
     <account username="#PLAYERNAME#" password="Q2FudEhhY2tUaGlz" type="ADMIN" />
 
+    <portsForCrack val="101" />
     <ports>21, 22, 25, 80</ports>
 
     <proxy time="-1" />
-    <portsForCrack val="101" />
+    
     <trace time="300" />
 
 <file path="bin" name="WebServerWorm.exe">#WEB_CRACK#</file>

@@ -1,7 +1,8 @@
 <?xml version = "1.0" encoding = "UTF-8" ?>
 <Computer id="assetNode" name="assetNode" security="5" allowsDefaultBootModule="false" type="1">
-    <ports>22</ports>
     <portsForCrack val="9001"/>
+    <ports>22</ports>
+    
     <adminPass pass="You'reGonnaLoveThis,TrustMe" />
 
 <!--Mission breifings for E1 and E2-->

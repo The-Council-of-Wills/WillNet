@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Computer id="E2M2S" name="DEC Internal Server" type="3" ip="79.5.102.20">
 
-    <ports>21,22,25,80,1433,6881,554</ports>
     <portsForCrack val="7"/>
+    <ports>21,22,25,80,1433,6881,554</ports>
+    
     <admin type="fast" resetPassword="false" isSuper="true" />
 
     <account username="John" password="soccerstud3" type="0"/>

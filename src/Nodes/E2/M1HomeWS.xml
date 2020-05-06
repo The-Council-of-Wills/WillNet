@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Computer id="E2M1P" name="John's home computer" type="2" ip="79.5.101.20">
 
-    <ports>21, 22, 80, 6881, 443</ports>
     <portsForCrack val="3"/>
+    <ports>21, 22, 80, 6881, 443</ports>
+    
 
     <dlink target="E2M2G"/>
     <dlink target="DECwhitelist"/>

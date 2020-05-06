@@ -7,6 +7,7 @@
   <trace time="-1" />
   <admin type="progress" resetPassword="false" isSuper="false"/>
   <adminPass pass="TTY4LYFE"/>
+  <adminPass pass="tty4lyfe"/>
 
   <file path="home" name="IRC_Dave.txt">
 Dave: Y'know what?
@@ -14,6 +15,7 @@ SteveO: what
 Dave: Humans really are the weak point in IT,
 SteveO: whats brought this on
 Dave: I just had a word with our IT guy. It turns out he uses the same password everywhere.
+Dave: Fucking everywhere! Firewalls, accounts, you name it, he's only got the one...	
 SteveO: shit man
   </file>
 

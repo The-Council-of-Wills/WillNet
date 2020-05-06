@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Computer id="E2M3P2" name="DEC Internal Raven" type="1" ip="79.5.105.44">
 
-    <ports>21, 22</ports>
     <portsForCrack val="2"/>
+    <ports>21, 22</ports>
+    
     <admin type="basic" isSuper="false" resetPassword="false"/>
 
     <file path="home" name="fromtheboss.txt">Do. More. Work.</file>

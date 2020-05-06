@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Computer id="WillDrop" name="The Will Council Drop Server" ip="10.10.10.100">
 
-    <ports>21, 22, 25, 80, 443, 1433, 6881</ports>
     <portsForCrack val="69420"/>
+    <ports>21, 22, 25, 80, 443, 1433, 6881</ports>
+    
     <admin type="fast" isSuper="false" resetPassword="false"/>
 
     <file path="Drop/Uploads" name="README.md">
