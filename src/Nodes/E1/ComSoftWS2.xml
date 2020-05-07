@@ -1,29 +1,29 @@
 <?xml version = "1.0" encoding = "UTF-8" ?>
 <Computer id="ComSoftWS2" name="ComSoft Workstation 2" type="3" ip="222.51.39.20">
 
-  <firewall level="8" solution="TTY4LYFE" additionalTime="0.5"/>
+  <firewall level="8" solution="tty4lyfe" additionalTime="0.5"/>
   <portsForCrack val="7"/>
   <ports>1433, 80, 22, 443</ports>
   <trace time="-1" />
   <admin type="progress" resetPassword="false" isSuper="false"/>
-  <adminPass pass="TTY4LYFE"/>
   <adminPass pass="tty4lyfe"/>
 
 
   <file path="home" name="memo.txt">
 In case of emergency, backups are stored here: 181.189.28.57
 DEC encryption will keep them safe in case of attack :)</file>
-<file path="home" name="emailToAdmin.txt">
+  <file path="home" name="emailToAdmin.txt">
 Why does the source control server have to be off-site?
 The wait times are seriously hampering our productivity!
 The added security probably won't matter given that they've
 been used in some script-kiddie's botnet recently, please 
 move them back on-site so we can work at a speed that's not 
 reminiscent of the early nineties.
-</file>
+-Jung-Kook
+  </file>
 
   <dlink target="ComSoftG1" />
   <dlink target="ComSoftWS1" />
 
-  
+
 </Computer>

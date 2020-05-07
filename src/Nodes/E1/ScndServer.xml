@@ -5,7 +5,7 @@
     <ports>22, 80, 1433</ports>
     <trace time="-1"/>
     <admin type="progress" resetPassword="false" isSuper="false"/>
-    <adminPass pass="TTY4LYFE"/>
+    <adminPass pass="tty4lyfe"/>
 
     <dlink target="FrstServer"/>
 
@@ -14,7 +14,7 @@
 
     <file path="home" name="admins.txt">We've got a potential lead on the service outages lately.
 See those files in evidence? Some jackass was using those one our servers, and causing all kinds of problems.
-Looks like he might've been trying to BotNet us?
+Looks like he might've been trying to botnet us?
 Either way, we'll need those files if we're to win in court, so nobody delete them!</file>
 
     <file path="home/EVIDENCE" name="OffendingLogs.txt">

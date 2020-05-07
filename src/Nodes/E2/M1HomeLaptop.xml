@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Computer id="E2M1L" name="Alex's laptop" type="2" ip="79.5.101.5">
+<Computer id="E2M1L" name="Alex's Laptop" type="2" ip="79.5.101.5">
 
     <portsForCrack val="3"/>
     <ports>80, 21, 22, 6881, 443</ports>
@@ -13,8 +13,11 @@
     <file path="home" name="Guide.txt">
 EOSDeviceScan.exe will find EOS devices connected to the device you're running it from.
 
-The login for any EOS device should always be "admin" "alpine," and now I can hack dad. I win.</file>
-    <file path="bin" name="TorrentStreamInjector.exe">#TORRENT_EXE#</file>
+The login for any EOS device should always be "admin" "alpine," and now I can hack dad. I win.
+
+To-do: get dad to allow torrent in the router and use TorrentStreamInjector.exe
+to bypass router password too. I'm so clever it's disgusting.</file>
+    <file path="home" name="TorrentStreamInjector.exe">#TORRENT_EXE#</file>
     <file path="bin" name="note.txt">
     This should let me bypass that kid filter and download cool
     programs like that eOS one.

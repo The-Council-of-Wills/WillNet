@@ -6,7 +6,7 @@
     </goals>
 
     <missionEnd>loadConditionalActions:Actions/E2M3E.xml</missionEnd>
-    <nextMission IsSilent="true">NONE</nextMission>
+    <nextMission IsSilent="true">Missions/E3/M1.xml</nextMission>
 
     <email>
         <sender></sender>

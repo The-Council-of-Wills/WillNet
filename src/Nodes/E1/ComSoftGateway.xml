@@ -5,7 +5,7 @@
   <ports>21,80</ports>
   <trace time="-1" />
   <admin type="progress" resetPassword="true" isSuper="false"/>
-  <adminPass pass="TTY4LYFE"/>
+  <adminPass pass="tty4lyfe"/>
 
   <dlink target="ComSoftWS1"/>
   <dlink target="ComSoftWS2"/>

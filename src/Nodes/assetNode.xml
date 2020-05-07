@@ -90,13 +90,25 @@ CPU cycles cracking the algorithm as it is.
 You'll find the decrypted x-server on your system at
 /sys/x-server_0.sys
 
-This x-server isn't complete, however. There are graphical components
-wired deep into the OS nearly impossible to reconstruct without
-the sources, so you'll need to find installations that have these
-components installed. We'll send you the patched x-server files when
-necessary.
+Delete your old x-server and rename x-server_0.sys to x-server.sys
+Then connect to our cracked license server below. Yes, this build has
+DRM for x-servers.
 
-TODO next mission's details
+137.74.187.101
+</file>
+
+<file path="home/tasks" name="06_Alright.txt">
+How does your new environment look? Pretty neat, eh?
+
+This x-server isn't complete, however. There's one more graphical
+component wired deep into the OS and a few cracker programs left.
+
+For now, you've met the preliminary requirements for joining
+the main Council of Wills board. Further help can be found there.
+
+WILLcome aboard.
+
+137.74.187.103
 </file>
 
 <!--Custom/Important files-->
@@ -128,6 +140,8 @@ Now find us.
 We WILL be waiting.
 -
 We WILL keep in touch.
+-
+GoodWILL towards a fellow hacker.
 -
 -->
 
