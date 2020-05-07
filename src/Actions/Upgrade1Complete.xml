@@ -3,7 +3,7 @@
         <CrashComputer TargetComp="playerComp" CrashSource="playerComp"/>
         <SetLock Module="display" IsLocked="false" IsHidden="false"/>
         <SetLock Module="ram" IsLocked="false" IsHidden="false"/>
-        <SetLock Module="netmap" IsLocked="false" IsHidden="false"/>
+        <!--SetLock Module="netmap" IsLocked="false" IsHidden="false"/>-->
         <CopyAsset DestFilePath="home/tasks" DestComp="playerComp" SourceComp="assetNode" SourceFileName="06_Alright.txt" SourceFilePath="home/tasks"/>
     </Instantly>
 </ConditionalActions>
