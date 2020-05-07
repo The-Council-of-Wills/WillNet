@@ -1,0 +1,3 @@
+config playerComp playerComp 0.2 $#%#$
+
+writel Please disconnect for qRCE to work its magic ;) 

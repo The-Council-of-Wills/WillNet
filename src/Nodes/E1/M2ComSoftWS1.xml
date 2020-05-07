@@ -1,7 +1,6 @@
 <?xml version = "1.0" encoding = "UTF-8" ?>
 <Computer id="ComSoftWS1" name="ComSoft Workstation 1" type="3" ip="222.51.39.10">
 
-  <!--<firewall level="8" solution="TTY4LYFE" additionalTime="0.5"/>-->
   <portsForCrack val="4"/>
   <ports>1433, 80, 22, 21</ports>
   <trace time="-1" />

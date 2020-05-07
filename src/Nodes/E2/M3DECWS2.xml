@@ -6,7 +6,18 @@
     
     <admin type="basic" isSuper="false" resetPassword="false"/>
 
-    <file path="home" name="fromtheboss.txt">Do. More. Work.</file>
+    <file path="home" name="fromtheboss.txt">Some more focus would be nice.</file>
+    <file path="home" name="hyperarch.txt">
+[notjoan]: You ever think it's funny that there's two Johns in this division?
+[becca92]: all the time
+[becca92]: ones a good sysadmin, the others a worthless pile of trash
+[notjoan]: There's no way he's passing the quarterly review...
+[notjoan]: I've already put in a report about his slacking off.
+[notjoan]: Sysadmin John, on the other hand, he's just... The best.
+[notjoan]: Definitely my type ;)
+[becca92]: hes married though
+[becca92]: we still on for drinks with ashley and derrick?
+</file>
 
     <file path="sys" name="x-server.sys">#BIANRY#</file>
 
