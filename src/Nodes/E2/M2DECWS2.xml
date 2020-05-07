@@ -7,6 +7,7 @@
     <admin type="fast" isSuper="false" resetPassword="false"/>
     <adminPass pass="soccerstud2"/>
 
+    <file path="home" name="fromtheboss.txt">Do. More. Work.</file>
     <file path="home" name="haha.txt">
 Step 1: modify your Workstation with new EnTech inviolability
 Step 2: Prevent the engineers from accessing your Workstation with old password
