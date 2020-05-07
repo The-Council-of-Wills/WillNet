@@ -9,9 +9,11 @@ delay 1 $#%#$
 
 writel This is an incomplete build of Hacknet, $#%#$
 writel_silent brought to you by The Council of Wills. $#%#$
+writel_silent We hope you verified the download's checksum $#%#$
+writel_silent before installing ;) $#%#$
 writel_silent $#%#$
-delay 2 $#%#$
+delay 1.5 $#%#$
 
-writel See /home/tasks for how to get up and running $#%#$
-writel_silent and for how to contribute to development. $#%#$
+writel See /home/tasks for how to start building $#%#$
+writel_silent your arsenal. $#%#$
 writel_silent We look forward to seeing you.

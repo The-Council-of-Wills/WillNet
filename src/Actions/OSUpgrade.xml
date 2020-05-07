@@ -1,8 +1,8 @@
 <ConditionalActions>
     <Instantly needsMissionComplete="false">
         <LaunchHackScript Filepath="Scripts/OSUpgradeNotif.txt"/>
-        <StartScreenBleedEffect AlertTitle="WillNet OS Upgrade" CompleteAction="Actions/UpgradeComplete.xml" TotalDurationSeconds="10">Configuring WillNet OS Upgrade
-        Please Stand By
-        Your computer will reboot shortly</StartScreenBleedEffect>
+        <StartScreenBleedEffect AlertTitle="hn_OS Upgrade" CompleteAction="Actions/UpgradeComplete.xml" TotalDurationSeconds="10">Configuring installation
+Please stand by
+Reboot pending</StartScreenBleedEffect>
     </Instantly>
 </ConditionalActions>

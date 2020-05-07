@@ -30,14 +30,14 @@
   <brightUnlockedColor>0,160,0</brightUnlockedColor>
   <unlockedColor>39,65,36</unlockedColor>
   <lightGray>180,180,180</lightGray>
-  <shellColor>222,201,24</shellColor>
-  <shellButtonColor>105,167,188</shellButtonColor>
+  <shellColor>222,222,222</shellColor>
+  <shellButtonColor>105,105,105</shellButtonColor>
   <semiTransText>120,120,120,0</semiTransText>
-  <terminalTextColor>213,245,255</terminalTextColor>
+  <terminalTextColor>255,255,255</terminalTextColor>
   <topBarTextColor>126,126,126,100</topBarTextColor>
   <superLightWhite>2,2,2,30</superLightWhite>
   <connectedNodeHighlight>222,0,0,195</connectedNodeHighlight>
-  <netmapToolTipColor>213,245,255,0</netmapToolTipColor>
+  <netmapToolTipColor>255,255,255,0</netmapToolTipColor>
   <netmapToolTipBackground>0,0,0,70</netmapToolTipBackground>
   <topBarIconsColor>255,255,255</topBarIconsColor>
   <thisComputerNode>95,220,83</thisComputerNode>
