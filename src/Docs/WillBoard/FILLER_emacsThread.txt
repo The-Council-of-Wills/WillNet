@@ -1,0 +1,47 @@
+Emacs Thread
+------------------------------------------
+#Chip
+No.37305865
+So...emacs is for people who like the GUI and vim is for people who like the terminal?
+------------------------------------------
+No.37305890
+What's so difficult about using Vim in a GUI?
+------------------------------------------
+No.37305922
+>>37305890
+Nothing is hard about using vim in GUI,
+
+But you have to use emacsclient which neuters emacs to use emacs in the terminal, so emacs is objectively inferior.
+------------------------------------------
+No.37305955
+>>37305922
+Let me append, emacs is objectively inferior for anyone who prefers to work primarily in the TTY. That's not bait that's obvious that vim is superior for console use
+------------------------------------------
+No.37305975
+>>37305955
+Emacs has a console mode light years ahead of Vim
+------------------------------------------
+No.37306198
+I'm a vscode chad myself
+------------------------------------------
+No.37306219
+>>37305975
+Vim doesn't need a console.
+It is a small UNIX tool that lives in your terminal multiplexer.
+
+Bram only added a console because neovim added a console, and he panicked that he's being made irrelevant and he'll be left benevolent dictator for life of abandonware
+------------------------------------------
+No.37306310
+>>37305865
+my terminal lives inside emacs
+vim lives inside emacs with evil
+emacs is my MW
+emacs is my mailclient
+everything intergrated very well under elisp.
+------------------------------------------
+No.37306669
+>>37306310
+>my terminal lives inside emacs
+>emacs is my mailclient
+explain
+------------------------------------------

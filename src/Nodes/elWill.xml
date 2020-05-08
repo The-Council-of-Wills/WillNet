@@ -10,6 +10,8 @@
     <messageBoard name="Board of Wills">
         <thread>Docs/WillBoard/netmapThread.txt</thread>
         <thread>Docs/WillBoard/SLLThread.txt</thread>
+        <thread>Docs/WillBoard/FILLER_hacknetOSThread.txt</thread>
+        <thread>Docs/WillBoard/FILLER_emacsThread.txt</thread>
     </messageBoard>
 
 </Computer>

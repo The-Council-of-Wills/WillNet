@@ -1,5 +1,7 @@
 network visualizer
 ------------------------------------------
+#Circle
+No.37446031
 A colleague of mine is working on a network visualizer.
 She's called it "netmap" - a silly name imo - but she's not willing to share the code.
 Either way, I'm sure it'll be more than useful to the people who've found themselves on this board.
@@ -7,12 +9,39 @@ Either way, I'm sure it'll be more than useful to the people who've found themse
 She does work like this on a separate laptop [156.177.240.110]
 Grab it yourselves. <HackOrBeHacked>
 ------------------------------------------
+No.37446033
 >calls network mapper "netmap"
 >silly name
 wtf
 ------------------------------------------
-#Speech
-are we really going to be this quiet?
-Someone needs to come up with more text.
-If I were them I'd ~copy+paste from 4chan :P
+No.37446049
+>but she's not willing to share the code
+So you just post an address for wills to hack?
+Dick move, dude. Dick move.
+Also thanks for the tool, mystery girl
+------------------------------------------
+No.37446084
+-_-
+If that's how it's gonna be...
+
+Hey, everyone. OP has a WIP music player for hnOS.
+She calls it "Tuneswap" - a silly name imo - and she's an asshat.
+Have at it. [201.33.164.89]
+<FightFireWithFire>
+------------------------------------------
+No.37446103
+>>37446084
+Yo, I'm a big fan of your work! I had a look at your program
+(decompiled it and whatnot) and I think I've come up with
+a nice addition! [151.101.1.195]
+------------------------------------------
+No.37446112
+>>37446103
+Wait, that's actually really cool!
+Thanks for making that~
+Glad you like my work, too <3
+------------------------------------------
+No.37446119
+>>37446103
+*Sniff sniff* does anyone else smell simp around here?
 ------------------------------------------

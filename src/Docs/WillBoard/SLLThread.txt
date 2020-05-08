@@ -1,14 +1,19 @@
 SSL Portcracker
 ------------------------------------------
-Listen up crackheads.
+No.37446117
+Listen up, crackheads.
 For ages SSL has been our bane, but finally there's a portcracker for it.
 A hacker-friend of mine has developed it, put it on his laptop, and he's welcoming people to take it.
 go get it
 253.230.123.44
 ------------------------------------------
+No.37446129
 That security's pretty trash.
 ------------------------------------------
+No.37446136
 Why is he challenging people to hack him when his security's so bad?
 ------------------------------------------
+No.37446161
+>>37446136
 Who gives a crap. This port cracker's pretty good.
 ------------------------------------------
