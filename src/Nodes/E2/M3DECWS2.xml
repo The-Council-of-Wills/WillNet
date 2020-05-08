@@ -4,7 +4,7 @@
     <portsForCrack val="2"/>
     <ports>21, 22</ports>
     
-    <admin type="basic" isSuper="false" resetPassword="false"/>
+    <admin type="progress" isSuper="false" resetPassword="false"/>
 
     <file path="home" name="fromtheboss.txt">Some more focus would be nice.</file>
     <file path="home" name="hyperarch.txt">
