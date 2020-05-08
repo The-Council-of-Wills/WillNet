@@ -16,9 +16,8 @@ ComSoft Root Server: 222.51.39.2 &lt;&lt;&lt;&lt; (HOW TO CRACK?!?! /bin/FTPCrac
 Dad: 65.199.22.231
 Don't mess with me. You have no idea how ugly it gets.</file>
 
-    <file path="bin/utils" name="NetMapOrganizer.exe">#NETMAP_ORGANIZER_EXE#</file>
-    <file path="bin/utils" name="Tuneswap.exe">#DLC_MUSIC_EXE#</file>
-    <file path="bin/utils" name="note.txt">Figure out how to use these in a TTY</file>
+    <file path="bin/utils" name="HexClock.exe">#HEXCLOCK_EXE#</file>
+    <file path="bin/utils" name="note.txt">Figure out how to use this in a TTY</file>
     <file path="bin" name="FTPCracker.exe">#FTP_FAST_EXE#</file>
 
 

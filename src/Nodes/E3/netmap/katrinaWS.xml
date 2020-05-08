@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Computer id="E3NetmapWS" name="Katrina Battlestation Alpha" type="2" ip="201.33.164.89">
+
+    <portsForCrack val="2"/>
+    <ports>22, 6881</ports>
+
+    <trace time="-1"/>
+
+    <file path="home/Tuneswap" name="Tuneswap.sln">#BINARY#</file>
+    <file path="home/Tuneswap" name="Tuneswap.vcxproj">#BINARY#</file>
+    <file path="home/Tuneswap" name="Tuneswap.h">#BINARY#</file>
+    <file path="home/Tuneswap" name="Tuneswap.cpp">#BINARY#</file>
+    <file path="home/Tuneswap/bin/Release" name="Tuneswap.exe">#DLC_MUSIC_EXE#</file>
+
+    <file path="sys" name="x-server.sys">#BINARY#</file>
+
+</Computer>
