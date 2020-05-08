@@ -4,7 +4,7 @@
     <portsForCrack val="2"/>
     <ports>21, 22</ports>
     
-    <admin type="basic" isSuper="false" resetPassword="false"/>
+    <admin type="progress" isSuper="false" resetPassword="false"/>
 
     <file path="home" name="fromtheboss.txt">Family men have to stick together. Side note, how does a monthly family luncheon sound?</file>
     <file path="home" name="fromjoan.txt">Roses are red. Crashes are blue. When I need pentests, I'll turn to you. ;)</file>
