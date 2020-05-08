@@ -1,8 +1,0 @@
-<ConditionalActions>
-    <Instantly needsMissionComplete="false">
-        <CopyAsset DestFilePath="sys" DestComp="playerComp" SourceComp="assetNode" SourceFileName="x-server_0.sys" SourceFilePath="sys"/>
-    </Instantly>
-    <!--<OnDisconnect target="WillDrop">
-        <LaunchHackScript Filepath="Scripts/newjob.txt" TargetComp="playerComp"/>
-    </OnDisconnect>-->
-</ConditionalActions>

@@ -1,0 +1,18 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="E2M3" activeCheck="true">
+    <goals>
+        <goal type="filedownload" target="UpgradeHelper" file="x-server.upgrade" path="xserverpackages"/>
+    </goals>
+
+    <missionStart>loadConditionalActions:Actions/E2M4.xml</missionStart>
+    <missionEnd>loadConditionalActions:Actions/E2M4E.xml</missionEnd>
+    <nextMission IsSilent="true">Missions/E3/M1.xml</nextMission>
+
+    <email>
+        <sender></sender>
+        <subject></subject>
+        <body>Never sent</body>
+        <attachments>
+        </attachments>
+    </email>
+</mission>

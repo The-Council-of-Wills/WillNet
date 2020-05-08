@@ -2,15 +2,7 @@
     <Instantly needsMissionComplete="false">
         <CopyAsset DestFilePath="home/tasks" DestComp="playerComp" SourceComp="assetNode" SourceFileName="05_One_of_many.txt" SourceFilePath="home/tasks"/>
     </Instantly>
-
     <OnDisconnect target="WillDrop">
         <LaunchHackScript Filepath="Scripts/newjob.txt" TargetComp="playerComp"/>
     </OnDisconnect>
-
-    <OnConnect target="UpgradeHelper">
-        <LaunchHackScript Filepath="Scripts/OSUpgradeNotif.txt"/>
-        <StartScreenBleedEffect AlertTitle="hn_OS Upgrade" CompleteAction="Actions/Upgrade1Complete.xml" TotalDurationSeconds="10">Configuring installation
-Please stand by
-Reboot pending</StartScreenBleedEffect>
-    </OnConnect>
 </ConditionalActions>

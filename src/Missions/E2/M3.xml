@@ -3,10 +3,10 @@
     <goals>
         <goal type="fileupload" target="DECSuiteServer" file="DECHead.exe" path="release" destTarget="WillDrop" destPath="Drop/Uploads"/>
         <goal type="fileupload" target="DECSuiteServer" file="Decypher.exe" path="release" destTarget="WillDrop" destPath="Drop/Uploads"/>
+        <goal type="fileupload" target="M1ENDNODE" file="x-server.dec" path="home/ComSoft" destTarget="WillDrop" destPath="Drop/Uploads"/>
     </goals>
 
-    <missionEnd>loadConditionalActions:Actions/E2M3E.xml</missionEnd>
-    <nextMission IsSilent="true">Missions/E3/M1.xml</nextMission>
+    <nextMission IsSilent="true">Missions/E2/M4.xml</nextMission>
 
     <email>
         <sender></sender>
