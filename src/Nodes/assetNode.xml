@@ -75,7 +75,8 @@ black magic crafted with underappreciated genius.
 
 You should be able to find the source control server in that network.
 There should be two DEC utility programs there (or somewhere thereabouts)
-that you WILL upload to the public drop server, IP below:
+that you WILL upload along with the encrypted x-server.sys
+to the public drop server, IP below:
 10.10.10.100
 </file>
 
@@ -87,14 +88,13 @@ As a courtesy, we'll save you the hassle of trying to bruteforce
 the encryption on the file. Our own boxes spent enough
 CPU cycles cracking the algorithm as it is.
 
-You'll find the decrypted x-server on your system at
-/sys/x-server_0.sys
+Connect to our public download server. You have your own login.
+addr: 137.74.187.101
+user: #PLAYERNAME#
+pass: willtopher++
 
-Delete your old x-server and rename x-server_0.sys to x-server.sys
-Then connect to our cracked license server below. Yes, this build has
-DRM for x-servers.
-
-137.74.187.101
+The xserverpackages folder has a package file that WILL start the
+x-server install process once downloaded.
 </file>
 
 <file path="home/tasks" name="06_Alright.txt">
@@ -134,7 +134,9 @@ track of what's open on the host machine.
 Use wisely, friend of WILL.
 </file>
 
-<customthemefile path="sys" name="x-server_0.sys" themePath="Themes/AllBlack.xml"/>
+<!--Custom/Important files-->
+<file path="sys/0" name="x-server.upgrade">#BINARY#</file>
+<customthemefile path="sys/0" name="x-server.sys" themePath="Themes/AllBlack.xml"/>
 
 <!-- Saved closings
 -

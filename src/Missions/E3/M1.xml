@@ -2,7 +2,6 @@
   <goals>
     <goal type="getadmin" target="WillEl"/> <!--TODO replace mission with intermediate steps-->
   </goals>
-  <missionStart>loadConditionalActions:Actions/E3M1.xml</missionStart>
   <nextMission IsSilent="true">NONE</nextMission>
 
   <email>
