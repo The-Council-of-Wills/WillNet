@@ -5,7 +5,6 @@ No.37446031
 A colleague of mine is working on a network visualizer.
 She's called it "netmap" - a silly name imo - but she's not willing to share the code.
 Either way, I'm sure it'll be more than useful to the people who've found themselves on this board.
-
 She does work like this on a separate laptop [156.177.240.110]
 Grab it yourselves. <HackOrBeHacked>
 ------------------------------------------
