@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Computer id="KBTWeb" name="Your hospital website" ip="106.202.46.1" type="4">
+
+    <portsForCrack val="5"/>
+    <ports>21, 22, 80, 443, 6881</ports>
+
+    <trace time="-1"/>
+    <firewall level="8" solution="medicate" additionalTime="0.0"/>
+
+    <!--dlink to sysadmin workstations-->
+
+</Computer>
