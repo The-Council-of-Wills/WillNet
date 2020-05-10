@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Computer id="KBTMainG" ip="106.202.47.1" name="hospital network gateway" type="4">
+
+    <portsForCrack val="6"/>
+    <ports>21,22,80,1433,6881,554</ports><!--rtsp just to prevent too rapid progression-->
+    <firewall level="8" solution="solution" additionalTime="0.0"/>
+    <trace time="-1"/>
+
+    <WhitelistAuthenticatorDaemon Remote="KBTWhitelist"/>
+
+    <!--dlink main hospital nodes-->
+    
+
+</Computer>
