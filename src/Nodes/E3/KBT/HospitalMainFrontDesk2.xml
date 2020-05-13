@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Computer id="KBTFront2" ip="106.202.49.51" name="Hospital Front Desk 2" type="3">
+
+    <portsForCrack val="101"/>
+    <ports>21, 22, 80, 104, 443</ports>
+    <trace time="-1"/>
+    <adminPass pass="realtech"/>
+
+    <file path="home" name="ThemeChanger.exe">#THEMECHANGER_EXE#</file>
+    <file path="home" name="enquiry.txt">Not sure why they're starting one. Changing x-servers isn't going to hurt anyone.</file>
+
+</Computer>
