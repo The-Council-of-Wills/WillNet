@@ -10,4 +10,6 @@
     <file path="home" name="ThemeChanger.exe">#THEMECHANGER_EXE#</file>
     <file path="home" name="enquiry.txt">Not sure why they're starting one. Changing x-servers isn't going to hurt anyone.</file>
 
+    <dlink target="KBTFrontG"/>
+
 </Computer>
