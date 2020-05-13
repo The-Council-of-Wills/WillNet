@@ -10,6 +10,11 @@
 
     <dlink target="KBTMainG"/>
     <dlink target="KBTBackG"/>
+
+    <dlink target="KBTFront1"/>
+    <dlink target="KBTFront2"/>
+    <dlink target="KBTFront3"/>
+    <dlink target="KBTFront4"/>
     
 
 </Computer>
