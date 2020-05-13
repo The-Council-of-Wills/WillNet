@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Computer id="KBTFront1" ip="106.202.49.50" name="Hospital Front Desk 1" type="3">
+
+    <portsForCrack val="4"/>
+    <ports>21, 22, 80, 104, 443</ports>
+    <trace time="-1"/>
+
+    <file path="home" name="weird_guy.txt">
+Spoke to someone earlier today, they were quite dodgy. Must've thought I was someone else.
+Started talking about the person over at Desk 2?
+Make an enquiry: this might not be safe.
+Administrator password for Desk 2 is: realtech</file>
+
+</Computer>
