@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Computer id="KBTMaintenanceWS1" name="hospital site maintenance ws" ip="106.202.46.50" type="3">
+<Computer id="KBTMaintenanceWS1" name="hospital site maintenance ws" ip="106.202.46.50" type="1">
 
     <portsForCrack val="101"/>
     <ports>21, 22, 80, 443, 6881</ports>

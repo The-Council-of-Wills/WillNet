@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<Computer id="KBTFront1" ip="106.202.49.51" name="Hospital Front Desk 1" type="3">
+<Computer id="KBTFront1" ip="106.202.49.51" name="Hospital Front Desk 1" type="1">
 
     <portsForCrack val="4"/>
     <ports>21, 22, 80, 104, 443</ports>

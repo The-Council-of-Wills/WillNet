@@ -9,6 +9,8 @@
     <account username="sysadmin-Blake" password="fnj'sdf" type="2"/>
     
 
+    <!--add more emails so it's less terrible-->
+    
     <mailServer name="HospitalMail" color="0,4,254" generateJunk="true">
         <email recipient="sysadmin-Alice" sender="sysadmin-Blake" subject="strange ip">
 
