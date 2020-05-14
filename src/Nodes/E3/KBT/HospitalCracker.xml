@@ -3,7 +3,7 @@
 
     <ports>21,22,25,80,1433,6881,554</ports>
     <portsForCrack val="101"/>
-    <firewall level="damien" solution="hacknet" additionalTime=""/>
+    <firewall level="6" solution="damien" additionalTime="0.0"/>
     <account username="damien" password="mississippi" type="0"/>
 
     <file path="bin" name="FTPSprint.exe">#MEDICAL_PROGRAM#</file>
