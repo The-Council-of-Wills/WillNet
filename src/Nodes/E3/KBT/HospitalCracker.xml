@@ -1,2 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Computer id="KBTCracker" ip="145.48.30.48" name="Evil Laptop" type="2">
+
+    <ports>21,22,25,80,1433,6881,554</ports>
+    <portsForCrack val="101"/>
+    <firewall level="damien" solution="hacknet" additionalTime=""/>
+    <account username="damien" password="mississippi" type="0"/>
+
+    <file path="bin" name="FTPSprint.exe">#MEDICAL_PROGRAM#</file>
+
+</Computer>
