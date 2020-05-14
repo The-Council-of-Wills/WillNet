@@ -7,8 +7,8 @@
     <trace time="-1"/>
     <adminPass pass="realtech"/>
 
-    <file path="home" name="ThemeChanger.exe">#THEMECHANGER_EXE#</file>
-    <file path="home" name="enquiry.txt">Not sure why they're starting one. Changing x-servers isn't going to hurt anyone.</file>
+    <file path="home" name="ThemeChanger.exe">#SMTP_CRACK#</file>
+    <file path="home" name="enquiry.txt">I'm so fucked.</file>
 
     <dlink target="KBTFrontG"/>
 
