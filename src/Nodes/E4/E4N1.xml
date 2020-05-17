@@ -8,6 +8,12 @@
     <trace time="100.0"/>
     <tracker/>
 
+    <file path="home" name="the_plan.txt">
+- make Hacknet Version 2
+- hack time
+- save Bit
+</file>
+
     <file path="bin" name="PacificPortCrusher.exe">#PACIFIC_EXE#</file>
     <file path="bin" name="PacificNotes.txt">Army started using these, don't ask me why. Either it's actually quite secure, or someone was high.</file>
 
