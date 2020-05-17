@@ -1,0 +1,5 @@
+<ConditionalActions>
+    <Instantly needsMissionComplete="false">
+        <CopyAsset DestFilePath="xserverpackages" DestComp="UpgradeHelper" SourceComp="assetNode" SourceFileName="netmap.upgrade" SourceFilePath="sys/0"/>
+    </Instantly>
+</ConditionalActions>
