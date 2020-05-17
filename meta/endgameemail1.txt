@@ -1,0 +1,16 @@
+#PLAYERNAME#
+
+You are being written to by the Elite of the Elite, and we extend another invitation towards you, after you have outdone yourself yet again.
+To do this you must pass another test: this time there may be consequences.
+
+We know of a certain 1337 madlad using one of Binbenbos' DSes to hack time itself. This can be done because of some weird-ass firmware, though how it works is strictly secret.
+
+The problem is of course, that DSes were programmed with conscience, so as to make playing games on them more fun. This means his new project may become quite dangerous.
+
+We need you to take a look at his work, upload some logs if we should see them to the drop server - we gave you the IP earlier.
+
+In short: investigate this IP
+118.210.220.38
+
+--
+WILL
