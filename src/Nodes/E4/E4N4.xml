@@ -8,4 +8,6 @@
 
     <file path="bin" name="HacknetV2.exe">#BINARY#</file>
 
+    <file path="sys" name="conscience.dll">#BINARY#</file>
+
 </Computer>
