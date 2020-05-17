@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Computer id="E4N4" ip="246.104.77.154" name="Mett's BinBenbo DS" type="4" icon="chip">
+
+    <portsForCrack val="1"/>
+    <ports>22</ports>
+
+    <file path="home" name="launch_codes.txt">lol we changed them already</file>
+
+    <file path="bin" name="HacknetV2.exe">#BINARY#</file>
+
+</Computer>

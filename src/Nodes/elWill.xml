@@ -9,9 +9,11 @@
 
     <messageBoard name="Board of Wills">
         <thread>Docs/WillBoard/netmapThread.txt</thread>
-        <thread>Docs/WillBoard/SLLThread.txt</thread>
+        <thread>Docs/WillBoard/SSLThread.txt</thread>
         <thread>Docs/WillBoard/FILLER_hacknetOSThread.txt</thread>
         <thread>Docs/WillBoard/FILLER_emacsThread.txt</thread>
+        <thread>Docs/WillBoard/RTSPThread.txt</thread>
+        <thread>Docs/WillBoard/KBTThread.txt</thread>
     </messageBoard>
 
 </Computer>

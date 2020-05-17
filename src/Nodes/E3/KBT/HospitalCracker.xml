@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Computer id="KBTCracker" ip="145.48.30.48" name="Evil Laptop" type="2">
+
+    <ports>21,22,25,80,1433,6881,554</ports>
+    <portsForCrack val="101"/>
+    <firewall level="6" solution="damien" additionalTime="0.0"/>
+    <account username="damien" password="mississippi" type="0"/>
+
+    <tracker/>
+
+    <file path="bin" name="FTPSprint.exe">#MEDICAL_PROGRAM#</file>
+
+    <file path="home" name="IRC_Jade.txt">
+Jade: you're sick
+Jade: a portcracker for a hospital?
+Jade: full of critically ill patients?
+Jade: you're going to kill all of them!
+Damien: fuck off.
+</file>
+
+</Computer>
