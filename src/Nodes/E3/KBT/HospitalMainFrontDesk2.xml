@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Computer id="KBTFront2" ip="106.202.49.52" name="Hospital Front Desk 2" type="1">
+
+    <portsForCrack val="101"/>
+    <ports>21, 22, 80, 104, 443</ports>
+    <trace time="-1"/>
+    <adminPass pass="realtech"/>
+
+    <file path="home" name="ThemeChanger.exe">#SMTP_CRACK#</file>
+    <file path="home" name="enquiry.txt">I'm so fucked.</file>
+
+    <dlink target="KBTFrontG"/>
+
+</Computer>

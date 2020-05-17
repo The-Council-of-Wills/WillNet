@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Computer id="KBTMaintenanceWS1" name="hospital site maintenance ws" ip="106.202.46.50" type="1">
+
+    <portsForCrack val="101"/>
+    <ports>21, 22, 80, 443, 6881</ports>
+
+    <trace time="-1"/>
+    <firewall level="8" solution="medicate" additionalTime="0.0"/>
+
+    <adminPass pass="irradiatedboy"/>
+
+    <dlink target="KBTMaintenanceG"/>
+    <dlink target="KBTWhitelist"/>
+
+    <file path="home" name="fromtheboss.txt">Set up the damn whitelist auth for this node.</file>
+
+</Computer>

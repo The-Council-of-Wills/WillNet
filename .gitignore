@@ -1,3 +1,5 @@
 *.code-workspace
 # Extension self-test result
 src/*report.txt
+# hn web cache
+HN_OS_WebCache.html
