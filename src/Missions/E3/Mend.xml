@@ -1,11 +1,8 @@
-<mission id="E3M1" activeCheck="true">
+<mission id="E3Mend" activeCheck="true">
   <goals>
     <goal type="getadmin" target="WillEl"/>
   </goals>
-  <nextMission IsSilent="true">NONE</nextMission>
-  <branchMissions>
-    <branch>Missions/E3/MnetmapPart1.xml</branch>
-  </branchMissions>
+  <nextMission IsSilent="true">NONE</nextMission> <!-- TODO link to e4 mission def-->
 
   <email>
     <sender></sender>
