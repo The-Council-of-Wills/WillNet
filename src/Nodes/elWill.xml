@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Computer id="WillEl" name="Council of Wills" ip="137.74.187.103">
 
-    <portsForCrack val="7"/>
-    <ports>80, 1433, 21, 22, 6881, 443, 554</ports><!--554 is rtsp-->
+    <portsForCrack val="8"/>
+    <ports>80, 1433, 21, 22, 6881, 443, 554, 104</ports>
     
     <admin type="progress" isSuper="false" resetPassword="false"/>
     <adminPass pass="a long and complicated password with spaces"/>

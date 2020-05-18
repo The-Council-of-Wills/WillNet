@@ -34,8 +34,8 @@
     <DeleteFile TargetComp="ComSoftG1" FilePath="sys" FileName="x-server.sys"/>
     <DeleteFile TargetComp="ComSoftWS1" FilePath="sys" FileName="x-server.sys"/>
     <DeleteFile TargetComp="ComSoftWS2" FilePath="sys" FileName="x-server.sys"/>
-    <!--<CopyAsset DestFilePath="sys" DestComp="ComSoftWS1" SourceComp="playerComp" SourceFileName="x-server.sys" SourceFilePath="sys"/>
-    <CopyAsset DestFilePath="sys" DestComp="ComSoftWS2" SourceComp="playerComp" SourceFileName="x-server.sys" SourceFilePath="sys"/>-->
+    <CopyAsset DestFilePath="sys" DestComp="ComSoftWS1" SourceComp="playerComp" SourceFileName="x-server.sys" SourceFilePath="sys"/>
+    <CopyAsset DestFilePath="sys" DestComp="ComSoftWS2" SourceComp="playerComp" SourceFileName="x-server.sys" SourceFilePath="sys"/>
     <DeleteFile TargetComp="M1ENDNODE" FilePath="sys" FileName="x-server.sys"/>
 
     <DeleteFile TargetComp="DECwhitelist" FilePath="sys" FileName="x-server.sys"/>
@@ -54,6 +54,9 @@
     <DeleteFile TargetComp="E2M3P1" FilePath="sys" FileName="x-server.sys"/>
     <DeleteFile TargetComp="E2M3P2" FilePath="sys" FileName="x-server.sys"/>
     <DeleteFile TargetComp="E2M3P3" FilePath="sys" FileName="x-server.sys"/>
+    <DeleteFile TargetComp="E2M1EOS" FilePath="sys" FileName="x-server.sys"/>
+    <DeleteFile TargetComp="DECPhone" FilePath="sys" FileName="x-server.sys"/>
+
 
     <CopyAsset DestFilePath="bin" DestComp="playerComp" SourceComp="assetNode" SourceFileName="ReadMe.txt" SourceFilePath="bin"/>
 

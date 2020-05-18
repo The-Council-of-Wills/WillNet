@@ -7,7 +7,7 @@
     <firewall level="7" solution="pashnea" additionalTime="0.0"/>
 
     <dlink target="RTSPEmail"/>
-    <dlink target="RTSPG2"/>
+    <dlink target="E3RTSPG2"/>
     <dlink target="RTSPMainServer"/>
 
 </Computer>

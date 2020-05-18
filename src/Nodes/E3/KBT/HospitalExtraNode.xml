@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Computer id="KBTHarold" ip="106.202.49.90" name="Dr. Harold" type="3">
+
+    <portsForCrack val="3"/>
+    <ports>80, 443, 104</ports>
+
+    <file path="home" name="hide_the_pain.txt">
+Hide the pain
+Hide the pain
+Hide the pain
+Hide the pain
+Hide the pain
+Hide the pain
+Hide the pain
+Hide the pain
+Hide the pain
+
+
+
+They'll never find their pain again
+I'm such a good doctor
+    </file>
+
+    <dlink target="KBTBackG"/>
+
+</Computer>
