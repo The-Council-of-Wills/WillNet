@@ -34,8 +34,8 @@
     <DeleteFile TargetComp="ComSoftG1" FilePath="sys" FileName="x-server.sys"/>
     <DeleteFile TargetComp="ComSoftWS1" FilePath="sys" FileName="x-server.sys"/>
     <DeleteFile TargetComp="ComSoftWS2" FilePath="sys" FileName="x-server.sys"/>
-    <CopyAsset DestFilePath="sys" DestComp="ComSoftWS1" SourceComp="playerComp" SourceFileName="x-server.sys" SourceFilePath="sys"/>
-    <CopyAsset DestFilePath="sys" DestComp="ComSoftWS2" SourceComp="playerComp" SourceFileName="x-server.sys" SourceFilePath="sys"/>
+    <!--<CopyAsset DestFilePath="sys" DestComp="ComSoftWS1" SourceComp="playerComp" SourceFileName="x-server.sys" SourceFilePath="sys"/>
+    <CopyAsset DestFilePath="sys" DestComp="ComSoftWS2" SourceComp="playerComp" SourceFileName="x-server.sys" SourceFilePath="sys"/>-->
     <DeleteFile TargetComp="M1ENDNODE" FilePath="sys" FileName="x-server.sys"/>
 
     <DeleteFile TargetComp="DECwhitelist" FilePath="sys" FileName="x-server.sys"/>
