@@ -1,57 +1,121 @@
 <?xml version = "1.0" encoding = "UTF-8" ?>
 <Computer id="assetNode" name="assetNode" security="5" allowsDefaultBootModule="false" type="1">
-
-    <adminPass pass="You'reGonaaLoveThis,TrustMe" />
+    <portsForCrack val="9001"/>
+    <ports>22</ports>
+    
+    <adminPass pass="You'reGonnaLoveThis,TrustMe" />
 
 <!--Mission breifings for E1 and E2-->
-    <file path="home/tasks" name="Getting_Started.txt">
+    <file path="home/tasks" name="01_Getting_Started.txt">
+This is a basic deployment of Hacknet designed by us, your
+friendly international Will Council. As a reminder, we would
+rather that you not share this operating system or any of its
+components.
+Not yet.
 
-This is a basic deployment of Hacknet designed by the Will Council.
 Your current x-server.sys provides basic functionality.
-
 You are able to backup, shutdown, see your IP, connect to your
 email server, and access a barebones command shell.
 You also have a few programs on your system under the /bin folder.
 
-We do, however, recommend a pen and some paper to keep track of the
+However, this meagre set of tools is far from complete.
+Find a complete x-server.sys. From what we know, there are
+a few organizations that should be in possesion of one.
+
+We recommend a pen and some paper to keep track of the
 networks you encounter, and other useful info, for now.
 
-However, this meagre set of tools is far from complete.
-Find a complete x-server.sys. Then find us.
-
-We will be waiting.
+Don't worry, we WILL help you along.
 
 222.51.39.138</file>
-<file path="home/tasks" name="Well_Done.txt">
-So you've not only slipped through a corportate network without a trace,
-but you've bested a fellow hacker at his own game?
+<file path="home/tasks" name="02_Well_Done.txt">
+So you've not only slipped through a corporate network
+without a trace, but you've bested a fellow hacker at
+his own game?
 
 Consider us impressed, #PLAYERNAME#!
 
-Now, unless hackerman got better at hiding things recently, you should
-be in possesion of a new set of targets.
+Now, unless hackerman got better at hiding things recently,
+you should have found one of his hitlists on his machine.
+Only one address should be of any significance.
 
-Get going.
+Get going, WILL you?
 </file>
 
-<file path="home/tasks" name="Next_steps.txt">
+<file path="home/tasks" name="03_Next_steps.txt">
 Well done.
 You should now have an encrypted x-server.sys.
-All the same it IS encrypted. Worry not, we know exactly the company that develops this form of encryption.
-It... really isn't that strong. All the same, you'll need the DEC suite of tools.
-Connect to 79.5.101.1 for an administrator's home network. You'll fine there the information you need to put yourself on the whitelist for the DEC network.
-We'll stay in touch.
+All the same, it IS encrypted. Worry not, we know exactly
+the encryption algorithm used and the company that
+developed it.
+
+The DEC suite of tools you'll need don't seem to be publicly
+available right now, so we'll have to resort to going through
+their corporate network.
+
+Connect to 79.5.101.1 for an administrator's home network.
+You WILL find the information you need to put yourself on the
+whitelist for the DEC network so you can proceed.
 </file>
 
-<file path="home/tasks" name="DEC_Access.txt">
+<file path="home/tasks" name="04_DEC_Access.txt">
+Brilliant.
+Now that you have whitelisted yourself for the DEC network,
+it's time to dig a little deeper.
+However, this next inner layer is far more formidable than
+the outer one you have already bested.
 
-Now that you have whitelisted yourself for the DEC network, it's time to dig a little deeper.
-However, this next inner layer is far more formidable than the outer one you have already bested.
+We have a gift to help out out: a Remote Code Execution script,
+courtesy of a council member whose specialty is getting code
+to run where it shouldn't.
 
-We have a gift to help out out: a Remote Code Execution script, courtesy of a council member who's specialty
-is getting code to run where it shouldn't.
+Upload /home/qRCEsuite.exe to a filedrop server. It retrieves
+a login for the server through what can only be described as
+black magic crafted with underappreciated genius.
 
-This will allow us to get the IP you will need to enter their private network, where you will find the source control server.
+You should be able to find the source control server in that network.
+There should be two DEC utility programs there (or somewhere thereabouts)
+that you WILL upload along with the encrypted x-server.sys
+to the public drop server, IP below:
+10.10.10.100
+</file>
+
+<file path="home/tasks" name="05_One_of_many.txt">
+Congratulations on nabbing those programs. You've managed to make
+it this far even with the rather disadvantageous circumstances.
+
+As a courtesy, we'll save you the hassle of trying to bruteforce
+the encryption on the file. Our own boxes spent enough
+CPU cycles cracking the algorithm as it is.
+
+Connect to our public download server. You have your own login.
+addr: 137.74.187.101
+user: #PLAYERNAME#
+pass: willtopher++
+
+The xserverpackages folder has a package file that should start the
+x-server install process once downloaded.
+
+The OS doesn't have an API to nicely reboot the OS without user
+intervention, so your computer will unfortuntely intentionally
+bluescreen. You will NOT judge us for the jankiness.
+</file>
+
+<file path="home/tasks" name="06_Alright.txt">
+How does your new environment look? Pretty neat,
+eh?
+
+Your install isn't complete, however. There's one
+more graphical element slot left in the interface
+and a few important cracker programs missing.
+
+For now, you've met the preliminary requirements
+for joining the main Will board. Further help can
+be found there.
+
+WILLcome aboard.
+
+137.74.187.103
 </file>
 
 <!--Custom/Important files-->
@@ -61,18 +125,36 @@ Here's a quick how-to for those unfamilliar:
 
 >SQLInject and WebServerWorm are two all too common crackers.
 Like many others you'll come across, all you need to do is call them 
-with the port number of the service they are designed for (nmap will help with that)
-and in time, they'll bust that port wide open for a PortHack.
+with the port number of the service they are designed for
+(nmap will help with that) and in time, they'll bust that port
+wide open for a PortHack.
 
 >DNotes is nifty, it'll dump all the notes you make with addNote to
 stdout, so you can read them in the terminal.
 
->You can use ps to keep track of what's running, and nmap to keep track of what's open
-on the host machine.
+>You can use ps to keep track of what's running, and nmap to keep
+track of what's open on the host machine.
 
-Good Luck.
+Use wisely, friend of WILL.
 </file>
-<customthemefile path="sys" name="allblack-x-server.sys" themePath="Themes/AllBlack.xml"/>
+
+<!--Custom/Important files-->
+<file path="sys/0" name="x-server.upgrade">#BINARY#</file>
+<file path="sys/0" name="netmap.upgrade">#BINARY#</file>
+<customthemefile path="sys/0" name="x-server.sys" themePath="Themes/AllBlack.xml"/>
+<file path="katrina/is/best/girl" name="netmap.sys">111111111110111110000100110011011110101000010100111010010000101000001010010001001000111000111100111010001010100110010010110001101100011100111010010001100101001011100101111010001011100010110110100011011101111101100101111101010111100101111111011011011001001110111110110100100111100000101101000111110000000101110001111001111000010101111000011011001101100101001100000111101101100111111111101011110100110111010001110010011110011110000010000001011001101011010010110011110010110010001001000011111011100101110010000100010101011011100101000110001111001100100011101000110110000100000011010100111100110001111101010010010101100111000111101010111010010011001111101011111101100111111110011111001110001111001101100110010011001001111111100111011010011100010111011101011011010000011110010111110011110011110011110110111100110100101111111011110010011100010111001110010010100111100010100110110001111110001110111000110010011100010111010011001010110101111011100100011110010110101100011011110101100011011001010100110111111110001100100111111111100010101111101011110001000100001000000010011010101000011010111110001111101111101100010010101011011111000011110100100000111110110011001100000111000101100100010110011111100101000110001111101011011011101000111001110010101000100011001010010111100011110110001110110010100101001110100101010011001100111000101101110111100101001100111111000111101001110101111100001110001110011000011101001011001111001011111111111111111100101110011100111110011101111101011110001111000101001110101000001111010110101001000100100110101101110100011110000111111011100100001111111100011000101111011011011100110110111011110001011111001111011110111001011011110010101100101110110110101011100000111101001101011001010111010100111110111100001111110010001001</file>
+
+<!-- Saved closings
+-
+Now find us.
+
+We WILL be waiting.
+-
+We WILL keep in touch.
+-
+GoodWILL towards a fellow hacker.
+-
+-->
 
 <!--Programs. All of them.-->
 <file path="bin" name="SSHCrack.exe">#SSH_CRACK#</file>
@@ -92,5 +174,7 @@ Good Luck.
 <file path="bin" name="RTSPCrack.exe">#RTSP_EXE#</file>
 <file path="bin" name="ESequencer.exe">#EXT_SEQUENCER_EXE#</file>
 <file path="bin" name="OpShell.exe">#SHELL_OPENER_EXE#</file>
+<file path="bin" name="TorrentStreamInjector.exe">#TORRENT_EXE#</file>
+
 
 </Computer>

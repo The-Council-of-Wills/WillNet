@@ -1,0 +1,49 @@
+Friendly hacknetOS Thread
+------------------------------------------
+#Chip
+No.37285955
+Users of all levels are welcome to ask questions about hacknetOS and share their experiences. Tell us about tools, utilities, configs, tips & tricks that make your life with hacknetOS (more) bearable (or even pleasant).
+
+Remember: notice the friendly - this is not hacknet vs other OS thread
+------------------------------------------
+No.37304776
+is will who posts the-eye stuff still around?
+I've been trying to download an office.iso for about an week now and damn thing never completes, sometimes I can resume, sometimes it just fails
+any tips to work around?
+------------------------------------------
+No.37286661
+Installing hnOS Edu from linux.
+iso to usb via dd.
+I get the "A media driver on your computer needs is missing [sic]", and can't continue.
+How the fuck do I fix this? sha256 confirms valid iso, tried different partitions and file systems on gparted, tried different usb ports.
+Is this an USB 3.0 thing? Some forum mentioned this.
+------------------------------------------
+No.37289499
+>>37286661
+use hoeusb
+------------------------------------------
+No.37289819
+>>37289499
+not in debian repos
+
+>you can compile it from source
+yep, cloned via git but the official instructions makes it throw 2 critical errors.
+
+>but you can try the custom repo listed on hoeusbs website
+I did. Turns out that repo has removed hoeusb.
+
+I tried Rufus via Wine. Won't detect USB.
+An online guide suggested virtualbox. Removed from Debian 9.
+
+FUCK
+------------------------------------------
+No.37291105
+OH MY FUCKING GOODNESS
+After much grief I've finally managed a minimal install of AMD radeon drivers without all the bloat,
+first I just had several problems just upgrading the drivers because of a new card change, then it would all be fine with the bloat and useless features within, if ONLY it actually worked
+but none of the overlay, spec metrics worked at all, all of the "features" instead of improving performance would make it worse, if making a difference at all...
+
+So finally I looked it up and saw there was a way to force a minimal install, where you remove the bloat, and use the hardware management tool to manually select some driver blobs within the AMD install pack
+BUT here is the thing, you need to fully uninstall the "Radeon Software" first, RUN the cleanup utility, boot up fresh, and only then you may install the driver blob again, because godknows AMD always leaves some trash behind
+so anyway, hope you can pass knowledge forward, my system is still hn0.1 btw
+------------------------------------------

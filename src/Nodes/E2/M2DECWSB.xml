@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Computer id="E2M2B" name="DEC Affairs Reporting Hub" ip="79.5.102.69">
+<Computer id="E2M2B" name="DEC Report Upload Hub" ip="79.5.102.69">
 
+    <portsForCrack val="9"/>
     <ports>21, 6881, 80</ports>
-    <portsForCrack val="88"/>
+    
     <admin type="fast" isSuper="false" resetPassword="false"/>
     <adminPass pass="hubdotbat"/>
     <file path="Drop/Uploads" name="report_10_01_10.txt">
@@ -97,7 +98,7 @@ MI A O U (ミヤオウ)
     <file path="Drop/Uploads" name="report_10_04_10.txt">
 Name: Joan Rider
 EIN: 33381
-John constantly spends his time browsing hacker forums and neglects his current projects.
+John Whittlebury constantly spends his time browsing hacker forums and neglects his current projects.
 We've had to remove several of his responsibilities already.
 His failure to adhere to company security guidelines doesn't help.
 We really need some disciplinary actions to be taken.
@@ -105,5 +106,8 @@ We really need some disciplinary actions to be taken.
 
       <uploadServerDaemon name="Upload Report" folder="Drop" 
                       needsAuth="false" color="255,127,127"/>
+
+    <dlink target="E2M2G"/>
+    <dlink target="E2M3G"/>
 
 </Computer>

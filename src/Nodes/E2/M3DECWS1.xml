@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Computer id="E2M3P1" name="DEC Internal Raven" ip="79.5.105.43">
+<Computer id="E2M3P1" name="DEC Internal Pouakai" type="1" ip="79.5.105.43">
 
-    <ports>21, 22</ports>
     <portsForCrack val="2"/>
-    <admin type="basic" isSuper="false" resetPassword="false"/>
+    <ports>21, 22</ports>
+    
+    <admin type="progress" isSuper="false" resetPassword="false"/>
 
     <file path="home" name="Note.txt">
 Successfully got a job at DEC!
@@ -19,5 +20,7 @@ I hope I get another promotion for this
     <file path="home" name="comshell.exe">#SHELL_CONTROLLER_EXE#</file>
 
     <file path="sys" name="x-server.sys">#BIANRY#</file>
+
+    <dlink target="E2M3G"/>
 
 </Computer>

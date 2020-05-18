@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Computer id="E2M2P1" name="DEC Internal Workstation Joan" ip="79.5.102.60">
+<Computer id="E2M2P1" type="1" name="DEC Internal Workstation Joan" ip="79.5.102.60">
 
-    <ports>21, 6881, 80</ports>
     <portsForCrack val="3"/>
+    <ports>21, 6881, 80</ports>
+    
     <admin type="fast" isSuper="false" resetPassword="false"/>
 
     <file path="home" name="Steve_IRC.txt">
@@ -18,5 +19,7 @@ Joan: Isn't that what we all do?
     </file>
 
     <file path="sys" name="x-server.sys">#BIANRY#</file>
+    
+    <dlink target="E2M2G"/>
 
 </Computer>

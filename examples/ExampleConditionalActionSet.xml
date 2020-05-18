@@ -1,0 +1,50 @@
+<ConditionalActions>
+  
+  <!-- These groupings describe conditions that need to be met before the actions contained within will trigger
+  
+  This one is checked when the player connects to the PC with ID in the target field. needsMissionComplete and reqiuredFlags are optional
+  additional checks that you can apply.
+    -->
+  <OnConnect target="advExamplePC" needsMissionComplete="true" requiredFlags="decypher">
+    <!-- You can put any action that was described in the ExampleFaction file here - like this! -->
+    <AddIRCMessage Author="DependableSkeleton" TargetComp="advExamplePC" Delay="2.1">Hey, you're back, having just completed your mission.</AddIRCMessage>
+    
+  </OnConnect>
+
+  <!-- Triggers once the player has *all* of the flags in a comma separated list in requiredFlags -->
+  <HasFlags requiredFlags="decypher,otherFlag">
+    <!--Actions here-->
+    <AddIRCMessage Author="DependableSkeleton" TargetComp="advExamplePC" Delay="0.1">has some flags!</AddIRCMessage>
+  </HasFlags>
+
+  <!-- triggered once the player gets admin access to the target machine -->
+  <OnAdminGained target="advExamplePC">
+    <!--Actions here-->
+    <AddIRCMessage Author="DependableSkeleton" TargetComp="advExamplePC" Delay="2.1">Wow, nice! You got admin on the example server.</AddIRCMessage>
+  </OnAdminGained>
+
+  <!-- this triggers immediately, as soon as this is finished loading! Actions will happen in the order they appear in this file.-->
+  <Instantly>
+    <!--Actions here-->
+    <AddIRCMessage Author="DependableSkeleton" TargetComp="advExamplePC" Delay="0.1">First!</AddIRCMessage>
+  </Instantly>
+
+  <Instantly needsMissionComplete="true">
+    <!--You can also have the needs mission complete flag on instantly actions-->
+    <AddIRCMessage Author="DependableSkeleton" TargetComp="advExamplePC" Delay="0.3">Second, if mission complete!</AddIRCMessage>
+  </Instantly>
+
+  <!-- Triggers if the player has none of the flags in the list -->
+  <DoesNotHaveFlags Flags="SomeFlag,MoreFlags">
+    <!--Actions here-->
+    <AddIRCMessage Author="DependableSkeleton" TargetComp="advExamplePC" Delay="0.1">doesn't have some other flags!</AddIRCMessage>
+  </DoesNotHaveFlags>
+
+  <!-- Triggers when the player disconnects from something, or connects to their own computer.
+       You can remove the target tag (or set it to "NONE") to have this trigger when the player disconnects from anything.-->  
+  <OnDisconnect target="advExamplePC">
+    <!--Actions here-->
+    <AddIRCMessage Author="DependableSkeleton" TargetComp="advExamplePC" Delay="0.1">Disconnected!</AddIRCMessage>
+  </OnDisconnect>
+
+</ConditionalActions>

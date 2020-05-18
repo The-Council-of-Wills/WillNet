@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Computer id="E4N1" ip="118.210.220.38" name="Mett's computer" type="2">
+
+    <portsForCrack val="6"/>
+    <ports>21, 22, 80, 443, 6881, 554</ports>
+    <firewall level="7" solution="hacknet" additionalTime="0.0"/>
+    <proxy time="1"/>
+    <trace time="100.0"/>
+    <tracker/>
+
+    <file path="home" name="the_plan.txt">
+- make Hacknet Version 2
+- hack time
+- save Bit
+</file>
+
+    <file path="bin" name="PacificPortCrusher.exe">#PACIFIC_EXE#</file>
+    <file path="bin" name="PacificNotes.txt">Army started using these, don't ask me why. Either it's actually quite secure, or someone was high.</file>
+
+    <file path="home/Hv2_logs" name="dod.log">
+connection opened to 6.0.x.x/8 from localhost
+Proxy overloaded on 6.0.x.x/8 from localhost
+Firewall solved on 6.0.x.x/8 from localhost
+HTTP cracked on 6.0.x.x/8 from localhost
+SSL cracked on 6.0.x.x/8 from localhost
+SSH cracked on 6.0.x.x/8 from localhost
+FTP cracked on 6.0.x.x/8 from localhost
+SQL cracked on 6.0.x.x/8 from localhost
+Pacific cracked on 6.0.x.x/8 from localhost
+KBT cracked on 6.0.x.x/8 from localhost
+</file>
+
+</Computer>

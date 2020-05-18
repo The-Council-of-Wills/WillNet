@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Computer id="E3RTSPWS2" ip="89.185.82.146" name="MeTube WS2" type="1">
+    
+    <portsForCrack val="3"/>
+    <ports>80, 21, 22</ports>
+    
+    <adminPass pass="password"/>
+
+    <dlink target="E3RTSPG2"/>
+
+    <file path="home" name="javed_IRC.txt">
+James: You were saying earlier about making your phone more secure?
+Javed: Yes. By default the admin password is just alpine.
+James: And your's isn't?
+Javed: Yeah, it's notalpine.
+James: not alpine*
+Javed: Yeah, typo, my bad.
+</file>
+    
+</Computer>

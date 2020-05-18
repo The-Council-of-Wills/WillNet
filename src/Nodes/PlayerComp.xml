@@ -1,17 +1,15 @@
 <?xml version = "1.0" encoding = "UTF-8" ?>
-<Computer id="playerComp" name="#PLAYERNAME# VM(1)" security="3" allowsDefaultBootModule="false" type="1">
+<Computer id="playerComp" name="#PLAYERNAME# PC(1)" security="3" allowsDefaultBootModule="false" type="1">
 
     <adminPass pass="rememberbit" />
     <account username="#PLAYERNAME#" password="Q2FudEhhY2tUaGlz" type="ADMIN" />
 
+    <portsForCrack val="101" />
     <ports>21, 22, 25, 80</ports>
 
     <proxy time="-1" />
-    <portsForCrack val="101" />
+    
     <trace time="300" />
-
-    <!-- Intentional starting newline -->
-
 
 <file path="bin" name="WebServerWorm.exe">#WEB_CRACK#</file>
 <file path="bin" name="SQLInject.exe">#SQL_CRACK#</file>

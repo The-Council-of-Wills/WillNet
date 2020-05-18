@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Computer id="RTSPMainServer" ip="89.185.82.35" name="MeTube Server" type="4">
+
+    <portsForCrack val="6"/>
+    <ports>21, 22, 80, 443, 6881, 554</ports>
+    
+    <proxy time="1"/>
+    <trace time="200.0"/>
+
+    <file path="videos/markkimmo" name="hello_everybody.mp3">#BINARY#</file>
+    <file path="videos/marky" name="hello_everybody.mp3">#BINARY#</file> <!--this is the fake you're supposed to delete-->
+    <!--need WAY more-->
+
+    <dlink target="RTSPG1"/>
+
+</Computer>

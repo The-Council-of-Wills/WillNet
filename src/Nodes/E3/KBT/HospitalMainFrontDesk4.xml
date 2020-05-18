@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Computer id="KBTFront4" ip="106.202.49.54" name="Hospital Front Desk 4" type="1">
+
+    <portsForCrack val="5"/>
+    <ports>21, 22, 80, 104, 443, 6881</ports>
+    <trace time="-1"/>
+
+    <file path="home" name="strange.txt">
+There's a new connection being made every day to the back network... pretty worrying.
+Though they've always got a new firewall, the password's always pretty weak.
+I'm betting it's one of these today:
+ballet
+damien
+nascar
+
+2nd one looks like a name...
+</file>
+
+    <dlink target="KBTFrontG"/>
+
+</Computer>

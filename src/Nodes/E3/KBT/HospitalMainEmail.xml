@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Computer id="KBTEmail" ip="106.202.49.100" name="Hospital Email server" type="4">
+
+    <firewall level="5" solution="opium" additionalTime="0.0"/>
+    <portsForCrack val="5"/>
+    <ports>21, 22, 25, 80, 443, 104</ports>
+
+    <account username="sysadmin-Alice" password="fafwEFD]fd;" type="2"/>
+    <account username="sysadmin-Blake" password="fnj'sdf" type="2"/>
+    
+
+    <!--add more emails so it's less terrible-->
+    
+    <mailServer name="HospitalMail" color="0,4,254" generateJunk="true">
+        <email recipient="sysadmin-Alice" sender="sysadmin-Blake" subject="strange ip">
+
+        A strange ip is showing up on the network every now and then, with more traffic than usual.
+        I think it's very dodgy, and that an attack may be in the process of planning - obviously that would be catastrophic.
+        To deal with this it would probably be better to set up a blacklist. Their ip is 145.48.30.48
+            
+        </email>
+
+        <email recipient="sysadmin-Blake" sender="sysadmin-Alice" subject="RE: strange ip">
+
+        There a reason you're not setting this up yourself?
+        Yeah, no worries, this was pretty quick. Already done. You don't have to worry. :P
+
+        </email>
+    </mailServer>
+
+    <dlink target="KBTBackG"/>
+
+</Computer>

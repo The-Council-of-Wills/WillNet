@@ -1,0 +1,13 @@
+<ConditionalActions>
+    <Instantly needsMissionComplete="false">
+        <DeleteFile TargetComp="playerComp" FilePath="sys" FileName="x-server.sys"/>
+        <CopyAsset DestFilePath="sys" DestComp="playerComp" SourceComp="assetNode" SourceFileName="x-server.sys" SourceFilePath="sys/0"/>
+        <LaunchHackScript Filepath="Scripts/OSUpgradeNotif.txt"/>
+        <StartScreenBleedEffect AlertTitle="hn_OS Upgrade" CompleteAction="Actions/Upgrade1Complete.xml" TotalDurationSeconds="10">Configuring installation
+Please stand by
+Reboot pending</StartScreenBleedEffect>
+    </Instantly>
+    <!--<OnDisconnect target="WillDrop">
+        <LaunchHackScript Filepath="Scripts/newjob.txt" TargetComp="playerComp"/>
+    </OnDisconnect>-->
+</ConditionalActions>

@@ -1,0 +1,18 @@
+<mission id="E3M1" activeCheck="true">
+  <goals>
+    <goal type="getadmin" target="WillEl"/>
+  </goals>
+  <nextMission IsSilent="true">NONE</nextMission>
+  <branchMissions>
+    <branch>Missions/E3/MnetmapPart1.xml</branch>
+  </branchMissions>
+
+  <email>
+    <sender></sender>
+    <subject></subject>
+    <body>Never sent</body>
+    <attachments>
+    </attachments>
+  </email>
+
+</mission>

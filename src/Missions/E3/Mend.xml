@@ -1,0 +1,15 @@
+<mission id="E3Mend" activeCheck="true">
+  <goals>
+    <goal type="getadmin" target="WillEl"/>
+  </goals>
+  <nextMission IsSilent="true">NONE</nextMission> <!-- TODO link to e4 mission def-->
+
+  <email>
+    <sender></sender>
+    <subject></subject>
+    <body>Never sent</body>
+    <attachments>
+    </attachments>
+  </email>
+
+</mission>

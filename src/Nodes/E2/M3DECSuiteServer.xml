@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Computer id="E2M3S" name="DEC Source" type="3" ip="79.5.105.100">
+<Computer id="DECSuiteServer" name="DEC Source" type="3" ip="79.5.105.100">
 
     <firewall level="7" solution="pedroso" additionalTime="0.0"/>
     <proxy time="2"/>
-    <ports>80, 1433, 22, 21, 6881</ports>
     <portsForCrack val="5"/>
+    <ports>80, 1433, 22, 21, 6881</ports>
+    
     <admin type="fast" resetPassword="false" isSuper="true" />
 
     <dlink target="E2M3G"/>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Computer id="E3NetmapTemp" name="Stark Cloud Platform VPS" type="2" ip="151.101.1.195">
+
+    <portsForCrack val="0"/>
+    <ports>22, 6881</ports>
+
+    <trace time="-1"/>
+
+    <file path="home" name="wassup.txt">Just take the program and go, guys. This is literally just an open VPS.</file>
+    <file path="home" name="NetMapOrganizer.exe">#NETMAP_ORGANIZER_EXE#</file>
+
+    <file path="sys" name="x-server.sys">#BINARY#</file>
+
+</Computer>

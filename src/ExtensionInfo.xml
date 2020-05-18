@@ -65,7 +65,9 @@ They say it's not finished, but it might just be enough to get you back in the s
 --- WillNet ---
 Some time after the events involving Bit, you stumble accross a hacker forum by the name of "The Council of Wills".
 They have a number of software projects on the go, but one in particular catches your eye: A Crack of HacknetOS.
-They say it's not finished, but it might just be enough to get you back in the scene.
+      They say it's not finished, but it might just be enough to get you back in the scene.
+
+If requesting help with this extension, please do not use the steam forums. Instead use the Hacknet Discord https://discord.gg/hacknet
 </WorkshopDescription>
 
   <!-- Language that this is set to. -->
@@ -79,7 +81,7 @@ They say it's not finished, but it might just be enough to get you back in the s
 
   <!-- Comma separated list of tags that this should be listed under in the workshop. This is not currently used, as the only category
   of workshop item in Hacknet is "Extension", so leave this as-is for now.-->
-  <WorkshopTags>Extension, #Hackerjam2</WorkshopTags>
+  <WorkshopTags>Extension, Labyrinths, Hackerjam2</WorkshopTags>
 
   <!-- Path to the preview image used on the steam workshop for your extension.
   This must be within your mod folder, be 16x9 aspect ratio and less than 1MB in size. 

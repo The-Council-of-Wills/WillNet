@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Computer id="KBTWhitelist" name="Hospital Whitelist Server" type="4" ip="106.202.46.100">
+
+    <portsForCrack val="6"/>
+    <ports>22, 21, 80, 443, 1433, 6881</ports>
+    <firewall level="8" solution="medicine" additionalTime="0.0"/>
+    
+    <trace time="-1"/>
+    <admin type="basic" isSuper="false" resetPassword="false"/>
+
+    <WhitelistAuthenticatorDaemon SelfAuthenticating="false" />
+
+    <file path="Whitelist" name="list.txt">
+106.202.46.50
+106.202.46.51
+    </file>
+<!--add hospital network nodes to whitelist-->
+
+
+</Computer>

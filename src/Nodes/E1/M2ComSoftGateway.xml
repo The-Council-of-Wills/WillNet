@@ -1,0 +1,13 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="ComSoftG1" name="ComSoft Gateway 1" type="4" ip="222.51.39.2">
+
+  <portsForCrack val="2"/>
+  <ports>21,80</ports>
+  <trace time="-1" />
+  <admin type="progress" resetPassword="true" isSuper="false"/>
+  <adminPass pass="tty4lyfe"/>
+
+  <dlink target="ComSoftWS1"/>
+  <dlink target="ComSoftWS2"/>
+
+</Computer>

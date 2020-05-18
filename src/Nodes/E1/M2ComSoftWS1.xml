@@ -1,0 +1,23 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="ComSoftWS1" name="ComSoft Workstation 1" type="3" ip="222.51.39.10">
+
+  <portsForCrack val="4"/>
+  <ports>1433, 80, 22, 21</ports>
+  <trace time="-1" />
+  <admin type="progress" resetPassword="false" isSuper="false"/>
+  <adminPass pass="tty4lyfe"/>
+
+  <file path="home" name="IRC_Dave.txt">
+Dave: Y'know what?
+SteveO: what
+Dave: Humans really are the weak point in IT,
+SteveO: whats brought this on
+Dave: I just had a word with our IT guy. It turns out he uses the same password everywhere.
+Dave: F&amp;&amp;king everywhere! Firewalls, admin accounts, you name it, he's only got the one...	
+SteveO: the hell? dammit man
+  </file>
+
+  <dlink target="ComSoftG1" />
+  <dlink target="ComSoftWS2" />
+
+</Computer>

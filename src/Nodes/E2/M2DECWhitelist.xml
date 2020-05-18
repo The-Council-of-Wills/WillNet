@@ -4,16 +4,19 @@
     <firewall level="7" solution="tumbler" additionalTime="0.0"/>
     <ports>80, 1433, 21, 22, 6881</ports>
     <portsForCrack val="5"/>
+    <adminPass pass="9wZ4jDYj"/>
+    
     <trace time="-1"/>
     <admin type="basic" isSuper="false" resetPassword="false"/>
 
     <WhitelistAuthenticatorDaemon SelfAuthenticating="false" />
 
     <file path="Whitelist" name="list.txt">
-    placeholdertext
-    <!--ADD SOME IPs-->
+79.5.101.20
+33.51.191.4
+33.51.191.33
     </file>
 
-    <!--dlink computers on DEC network-->
+    <dlink target="E2M2G"/>
 
 </Computer>

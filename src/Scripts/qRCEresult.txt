@@ -1,6 +1,6 @@
 config [TARGET_COMP] [SOURCE_COMP] 0.25 $#%#$
 
-delay 5 $#%#$
+delay 2 $#%#$
 writel Connection recieved from Quartz's RCESuite! $#%#$
 writel_silent  $#%#$
 delay 1 $#%#$
@@ -15,7 +15,9 @@ delay 1 $#%#$
 writel_silent  $#%#$
 delay 1 $#%#$
 writel Success! Found the following credentials: $#%#$
-writel_silent admin | hubdotbat $#%#$
+writel_silent addr: 79.5.102.69 $#%#$
+writel_silent user: admin $#%#$
+writel_silent pass: hubdotbat $#%#$
 delay 1 $#%#$
 writel_silent  $#%#$
 delay 1 $#%#$

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Computer id="E3SSLL" name="Jake's Laptop" type="2" ip="253.230.123.44">
+
+    <firewall level="6" solution="orion" additionalTime="0.0"/>
+    <portsForCrack val="3"/>
+    <ports>21, 22, 80, 443</ports>
+    
+    <trace time="100"/>
+
+    <tracker/>
+
+    <file path="bin" name="SSLTrojan.exe">#SSL_EXE#</file>
+
+    <!--yeah, this one's just there. The interesting bit is meant to the first tracker in the game.-->
+
+    <file path="sys" name="x-server.sys">#BINARY#</file>
+</Computer>

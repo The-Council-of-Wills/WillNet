@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Computer id="E3NetmapWS" name="Katrina Battlestation Alpha" type="2" ip="201.33.164.89">
+
+    <portsForCrack val="2"/>
+    <ports>22, 6881</ports>
+
+    <trace time="-1"/>
+
+    <file path="home/IRC" name="backup_031216_to_hate_or_to_not.txt">
+Grace// You really let us down that last game :/
+Katrina// I just got timinged! It's not my fault! If anything, you guys should've pushed with me!
+Grace// Hmmm. It's never your fault, huh?
+Katrina// Shut up
+Grace// Relax, I was just teasing you. Sorry.
+Katrina// Okay, thanks. Look, I tried my best. At least we figured out sniping's not my strong suit.
+Grace// Ahh, much like remembering to add test cases for your inevitably buggy programs? uwu
+Katrina// I hate you
+</file>
+
+    <file path="home/Tuneswap" name="Tuneswap.sln">#BINARY#</file>
+    <file path="home/Tuneswap" name="Tuneswap.vcxproj">#BINARY#</file>
+    <file path="home/Tuneswap" name="Tuneswap.h">#BINARY#</file>
+    <file path="home/Tuneswap" name="Tuneswap.cpp">#BINARY#</file>
+    <file path="home/Tuneswap/bin/Release" name="Tuneswap.exe">#DLC_MUSIC_EXE#</file>
+
+    <file path="sys" name="x-server.sys">#BINARY#</file>
+
+</Computer>

@@ -1,0 +1,26 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+
+<Computer id="M1ENDNODE" name="Glargle Backups Drive" type="4" ip="181.189.28.57">
+<!-- little do they know that DEC can be reversed without a password or bruteforcing... -->
+
+    <portsForCrack val="4"/>
+    <ports>1433, 80, 22, 21</ports>
+    <trace time="-1"/>
+    <admin type="fast" isSuper="true" resetPassword="true"/>
+    <adminPass pass="Fdf490;:fd~"/>
+
+    <encryptedFile path="home/ComSoft" name="x-server.dec" extension=".sys" ip="181.189.28.57" header="x server if engineers whine too much" pass="correct horse battery staple">#GREEN_THEME#</encryptedFile>
+
+    <encryptedFile path="home/Partners" name="Jindal_Solutions_cooperative_strategy_q1_2013.dec" extension=".txt" ip="32.71.233.188" header="Planning for Q1 2013 (Jindal Solutions)" pass="jindal">Migrate Jindal's NetCon program OfficePlus integration to Angular to unify codebases</encryptedFile>
+    <encryptedFile path="home/Partners" name="Jindal_Solutions_cooperative_strategy_q2_2013.dec" extension=".txt" ip="32.71.233.188" header="Planning for Q2 2013 (Jindal Solutions)" pass="jindal">Continue OfficePlus integration migration, begin software development of Super Anime Beach Party: Definitive Edition with Entertainment division</encryptedFile>
+    <encryptedFile path="home/Partners" name="Jindal_Solutions_cooperative_strategy_q3_2013.dec" extension=".txt" ip="32.71.233.188" header="Planning for Q3 2013 (Jindal Solutions)" pass="jindal">Continue Super Anime Beach Party: Definitive Edition production, attempt collaborative OfficePlus integration with Slacker productivity software through NetCon</encryptedFile>
+    <encryptedFile path="home/Partners" name="Jindal_Solutions_cooperative_strategy_q4_2013.dec" extension=".txt" ip="32.71.233.178" header="Planning for Q4 2013 (Jindal Solutions)" pass="jindal">Dropping in favor of Encom, finish and release final version of OfficePlus integration, cease other ongoing development</encryptedFile>
+    <encryptedFile path="home/Partners" name="ENCOM_Technology_cooperative_strategy_q4_2013.dec" extension=".txt" ip="47.207.223.194" header="ENCOM MX 16-923" pass="master">ENCOM MX 16-923   USER #0176825  06:00  INFORMATION
+
+VIDEO GAME PROGRAM:  SPACE PARANOIDS
+ANNEXED 9/22 BY E. DILLENGER
+ORIGINAL PROGRAM WRITTEN BY K. FLYNN
+THIS INFORMATION PRIORITY ONE
+END OF LINE</encryptedFile>
+
+</Computer>

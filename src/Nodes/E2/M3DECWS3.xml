@@ -1,12 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Computer id="E2M3P3" name="DEC Internal 3" ip="79.5.105.45">
+<Computer id="E2M3P3" name="DEC Internal Sparrow" type="1" ip="79.5.105.45">
 
-    <ports>21, 22</ports>
     <portsForCrack val="2"/>
-    <admin type="basic" isSuper="false" resetPassword="false"/>
+    <ports>21, 22</ports>
+    
+    <admin type="progress" isSuper="false" resetPassword="false"/>
 
-    <file path="home" name="fromtheboss.txt">Do. More. Work.</file>
+    <file path="home" name="fromtheboss.txt">Family men have to stick together. Side note, how does a monthly family luncheon sound?</file>
+    <file path="home" name="fromjoan.txt">Roses are red. Crashes are blue. When I need pentests, I'll turn to you. ;)</file>
 
     <file path="sys" name="x-server.sys">#BIANRY#</file>
+
+    <dlink target="E2M3G"/>
 
 </Computer>

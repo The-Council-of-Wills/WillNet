@@ -1,4 +1,9 @@
 <ConditionalActions>
+    <Instantly needsMissionComplete="false">
+        <LaunchHackScript Filepath="Scripts/qrcedchint.txt" TargetComp="playerComp"/>
+        <!-- The following copyasset is a dumb workaround, need this in E2M4 but can't copy it during startMission CA?!? -->
+        <CopyAsset DestFilePath="xserverpackages" DestComp="UpgradeHelper" SourceComp="assetNode" SourceFileName="x-server.upgrade" SourceFilePath="sys/0"/>
+    </Instantly>
     <OnDisconnect target="E2M2B">
         <LaunchHackScript Filepath="Scripts/qRCEresult.txt" TargetComp="playerComp" SourceComp="E2M2B"/>
         <DeleteFile TargetComp="E2M2B" FilePath="Drop/Uploads" FileName="qRCEsuite.exe"/>

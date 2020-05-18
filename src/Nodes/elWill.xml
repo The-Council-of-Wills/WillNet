@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Computer id="WillEl" name="Council of Wills" ip="137.74.187.103">
+
+    <portsForCrack val="8"/>
+    <ports>80, 1433, 21, 22, 6881, 443, 554, 104</ports>
+    
+    <admin type="progress" isSuper="false" resetPassword="false"/>
+    <adminPass pass="a long and complicated password with spaces"/>
+
+    <messageBoard name="Board of Wills">
+        <thread>Docs/WillBoard/netmapThread.txt</thread>
+        <thread>Docs/WillBoard/SSLThread.txt</thread>
+        <thread>Docs/WillBoard/FILLER_hacknetOSThread.txt</thread>
+        <thread>Docs/WillBoard/FILLER_emacsThread.txt</thread>
+        <thread>Docs/WillBoard/RTSPThread.txt</thread>
+        <thread>Docs/WillBoard/KBTThread.txt</thread>
+    </messageBoard>
+
+</Computer>
