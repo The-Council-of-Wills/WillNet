@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Computer id="E2M1P" name="John's Home Computer" type="2" ip="79.5.101.20">
 
-    <portsForCrack val="3"/>
+    <portsForCrack val="4"/>
     <ports>21, 22, 80, 6881, 443</ports>
     
 
@@ -16,6 +16,8 @@ Use this if new employees need to be added to make the connection
     </note>
       
     <mail username="john@jmail.com" pass="jonathan"/>
+
+    <file path="sys" name="x-server.sys">#BINARY#</file>
       
   </eosDevice>
 </Computer>

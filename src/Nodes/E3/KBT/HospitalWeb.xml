@@ -9,4 +9,6 @@
 
     <addWebServer name="Your Hospital's website" url="Web/Hospital/page.html"/>
 
+    <dlink target="KBTMaintenanceG"/>
+
 </Computer>

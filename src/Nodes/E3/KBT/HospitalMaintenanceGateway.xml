@@ -7,6 +7,8 @@
     <trace time="-1"/>
     <firewall level="8" solution="medicate" additionalTime="0.0"/>
 
-    <!--dlink to sysadmin workstations-->
+    <dlink target="KBTWeb"/>
+    <dlink target="KBTMaintenanceWS1"/>
+    <dlink target="KBTMaintenanceWS2"/>
 
 </Computer>
