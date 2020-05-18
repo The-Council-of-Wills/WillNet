@@ -7,7 +7,7 @@
     <trace time="-1"/>
     <adminPass pass="realtech"/>
 
-    <file path="home" name="ThemeChanger.exe">#SMTP_CRACK#</file>
+    <file path="home" name="SMTPCracker.exe">#SMTP_CRACK#</file>
     <file path="home" name="enquiry.txt">I'm so fucked.</file>
 
     <dlink target="KBTFrontG"/>
