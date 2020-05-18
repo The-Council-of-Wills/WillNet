@@ -2,8 +2,8 @@
 <Computer id="KBTEmail" ip="106.202.49.100" name="Hospital Email server" type="4">
 
     <firewall level="5" solution="opium" additionalTime="0.0"/>
-    <ports>21, 22, 25, 80, 443, 104</ports>
     <portsForCrack val="5"/>
+    <ports>21, 22, 25, 80, 443, 104</ports>
 
     <account username="sysadmin-Alice" password="fafwEFD]fd;" type="2"/>
     <account username="sysadmin-Blake" password="fnj'sdf" type="2"/>

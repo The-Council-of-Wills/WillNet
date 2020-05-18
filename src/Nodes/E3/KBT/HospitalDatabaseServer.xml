@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Computer id="KBTDatabase" ip="106.202.49.54" name="Hospital Medical Database" type="4">
+<Computer id="KBTDatabase" ip="106.202.50.54" name="Hospital Medical Database" type="4">
 
     <MedicalDatabase />
 
