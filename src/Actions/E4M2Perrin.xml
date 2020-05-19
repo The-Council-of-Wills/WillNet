@@ -1,0 +1,6 @@
+<ConditionalActions>
+    <Instantly>
+        <SwitchToTheme ThemePathOrName="Themes/Mett.xml" FlickerInDuration="0.5" Delay="17.5" />
+        <RunFunction FunctionName="playCustomSong" FunctionValue="Music/ChopinNocturne.ogg" />
+    </Instantly>
+</ConditionalActions>

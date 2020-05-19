@@ -15,5 +15,24 @@
 <file path="bin" name="SQLInject.exe">#SQL_CRACK#</file>
 <file path="bin" name="DNotes.exe">#NOTES_DUMPER_EXE#</file>
 
+<!-- Additional exes for testing (REMOVE FROM PUBLISH) -->
+<file path="bin" name="SSHCrack.exe">#SSH_CRACK#</file>
+<file path="bin" name="FTPBounce.exe">#FTP_CRACK#</file>
+<file path="bin" name="SMTPOverflow.exe">#SMTP_CRACK#</file>
+<file path="bin" name="HexClock.exe">#HEXCLOCK_EXE#</file>
+<file path="bin" name="Clock.exe">#CLOCK_PROGRAM#</file>
+<file path="bin" name="Decypher.exe">#DECYPHER_PROGRAM#</file>
+<file path="bin" name="DECHead.exe">#DECHEAD_PROGRAM#</file>
+<file path="bin" name="KBTPortTest.exe">#MEDICAL_PROGRAM#</file>
+<file path="bin" name="ThemeChanger.exe">#THEMECHANGER_EXE#</file>
+<file path="bin" name="eosDeviceScan.exe">#EOS_SCANNER_EXE#</file>
+<file path="bin" name="SecurityTracer.exe">#SECURITYTRACER_PROGRAM#</file>
+<file path="bin" name="Tracekill.exe">#TRACEKILL_EXE#</file>
+<file path="bin" name="RTSPCrack.exe">#RTSP_EXE#</file>
+<file path="bin" name="ESequencer.exe">#EXT_SEQUENCER_EXE#</file>
+<file path="bin" name="OpShell.exe">#SHELL_OPENER_EXE#</file>
+<file path="bin" name="TorrentStreamInjector.exe">#TORRENT_EXE#</file>
+<file path="bin" name="MemoryDumper.exe">#MEM_DUMP_GENERATOR#</file>
+<file path="bin" name="MemoryForensics.exe">#MEM_FORENSICS_EXE#</file>
 
 </Computer>

@@ -1,0 +1,34 @@
+<mission id="E4M2" activeCheck="true">
+  <goals>
+    <goal type="filedeletion" target="E4N4" file="conscience.dll" path="sys"/>
+  </goals>
+  <missionStart>loadConditionalActions:Actions/E4M2.xml</missionStart>
+  <nextMission>Missions/E4/M3.xml</nextMission>
+  <email>
+    <sender>WILL</sender>
+    <subject>Holy fuck.</subject>
+    <body>#PLAYERNAME#
+
+Holy fuck.
+
+The DS is probing the Department of Defense's IP range.
+
+You need some way to analyze the computer's command logs stored in RAM, no sane DS consience hacks the DoD without clearing filesystem logs.
+
+We're uploading some memory forensics tools to the download server (137.74.187.101).
+There is also another program called esequencer.exe, that we've configured to target a critical entry point into the DoD.
+
+Take these 3 programs, and when ready, start the sequencer.
+
+Look around for logs, connections, anything - get to the DS and delete its conscience.dll.
+You may also want to delete hacknetv2 - some would say such a dangerous device should never exist.
+
+Good luck... WILL.
+
+--
+WILL</body>
+    <attachments>
+    </attachments>
+  </email>
+
+</mission>

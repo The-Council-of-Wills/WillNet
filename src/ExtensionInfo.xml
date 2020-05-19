@@ -46,12 +46,10 @@ They say it's not finished, but it might just be enough to get you back in the s
   <IntroStartupSong>The_Quickening</IntroStartupSong>
 
   <!-- Sequencer stuff. You won't need this till later.-->
-  <!--
-  <SequencerTargetID>advExamplePC</SequencerTargetID>
-  <SequencerSpinUpTime>10.5</SequencerSpinUpTime>
-  <SequencerFlagRequiredForStart>testFlag</SequencerFlagRequiredForStart>
-  <ActionsToRunOnSequencerStart>Actions/ThemeSwapActions.xml</ActionsToRunOnSequencerStart>
-  -->
+  <SequencerTargetID>E4N2</SequencerTargetID>
+  <SequencerSpinUpTime>17.5</SequencerSpinUpTime>
+  <!--<SequencerFlagRequiredForStart>testFlag</SequencerFlagRequiredForStart>-->
+  <ActionsToRunOnSequencerStart>Actions/E4M2Perrin.xml</ActionsToRunOnSequencerStart>
   
   <!-- Steam workshop fields -->
   <!-- 

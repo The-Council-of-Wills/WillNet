@@ -1,9 +1,10 @@
 #PLAYERNAME#
 
 congratulations, you did it.
-127.0.0.1
 
-If you've gotten here, you know what to do.
+You know what happens next.
+
+127.0.0.1
 
 --
 WILL

@@ -2,7 +2,7 @@
   <goals>
     <goal type="getadmin" target="WillEl"/>
   </goals>
-  <nextMission IsSilent="true">NONE</nextMission> <!-- TODO link to e4 mission def-->
+  <nextMission>Missions/E4/M1.xml</nextMission>
 
   <email>
     <sender></sender>

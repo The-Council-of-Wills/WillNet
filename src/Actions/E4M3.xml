@@ -1,0 +1,5 @@
+<ConditionalActions>
+    <Instantly needsMissionComplete="false">
+        <SwitchToTheme ThemePathOrName="Themes/AllBlack.xml" FlickerInDuration="2.0"/>
+    </Instantly>
+</ConditionalActions>
