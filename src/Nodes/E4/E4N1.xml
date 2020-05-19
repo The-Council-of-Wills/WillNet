@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Computer id="E4N1" ip="118.210.220.38" name="Mett's computer" type="2">
+<Computer id="E4N1" ip="118.210.220.38" name="Mett Build - Cerberus" type="2">
 
     <portsForCrack val="6"/>
     <ports>21, 22, 80, 443, 6881, 554</ports>
@@ -14,10 +14,9 @@
 - save Bit
 </file>
 
-    <file path="bin" name="PacificPortCrusher.exe">#PACIFIC_EXE#</file>
-    <file path="bin" name="PacificNotes.txt">Army started using these, don't ask me why. Either it's actually quite secure, or someone was high.</file>
+    <file path="home/hv2_build" name="PacificPortCrusher.exe">#PACIFIC_EXE#</file>
 
-    <file path="home/Hv2_logs" name="dod.log">
+    <file path="home/hv2_build" name="dod.log">
 connection opened to 6.0.x.x/8 from localhost
 Proxy overloaded on 6.0.x.x/8 from localhost
 Firewall solved on 6.0.x.x/8 from localhost
@@ -26,6 +25,11 @@ SSL cracked on 6.0.x.x/8 from localhost
 SSH cracked on 6.0.x.x/8 from localhost
 FTP cracked on 6.0.x.x/8 from localhost
 SQL cracked on 6.0.x.x/8 from localhost
+!Pacific port required but utility not available
+-BEE>searching SHODAN for protocol hosts [LINQ:"from d in devices where d.OpenPorts.Contains(192) orderby d.OpenPorts.Count select d"]
+-BEE>connection opened to "ICN Airport" from localhost [Route:"Backbone0->Switch0(jx)->ManagementHub"]
+-BEE>background intrusion [LogStream:3]
+-BEE>downloading Pacific utility [DatumSize:9712781;Target:"/home/hv2_build/PacificPortCrusher.exe"]
 Pacific cracked on 6.0.x.x/8 from localhost
 KBT cracked on 6.0.x.x/8 from localhost
 </file>

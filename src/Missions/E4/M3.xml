@@ -1,0 +1,21 @@
+<mission id="E4M3">
+  <goals></goals>
+  <missionStart>loadConditionalActions:Actions/E4M3.xml</missionStart>
+  <nextMission>NONE</nextMission>
+  <email>
+    <sender>WILL</sender>
+    <subject>Congratulations.</subject>
+    <body>#PLAYERNAME#
+
+Congratulations, you did it.
+127.0.0.1
+
+If you've gotten here, you know what to do.
+
+--
+WILL</body>
+    <attachments>
+    </attachments>
+  </email>
+
+</mission>

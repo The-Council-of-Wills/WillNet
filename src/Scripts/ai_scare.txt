@@ -1,0 +1,16 @@
+config playerComp playerComp 0.25 $#%#$
+
+write User $#%#$
+write_silent . $#%#$
+write_silent . $#%#$
+writel_silent . $#%#$
+write You
+writel_silent . $#%#$
+write Must $#%#$
+writel_silent . $#%#$
+write Not $#%#$
+writel_silent . $#%#$
+write Hack $#%#$
+writel_silent . $#%#$
+delay 1.75 $#%#$
+writel Deploying discouragement [Kind:"ThemeChange"] $#%#$
