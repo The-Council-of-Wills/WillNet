@@ -179,6 +179,8 @@ GoodWILL towards a fellow hacker.
 <file path="bin" name="ESequencer.exe">#EXT_SEQUENCER_EXE#</file>
 <file path="bin" name="OpShell.exe">#SHELL_OPENER_EXE#</file>
 <file path="bin" name="TorrentStreamInjector.exe">#TORRENT_EXE#</file>
+<file path="bin" name="MemoryDumper.exe">#MEM_DUMP_GENERATOR#</file>
+<file path="bin" name="MemoryForensics.exe">#MEM_FORENSICS_EXE#</file>
 
 
 </Computer>
