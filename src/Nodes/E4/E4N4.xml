@@ -4,7 +4,22 @@
     <portsForCrack val="1"/>
     <ports>22</ports>
 
-    <file path="home" name="launch_codes.txt">lol we changed them already</file>
+    <file path="home" name="launch_codes_original.txt">5b305c0f4db96251bdda8ded683a00f3
+b96a67cb4885b629bb9843995bee63bc
+829e4989546187e8697684086ddb5d85
+031c844efb0e7b4479a03ab33ab940e7
+10179e1d29aaa95e658e96f262cdc0b0
+d8dce1dca8f16a0aed125936ead83ada
+13fdd2b76efd5b373982684abe770465
+bd92e56f5d8f93ae1c9dfda43698d1e1
+de78ec8acd6340cb86ffbe9742970c5f
+f85f873b0697a283ee11ec3b8f7f740c
+3d95e148e4d86865ef5227dc9bf0ac04
+c6efda0f9d13a8ee7f0466d8e9896c0b
+383b8d925d85cfcf409ee33f886dca38
+17cd53ea6044e58e0bb83c0278ae4c99
+b66ceff0bbf140ceb3269405b2251aa4
+8a51295024cdfde10f9cccf642f72616</file>
 
     <file path="bin" name="HacknetV2.exe">#BINARY#</file>
 

@@ -6,6 +6,8 @@
     
     <admin type="fast" isSuper="false" resetPassword="false"/>
 
+    <file path="bin" name="ThemeChanger.exe">#THEMECHANGER_EXE#</file>
+
     <file path="Drop/Uploads" name="README.md">
 # STOP.
 This sector should be secure against nearly any intrusion.

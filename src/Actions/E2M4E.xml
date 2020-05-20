@@ -2,6 +2,10 @@
     <Instantly needsMissionComplete="false">
         <DeleteFile TargetComp="playerComp" FilePath="sys" FileName="x-server.sys"/>
         <CopyAsset DestFilePath="sys" DestComp="playerComp" SourceComp="assetNode" SourceFileName="x-server.sys" SourceFilePath="sys/0"/>
+        <CopyAsset DestFilePath="Themes" DestComp="UpgradeHelper" SourceComp="assetNode" SourceFileName="x-server-blue.sys" SourceFilePath="sys/0"/>
+        <CopyAsset DestFilePath="Themes" DestComp="UpgradeHelper" SourceComp="assetNode" SourceFileName="x-server-orange.sys" SourceFilePath="sys/0"/>
+        <CopyAsset DestFilePath="Themes" DestComp="UpgradeHelper" SourceComp="assetNode" SourceFileName="x-server-green.sys" SourceFilePath="sys/0"/>
+        <CopyAsset DestFilePath="Themes" DestComp="UpgradeHelper" SourceComp="assetNode" SourceFileName="x-server-purple.sys" SourceFilePath="sys/0"/>
         <LaunchHackScript Filepath="Scripts/OSUpgradeNotif.txt"/>
         <StartScreenBleedEffect AlertTitle="hn_OS Upgrade" CompleteAction="Actions/Upgrade1Complete.xml" TotalDurationSeconds="10">Configuring installation
 Please stand by

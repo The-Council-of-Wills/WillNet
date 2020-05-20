@@ -1,0 +1,10 @@
+<ConditionalActions>
+    <Instantly needsMissionComplete="false">
+        <DeleteFile TargetComp="playerComp" FilePath="sys" FileName="x-server.sys"/>
+        <CopyAsset DestFilePath="sys" DestComp="playerComp" SourceComp="assetNode" SourceFileName="x-server.sys" SourceFilePath="sys/1"/>
+        <LaunchHackScript Filepath="Scripts/ai_scare.txt"/>
+        <StartScreenBleedEffect AlertTitle="Discouragement" TotalDurationSeconds="2" Delay="5">User, presenting apology
+User discouragement required
+User, please stand by</StartScreenBleedEffect>
+    </Instantly>
+</ConditionalActions>

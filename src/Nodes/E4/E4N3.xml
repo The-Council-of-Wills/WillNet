@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Computer id="E4N3" ip="6.0.0.49" name="Nuclear launch codes here" type="4">
+<Computer id="E4N3" ip="6.0.0.49" name="Football" type="4">
 
     <proxy time="1"/>
     <firewall level="7" solution="PjfUY1L" additionalTime="0.0"/>
@@ -21,7 +21,7 @@
             <Block>EMPTY</Block>
         </Data>
         <Images>
-            <Image>EMPTY</Image>
+            <Image>Images/nsapassword.jpg</Image>
         </Images>
     </Memory>
     

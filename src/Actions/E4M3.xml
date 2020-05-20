@@ -1,0 +1,6 @@
+<ConditionalActions>
+    <Instantly needsMissionComplete="false">
+        <SwitchToTheme ThemePathOrName="Themes/AllBlack.xml" FlickerInDuration="2.0"/>
+        <KillExe ExeName="ESequencer" />
+    </Instantly>
+</ConditionalActions>

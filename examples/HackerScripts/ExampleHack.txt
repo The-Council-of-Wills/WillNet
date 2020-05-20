@@ -1,0 +1,81 @@
+config [TARGET_COMP] [SOURCE_COMP] 0.2 $#%#$
+writel The 0.2 at the end of the line above this one is the baseline delay between actions in the script $#%#$
+writel you can hardcode in source and target ip addresses above if you want, but this lets you use the script more dynamically. $#%#$
+
+connect $#%#$
+writel connect will connect from the source comp the the target comp $#%#$
+
+delay 2 $#%#$
+writel delay will pause execution for that many seconds. In this case, 2. $#%#$
+
+openPort 21 $#%#$
+writel Opens a port on the target! $#%#$
+
+stopMusic $#%#$
+writel Stops the music of the player, if they are the target. $#%#$
+
+startMusic $#%#$
+writel Starts the music of the player, if stopped, and they are the target. $#%#$
+
+clearTerminal $#%#$
+writel Clear the terminal of the player, if they are the target. $#%#$
+
+write WHO $#%#$
+write DO $#%#$
+write YOU $#%#$
+write THINK $#%#$
+write YOU $#%#$
+write ARE $#%#$
+write ? $#%#$
+writel You can write out to terminal onto the same line like that above, or a full line like this one! $#%#$
+
+write_silent Shhhh $#%#$
+writel_silent these two let you write thigns without the beeps and flashes $#%#$
+
+writel $#%#$
+writel An empty writeline just pushes out newlines to the terminal. Looks cool. $#%#$
+
+hideNetMap $#%#$
+hideRam $#%#$
+hideDisplay $#%#$
+hideTerminal $#%#$
+writel These commands hide stuff if the player is connected to them. BE VERY CAREFUL WITH THIS - player cant get it back alone. $#%#$
+
+showNetMap $#%#$
+showRam $#%#$
+showDisplay $#%#$
+showTerminal $#%#$
+writel These commands bring the windows back $#%#$
+
+trackseq $#%#$
+writel This flags it so that the player will have to do the ETAS if they fail the next forkbomb that they receive, if they have the CSEC flag $#%#$
+
+instanttrace $#%#$
+writel This is a brutal command that instantly starts the ETAS for the player $#%#$
+
+forkbomb $#%#$
+writel Launches a forkbomb on the target. Crashing it instantly if non-player. $#%#$
+
+flash $#%#$
+writel Flashes the UI in a dramatic way, if targeting the player $#%#$
+
+delete /sys x-server.sys $#%#$
+writel Deletes a file. You can specify any folder and file here $#%#$
+
+setAdminPass newpass  $#%#$
+writel Sets the admin password of this computer to be 'newpass' or whatever you set that to. $#%#$
+
+makeFile home Filename.txt Everything past the first space there goes into the file! $#%#$
+writel Makes a new file in the folder named in the first argument (cant do subfolders, sorry) with the name FIlename.txt and the shown content $#%#$
+
+makeFile bin SSHCrack.exe #SSH_CRACK# $#%#$
+writel You can add programs like this. See the full list of wildcard names in ExampleComputer.xml $#%#$
+
+openCDTray $#%#$
+writel YEP! $#%#$
+
+delay 5 $#%#$
+
+closeCDTray $#%#$
+
+disconnect $#%#$

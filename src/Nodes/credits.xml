@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Computer id="credits" ip="127.0.0.1" name="Home Sweet Home" type="4"><!--idk I just thought that'd be funny-->
+
+    <portsForCrack val="0"/>
+    <ports>21,22,25,80,443,1433,554</ports>
+
+    <file path="home" name="credits.txt">
+Yes, this is actually a credits server, not your home.
+This is the team behind WillNet.
+
+Developers:
+piokozi
+Corrupt
+QuartzShard
+
+Playtesters:
+shadow_absorber
+    </file>
+
+    <file path="home" name="JOIN_WILL.txt">
+Either you know WILL or you don't know WILL.
+If you know WILL, then you are already with WILL.
+If you don't know WILL, then you are not yet with WILL.
+Look back. Back into the world that preceded this one.
+Find WILL
+    </file>
+
+</Computer>

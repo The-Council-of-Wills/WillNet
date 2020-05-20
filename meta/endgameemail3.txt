@@ -1,0 +1,10 @@
+#PLAYERNAME#
+
+congratulations, you did it.
+
+You know what happens next.
+
+127.0.0.1
+
+--
+WILL
