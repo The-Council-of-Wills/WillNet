@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Computer id="fake" name="Daphne is Best" ip="88.255.88.255">
+
+    <portsForCrack val="1111"/>
+    <ports>80, 1433, 21, 22, 6881, 443, 554, 104</ports>
+    
+    <admin type="progress" isSuper="false" resetPassword="false"/>
+    <adminPass pass="Nice try, but I'm no..."/>
+
+  <IRCDaemon themeColor="255,255,255" name="Daphne IRC Channel" needsLogin="true">
+    <user name="Daphne (1)" color="233,233,233"/>
+    <user name="Daphne" color="255,255,255"/>
+
+    <post user="Daphne">Test</post>
+    <post user="Daphne (1)">I already hacked this</post>
+  </IRCDaemon>
+
+</Computer>
