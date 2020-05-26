@@ -3,7 +3,7 @@
 <Computer id="CrackEmail" ip="72.192.252.100" name="crackmail" type="4">
 
     <account username="sysadmin" password="not_actually_crack" type="MAIL"/>
-    <!--<account username="WILL" password="WILLISEVERYWHERE" type="MAIL"> keeping this here in case it turns out it won't work otherwise-->
+    <account username="WILL" password="WILLISEVERYWHERE" type="MAIL"/>
     <mailServer name="NightMail" color="0,51,102" generateJunk="true">
         <email recipient="sysadmin" sender="WILL" subject="you">
 You are weak.
