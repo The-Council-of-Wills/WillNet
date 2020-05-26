@@ -1,0 +1,12 @@
+<Computer id="CrackAdmin" ip="72.192.252.30" name="Crack Admin" type="1">
+
+    <ports>21,22,80,443,6881</ports>
+    <firewall level="10" solution="crackhouse" additionalTime="0.0"/>
+
+    <encryptedFile path="home" name="password.dec" extension=".txt" ip="localhost" header="The Crack House" pass="Imp0ss1bl3">
+[encrypted file]
+    </encryptedFile>
+
+    <file path="home" name="email.txt">Is it weird that I am connected to the email server directly? If so, blame the crack.</file>
+
+</Computer>

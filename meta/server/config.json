@@ -1,0 +1,28 @@
+{
+    "SysOrig": "ENCOM",
+    "SysBase": "FlynnOS",
+    "SysFlav": "EncomOS",
+    "SysVer1": "13.6.224-1 (2020-05-20)",
+    "SysVer2": "13.6.0-base-amd64",
+    "Hostname": "enblade",
+    "ServerBanner": "Cyaegha",
+    "PrivKeyPath": "privkey.pem",
+    "Address_": "127.0.0.1",
+    "Address": "10.138.0.11",
+    "Port_": 1131,
+    "Port": 22,
+    "FsDir": "filesystem",
+    "Permissions": {
+        "crack": {
+            "read": [
+                "*",
+                "home",
+                "home/crack/**"
+            ]
+        }
+    },
+    "Users": {
+        "admin": "I literally can't wait for zarory's r18 this month",
+        "crack": "romeotangofoxtrotmike"
+    }
+}
