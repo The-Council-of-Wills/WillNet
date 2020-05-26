@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Computer id="CrackEmail" ip="72.192.252.100" name="crackmail" type="4">
+
+    <account username="sysadmin" password="not_actually_crack" type="MAIL"/>
+    <!--<account username="WILL" password="WILLISEVERYWHERE" type="MAIL"> keeping this here in case it turns out it won't work otherwise-->
+    <mailServer name="NightMail" color="0,51,102" generateJunk="true">
+        <email recipient="sysadmin" sender="WILL" subject="you">
+You are weak.
+We have just *taken* your computer. Take a look.
+jacob@breaksabre.ashe.dev - the password is pamela.
+Access is blocked to VMs.
+But like, HOW THE FUCK DO YOU LET YOUR COMPUTER JUST BE TAKEN LIKE THAT.
+        </email>
+        <email recipient="sysadmin" sender="WILL" subject="RE: RE: you">
+You can do fuckall with it anyways so ¯\_(ツ)_/¯
+        </email>
+
+        <email recipient="WILL" sender="sysadmin" subject="RE: you">
+Stealing my shit?
+And you're just giving this away?
+Didn't know you could do that anyways but...
+Crackhead cunts.
+        </email>
+    </mailServer>
+
+</Computer>

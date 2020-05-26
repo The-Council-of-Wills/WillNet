@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Computer id="CrackAdmin" ip="72.192.252.30" name="Crack Admin" type="1">
+
+    <portsForCrack val="5"/>
+    <ports>21,22,80,443,6881</ports>
+    <firewall level="10" solution="crackhouse" additionalTime="0.0"/>
+
+    <encryptedFile path="home" name="password.dec" extension=".txt" ip="localhost" header="The Crack House" pass="Imp0ss1bl3">
+password: This_is_4_good_strong_passw0rd_that_no_one_WILL_ev3r_Gue5S.
+    </encryptedFile>
+
+    <eosDevice name="Crack Phone" id="CrackPhone" icon="ePhone2" empty="false">
+
+        <mail username="sysadmin@crackmail.com" pass="not_actually_crack"/>
+        
+        <file path="eos/test" name="crackedFile.txt">
+I may have not changed the password on this phone - I blame all the CRACK
+But believe me when I say - this phone is CRACKed
+... ... ...
+CRACK</file>
+    </eosDevice>
+
+    <dlink target="CrackEmail"/>
+
+    <file path="home" name="email.txt">Is it weird that I am connected to the email server directly? If so, blame the crack.</file>
+
+</Computer>

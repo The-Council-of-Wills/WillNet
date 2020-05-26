@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Computer id="CrackClicker" ip="72.192.252.80" name="Crack Clicker" type="4">
+
+    <portsForCrack val="69420"/>
+    <ports>80,443,6881,554</ports>
+    
+    <adminPass pass="This_is_4_good_strong_passw0rd_that_no_one_WILL_ev3r_Gue5S."/>
+
+    <PointCliker/>
+
+</Computer>
