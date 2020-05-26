@@ -6,10 +6,8 @@
     "SysVer2": "13.6.0-base-amd64",
     "Hostname": "enblade",
     "ServerBanner": "Cyaegha",
-    "PrivKeyPath": "privkey.pem",
-    "Address_": "127.0.0.1",
+    "PrivKeyPath": "/home/yourmum/sign.pem",
     "Address": "10.138.0.11",
-    "Port_": 1131,
     "Port": 22,
     "FsDir": "filesystem",
     "Permissions": {
