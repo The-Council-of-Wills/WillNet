@@ -5,6 +5,9 @@
   </goals>
   <missionEnd>loadConditionalActions:Actions/E3MnetmapPart1E.xml</missionEnd>
   <nextMission IsSilent="true">Missions/E3/MnetmapPart2.xml</nextMission>
+  <branchMissions>
+    <branch>Missions/E3/Mend.xml</branch>
+  </branchMissions>
 
   <email>
     <sender></sender>

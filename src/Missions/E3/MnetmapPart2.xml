@@ -4,6 +4,9 @@
   </goals>
   <missionEnd>loadConditionalActions:Actions/E3MnetmapPart2E.xml</missionEnd>
   <nextMission IsSilent="true">Missions/E3/Mend.xml</nextMission>
+  <branchMissions>
+    <branch>Missions/E3/Mend.xml</branch>
+  </branchMissions>
 
   <email>
     <sender></sender>

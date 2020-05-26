@@ -2,7 +2,7 @@
   <goals>
     <goal type="getadmin" target="WillEl"/>
   </goals>
-  <nextMission IsSilent="true">NONE</nextMission>
+  <nextMission>Missions/E4/M1.xml</nextMission>
   <branchMissions>
     <branch>Missions/E3/MnetmapPart1.xml</branch>
   </branchMissions>
