@@ -18,8 +18,9 @@ Playtesters:
 shadow_absorber
     </file>
 
-    <file path="home" name="JOIN_WILL.txt">
-JOIN WILL
-[invite_link_here_discuss_later_on_discord]    
-</file>
+    <file path="home" name="what_next.txt">
+You think it's over?
+Check the threads.
+    </file>
+
 </Computer>
