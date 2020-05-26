@@ -1,7 +1,7 @@
 <ConditionalActions>
     <Instantly needsMissionComplete="false">
         <LaunchHackScript Filepath="Scripts/OSUpgradeNotif.txt"/>
-        <StartScreenBleedEffect AlertTitle="hn_OS Upgrade" CompleteAction="Actions/UpgradeComplete.xml" TotalDurationSeconds="10">Configuring installation
+        <StartScreenBleedEffect AlertTitle="hn_OS Upgrade" CompleteAction="Actions/Upgrade1Complete.xml" TotalDurationSeconds="10">Configuring installation
 Please stand by
 Reboot pending</StartScreenBleedEffect>
     </Instantly>
