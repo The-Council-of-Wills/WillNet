@@ -10,6 +10,8 @@
     "Address": "10.138.0.11",
     "Port": 22,
     "FsDir": "filesystem",
+    "TimeoutMinutes": 5,
+    "SessionLimitMinutes": 30,
     "Permissions": {
         "crack": {
             "read": [
