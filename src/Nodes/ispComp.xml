@@ -1,0 +1,14 @@
+<? xml version="1.0" encoding="UTF-8"?>
+
+<Computer name="Birgin Media" ip="213.105.9.24" id="ispComp" type="4">
+
+    <portsForCrack val="2" />
+    <ports>80, 443</ports>
+
+    <trace time="-1"/>
+
+    <admin type="fast" resetPassword="true" isSuper="true"/>
+
+    <ispSystem />
+
+</Computer>
