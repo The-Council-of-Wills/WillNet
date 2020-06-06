@@ -1,0 +1,28 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+
+<Computer id="E1DadLindstrom" name="Lans Lindstrom PC" type="2" ip="65.199.22.231">
+
+    <portsForCrack val="7"/>
+    <ports>21,22,80,443,1433,192,104</ports>
+    <trace time="-1"/>
+    <admin type="fast" isSuper="true" resetPassword="true"/>
+    <adminPass pass="hakan"/>
+
+    <file path="home/diary" name="archive_2004.bin">#BINARY#</file>
+    <file path="home/diary" name="archive_2005.bin">#BINARY#</file>
+    <file path="home/diary" name="archive_2006.bin">#BINARY#</file>
+    <file path="home/diary" name="archive_2007.bin">#BINARY#</file>
+    <file path="home/diary" name="archive_2007.bin">#BINARY#</file>
+    <file path="home/diary" name="2008_18_01_0.txt">
+My boy Hakan, my heart aches so.
+I know I have not been the best father, and my words may never reach your heart,
+but I really do love you, and I vow to change this year.
+No more drinking. No more selfishness.
+I know you are very technically savvy, my dear boy. I know you can swiftly
+hack whatever you want, because you are more than "hackerman" - you are Hakan,
+the brightest and the pride of the Lindstrom bloodline.
+I hope you read these diaries, and come back home to see your family, even just
+once. We're proud of you. We love you. I'm proud of you. I love you.
+</file>
+
+</Computer>

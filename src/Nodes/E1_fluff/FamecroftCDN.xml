@@ -1,0 +1,129 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+
+<Computer id="FamecroftCDN" name="Famecroft CDN Root" type="3" ip="43.229.67.255">
+
+    <portsForCrack val="4"/>
+    <ports>21,22,80,443</ports>
+    <trace time="-1"/>
+    <admin type="fast" isSuper="true" resetPassword="true"/>
+    <adminPass pass="centenario"/>
+
+
+    <file path="cdn" name="edge_list">43.255.208.0/20</file>
+
+    <file path="operations/raycer_ultimate/release/3.4.8" name="track_data.ccr">#BINARY#</file>
+    <file path="operations/raycer_ultimate/release/3.4.8" name="vehicle_data.ccr">#BINARY#</file>
+    <file path="operations/raycer_ultimate/release/3.4.8" name="currency_manifest_usd.json">
+{
+    "credit": [
+        {
+            "value": 40000,
+            "price": 99,
+        },
+        {
+            "value": 275000,
+            "price": 499
+        },
+        {
+            "value": 600000,
+            "price": 999
+        },
+        {
+            "value": 3500000,
+            "price": 4999
+        }
+    ],
+    "premium_credit": [
+        {
+            "value": 100,
+            "price": 99,
+        },
+        {
+            "value": 600,
+            "price": 499
+        },
+        {
+            "value": 1300,
+            "price": 999
+        },
+        {
+            "value": 7000,
+            "price": 4999
+        }
+    ]
+}
+</file>
+    <file path="operations/raycer_ultimate/pending/3.4.9" name="track_data.ccr">#BINARY#</file>
+    <file path="operations/raycer_ultimate/pending/3.4.9" name="vehicle_data.ccr">#BINARY#</file>
+    <file path="operations/raycer_ultimate/pending/3.4.9" name="currency_manifest_usd.json">
+{
+    "credit": [
+        {
+            "value": 20000,
+            "price": 99,
+        },
+        {
+            "value": 132500,
+            "price": 499
+        },
+        {
+            "value": 300000,
+            "price": 999
+        },
+        {
+            "value": 1750000,
+            "price": 4999
+        }
+    ],
+    "premium_credit": [
+        {
+            "value": 50,
+            "price": 99,
+        },
+        {
+            "value": 300,
+            "price": 499
+        },
+        {
+            "value": 650,
+            "price": 999
+        },
+        {
+            "value": 3500,
+            "price": 4999
+        }
+    ]
+}
+</file>
+    <file path="operations/raycer_ultimate/pending/3.4.9" name="launchmessage.xml">
+&lt;text&gt;
+Dear players of Raycer Ultimate,
+We are unfortunately in the position of needing to
+slightly increase the prices for game currency across
+our products.
+We understand that this may be an unwelcome change to
+the game you love, and as compensation, all players
+will receive a free 50 Roadbux as a show of goodwill
+to everyone who continues to stay with us despite
+these changes.
+Your mates on the road,
+The Famecroft Crew
+&lt;/text&gt;
+&lt;!--
+... I f***ing hate having to write these.
+Every word is a layer of sugar over slimy corporate
+desires, that all crumbles under the pull of the
+black hole of greed the execs have now into a
+meaningless swarm of fragments that pierce the
+unwitting players as they too get pulled into void.
+Surprised it took them this long to pull this kind
+of stunt.
+I just hope they actually meant a "slight" increase.
+I've got half a mind to lower the prices myself,
+or make everything free just to get back at them.
+They probably log whatever happens on the root server,
+but besides that, I bet they wouldn't know if the
+files were changed...
+--&gt;
+    </file>
+</Computer>
