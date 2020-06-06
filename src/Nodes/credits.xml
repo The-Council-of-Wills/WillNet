@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<Computer id="credits" ip="127.0.0.1" name="Home Sweet Home" type="4"><!--idk I just thought that'd be funny-->
+<Computer id="credits" ip="127.211.104.4" name="Home Sweet Home" type="4"><!--idk I just thought that'd be funny-->
 
     <portsForCrack val="0"/>
     <ports>21,22,25,80,443,1433,554</ports>
@@ -24,6 +24,10 @@ If you know WILL, then you are already with WILL.
 If you don't know WILL, then you are not yet with WILL.
 Look back. Back into the world that preceded this one.
 Find WILL
+    </file>
+    <file path="home" name="what_next.txt">
+You think it's over?
+Check the threads.
     </file>
 
 </Computer>

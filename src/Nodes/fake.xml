@@ -10,9 +10,11 @@
   <IRCDaemon themeColor="255,255,255" name="Daphne IRC Channel" needsLogin="true">
     <user name="Daphne (1)" color="233,233,233"/>
     <user name="Daphne" color="255,255,255"/>
+    <user name="piokozi" color="139,233,253"/>
 
     <post user="Daphne">Test</post>
     <post user="Daphne (1)">I already hacked this</post>
+    <post user="piokozi">Daphne: Found you. *waves*.</post>
   </IRCDaemon>
 
 </Computer>

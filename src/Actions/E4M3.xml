@@ -2,5 +2,7 @@
     <Instantly needsMissionComplete="false">
         <SwitchToTheme ThemePathOrName="Themes/AllBlack.xml" FlickerInDuration="2.0"/>
         <KillExe ExeName="ESequencer" />
+        <RunFunction FunctionName="changeSongDLC" FunctionValue="8"/>
+        <AddThreadToMissionBoard ThreadFilepath="Docs/WillBoard/CrackThread.txt" TargetComp="WillEl" />
     </Instantly>
 </ConditionalActions>

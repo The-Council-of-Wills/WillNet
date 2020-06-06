@@ -2,7 +2,8 @@
   <goals>
     <goal type="getadmin" target="WillEl"/>
   </goals>
-  <nextMission IsSilent="true">NONE</nextMission>
+  <missionStart val="9" suppress="true">changeSong</missionStart>
+  <nextMission>Missions/E4/M1.xml</nextMission>
   <branchMissions>
     <branch>Missions/E3/MnetmapPart1.xml</branch>
   </branchMissions>

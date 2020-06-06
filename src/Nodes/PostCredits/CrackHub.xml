@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Computer id="CrackHub" ip="72.192.252.1" name="CrackHub" type="4">
+
+    <portsForCrack val="3"/>
+    <ports>80,443,6881</ports>
+
+    <dlink target="CrackClicker"/>
+    <dlink target="CrackAdmin"/>
+
+</Computer>

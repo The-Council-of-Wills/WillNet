@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Computer id="jmail" name="JMail" ip="172.217.169.69" type="4">
+
+    <firewall level="7" additionalTime="0.0"/><!--no solution, should randomise-->
+    <portsForCrack val="5"/>
+    <ports>21, 22, 25, 80, 443</ports>
+
+    <account username="grace" password="gracefully" type="MAIL"/>
+    <account username="john" password="jonathan" type="MAIL"/>
+    <account username="john2" password="whoevertooktheotherjohnusernamefuckyou" type="MAIL"/>
+    <account username="piokozi" password="btwOS" type="MAIL"/>
+    <account username="WILL" password="WILL" type="MAIL"/>
+
+    <mailServer name="jmail" color="204,0,0" generateJunk="true">
+        <email recipient="piokozi" sender="WILL" subject="WillNet">
+WILL demands entertainment.
+Name it by the subject of this email.
+        </email>
+        <email recipient="WILL" sender="piokozi" subject="RE: WillNet">
+It WILL be done.
+Even if it WILL not be any good :P.
+        </email>
+    </mailServer>
+
+</Computer>

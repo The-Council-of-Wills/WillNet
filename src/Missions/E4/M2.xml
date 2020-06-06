@@ -1,6 +1,7 @@
 <mission id="E4M2" activeCheck="true">
   <goals>
     <goal type="filedeletion" target="E4N4" file="conscience.dll" path="sys"/>
+    <goal type="filedeletion" target="E4N4" file="launch_codes_original.txt" path="home"/>
   </goals>
   <missionStart>loadConditionalActions:Actions/E4M2.xml</missionStart>
   <nextMission>Missions/E4/M3.xml</nextMission>

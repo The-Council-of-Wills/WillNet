@@ -1,0 +1,34 @@
+{
+    "SysOrig": "ENCOM",
+    "SysBase": "FlynnOS",
+    "SysFlav": "EncomOS",
+    "SysVer1": "13.6.224-1 (2020-05-20)",
+    "SysVer2": "13.6.0-base-amd64",
+    "Hostname": "enblade",
+    "ServerBanner": "Cyaegha",
+    "PrivKeyPath": "/home/yourmum/sign.pem",
+    "Address": "10.138.0.11",
+    "Port": 42069,
+    "FsDir": "filesystem",
+    "LoginTimeoutMinutes": 0.5,
+    "InputTimeoutMinutes": 5,
+    "SessionTimeoutMinutes": 30,
+    "Permissions": {
+        "crack": {
+            "read": [
+                "*",
+                "home",
+                "home/crack/**"
+            ]
+        }
+    },
+    "Users": {
+        "admin": "I literally can't wait for zarory's r18 this month",
+        "crack": "romeotangofoxtrotmike"
+    },
+    "Bans": [
+        "117.50.0.0/16",
+        "61.133.224.0/19",
+        "118.24.0.0/15"
+    ]
+}

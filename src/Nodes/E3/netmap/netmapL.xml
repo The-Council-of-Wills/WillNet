@@ -23,6 +23,7 @@ VS2015 Express
 Currently need to use external signing server (wish the Council would just share signing keys outright...)
 -Upload netmap.sys to their upload server 10.10.10.100
 -Check upgrade server 137.74.187.101 for a generated installer package, should install automatically
+--WillNet is really janky right now, so you might need to reboot in order to get the install to run
 
 
 TODO finish writing readme if I decide to release this project

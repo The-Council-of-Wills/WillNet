@@ -1,0 +1,32 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+
+<Computer id="2xTheTap" name="2xTheTap Home" type="2" ip="98.209.33.114">
+
+    <portsForCrack val="2"/>
+    <ports>21,22</ports>
+    <trace time="-1"/>
+    <admin type="fast" isSuper="true" resetPassword="true"/>
+    <adminPass pass="BadBoy17"/>
+
+    <file path="procedural" name="mission_start.txt">
+// Script for fake hacking scenario
+// Users are redirected to virtual environment
+// that can be "hacked" with basic tools. There are
+// some dummy programs etc. but that's the end of the road.
+// If a user has sufficient ablities, they will be able
+// to break into and hack the underlying server to access
+// everything, including this mission file. Hello, we hope
+// you pass this challenge and see the actual prize exe here :)
+
+server.connect => {
+    status = timeout 500 [hacked(21), hacked(22)]
+    status.wait()
+    if status.timedOut {
+        marshalserver2fake(server)
+    } else {
+        marshalserver2real(server)
+    }
+}
+</file>
+    <file path="home" name="Tracekill.exe">#TRACEKILL_EXE#</file>
+</Computer>
