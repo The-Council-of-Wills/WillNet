@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Computer id="ARGSERVER" ip="rekt.cyriaca.net" name="ACCESS FROM VM RESTRICTED" type="4">
+
+    <!-- no accounts to be made for here, as that would mean access from vm is not actually restricted -->
+
+    <portsForCrack val="1337"/>
+    <ports>22</ports>
+    <portRemap>22=42069</portRemap>
+
+        <!-- this node does not actually need any content -->
+
+</Computer>

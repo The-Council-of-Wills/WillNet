@@ -7,7 +7,7 @@
 	<StartingVisibleNodes></StartingVisibleNodes>
   
   <!-- the mission (if any) that loads in as soon as the player starts -->
-  <StartingMission>Missions/StartingMission.xml</StartingMission> <!--TODO: write starting mission flags-->
+    <StartingMission>Missions/StartingMission.xml</StartingMission> <!--TODO: write starting mission flags-->
 
   <!-- Conditional action set that is loaded in as soon as a new session is created
   This is useful to do setup stuff, like giving the player programs, assigning them a faction etc.

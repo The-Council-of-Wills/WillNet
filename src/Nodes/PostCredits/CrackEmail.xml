@@ -2,6 +2,9 @@
 
 <Computer id="CrackEmail" ip="72.192.252.100" name="crackmail" type="4">
 
+    <portsForCrack val="6"/>
+    <ports>21, 22, 25, 80, 443</ports>
+
     <account username="sysadmin" password="not_actually_crack" type="MAIL"/>
     <account username="WILL" password="WILLISEVERYWHERE" type="MAIL"/>
     <mailServer name="NightMail" color="0,51,102" generateJunk="true">
