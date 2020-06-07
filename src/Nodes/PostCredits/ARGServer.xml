@@ -8,6 +8,8 @@
     <ports>22</ports>
     <portRemap>22=42069</portRemap>
 
-        <!-- this node does not actually need any content -->
+    <!-- this node does not actually need any content -->
+
+    <CustomConnectDisplayDaemon />
 
 </Computer>
