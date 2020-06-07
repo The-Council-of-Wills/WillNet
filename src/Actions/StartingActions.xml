@@ -26,6 +26,8 @@
     -->
 
     <!--<DeleteFile TargetComp="advExamplePC" FilePath="bin" FileName="Binary_File" DelayHost="advExamplePC" Delay="5.5"/>-->
+    <GivePlayerUserAccount TargetComp="jmail" Username="#PLAYERNAME#"/>
+
     <DeleteFile TargetComp="WillDrop" FilePath="sys" FileName="x-server.sys"/>
 
     <DeleteFile TargetComp="FrstServer" FilePath="sys" FileName="x-server.sys"/>
