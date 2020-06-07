@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Computer id="RTSPL1" name="Javed's laptop" type="1" ip="133.199.235.154">
+<Computer id="RTSPL1" name="Javed's laptop" type="1" ip="133.199.235.154" icon="laptop">
 
     <firewall level="7" solution="cracker" additionalTime="0.0"/>
     <proxy time="1"/>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Computer id="E2M3G" name="Sisko Company Router GNW0" type="4" ip="79.5.105.1">
+<Computer id="E2M3G" name="Sisko Company Router GNW0" type="4" ip="79.5.105.1" icon="chip">
 
     <firewall level="7" solution="tumbler" additionalTime="0.0"/>
     <portsForCrack val="2"/>
