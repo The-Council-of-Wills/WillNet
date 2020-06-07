@@ -6,6 +6,7 @@
     <portsForCrack val="5"/>
     <ports>21, 22, 25, 80, 443</ports>
 
+    <account username="#PLAYERNAME#" password="memetime" type="MAIL"/>
     <account username="grace" password="gracefully" type="MAIL"/>
     <account username="john" password="jonathan" type="MAIL"/>
     <account username="john2" password="whoevertooktheotherjohnusernamefuckyou" type="MAIL"/>
