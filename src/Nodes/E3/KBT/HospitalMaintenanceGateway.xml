@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Computer id="KBTMaintenanceG" name="Maintenance gateway" ip="106.202.46.1" type="4">
+<Computer id="KBTMaintenanceG" name="Maintenance gateway" ip="106.202.46.1" type="4" icon="chip">
 
     <portsForCrack val="3"/>
     <ports>80, 443, 6881</ports>

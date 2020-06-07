@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Computer id="E2M2G" name="Sisko Company Router HHN3" type="4" ip="79.5.102.1">
+<Computer id="E2M2G" name="Sisko Company Router HHN3" type="4" ip="79.5.102.1" icon="chip">
 
     <WhitelistAuthenticatorDaemon Remote="DECwhitelist"/>
     <firewall level="7" solution="tumbler" additionalTime="0.0"/>

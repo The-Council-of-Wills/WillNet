@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Computer id="KBTBackG" ip="106.202.49.1" name="hospital back gateway" type="4">
+<Computer id="KBTBackG" ip="106.202.49.1" name="hospital back gateway" type="4" icon="chip">
 
     <portsForCrack val="2"/>
     <ports>80, 443, 104</ports><!--rtsp just to prevent too rapid progression-->
