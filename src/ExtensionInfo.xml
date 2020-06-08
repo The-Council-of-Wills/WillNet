@@ -23,8 +23,7 @@ They say it's not finished, but it might just be enough to get you back in the s
 
   
   <!-- Factions involved in this extension! You can define as many or as few as you like -->
-  <Faction>Factions/StartingFaction.xml</Faction><!--TODO: make the Will faction-->
-  
+  <!--<Faction></Faction> factions are for suckers -->
   <StartsWithTutorial>False</StartsWithTutorial>
   
   <!-- this makes the extension start with the standard restart bootup sequence -->
@@ -63,7 +62,7 @@ They say it's not finished, but it might just be enough to get you back in the s
 --- WillNet ---
 Some time after the events involving Bit, you stumble accross a hacker forum by the name of "The Council of Wills".
 They have a number of software projects on the go, but one in particular catches your eye: A Crack of HacknetOS.
-      They say it's not finished, but it might just be enough to get you back in the scene.
+They say it's not finished, but it might just be enough to get you back in the scene.
 
 If requesting help with this extension, please do not use the steam forums. Instead use the Hacknet Discord https://discord.gg/hacknet
 </WorkshopDescription>
