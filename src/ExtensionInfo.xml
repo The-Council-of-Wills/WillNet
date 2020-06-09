@@ -94,6 +94,6 @@ If requesting help with this extension, please do not use the steam forums. Inst
   When this happens, make sure that you keep that version of the file and store the ID somewhere - without it, you wont be able to push out updates to your extension,
   and if it's removed, publishing to the workshop will submit it as a new entry, and you'll lose all of your subscribers. Be careful!
   Do not manually modify this unless you already know your Publish ID from a previous submission. A new ID will only be generated if this says "NONE"-->
-  <WorkshopPublishID>2123249017</WorkshopPublishID>
+  <WorkshopPublishID>2123768853</WorkshopPublishID>
   
 </HacknetExtension>
