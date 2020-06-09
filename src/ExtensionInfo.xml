@@ -78,7 +78,7 @@ If requesting help with this extension, please do not use the steam forums. Inst
 
   <!-- Comma separated list of tags that this should be listed under in the workshop. This is not currently used, as the only category
   of workshop item in Hacknet is "Extension", so leave this as-is for now.-->
-  <WorkshopTags>Extension, Labyrinths, #Hackerjam2</WorkshopTags>
+  <WorkshopTags>Extension, #Hackerjam2</WorkshopTags>
 
   <!-- Path to the preview image used on the steam workshop for your extension.
   This must be within your mod folder, be 16x9 aspect ratio and less than 1MB in size. 
