@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Computer id="RTSPEmail" ip="89.185.82.30" name="MeTube Email Server" type="4">
+<Computer id="RTSPEmail" ip="89.185.82.30" name="EmacsEo Email Server" type="4">
 
     <portsForCrack val="8"/>
     <ports>21,22,25,80,1433,6881,554, 443</ports>
