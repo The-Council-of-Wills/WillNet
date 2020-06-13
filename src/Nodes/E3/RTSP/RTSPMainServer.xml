@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Computer id="RTSPMainServer" ip="89.185.82.35" name="MeTube Server" type="4">
+<Computer id="RTSPMainServer" ip="89.185.82.35" name="EmacsEo Server" type="4">
 
     <portsForCrack val="6"/>
     <ports>21, 22, 80, 443, 6881, 554</ports>

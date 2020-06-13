@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Computer id="E3RTSPWS1" ip="89.185.82.145" name="MeTube WS1" type="1">
+<Computer id="E3RTSPWS1" ip="89.185.82.145" name="EmacsEo WS1" type="1">
     
     <portsForCrack val="3"/>
     <ports>80, 21, 22</ports>
