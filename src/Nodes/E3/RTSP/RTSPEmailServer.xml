@@ -12,7 +12,7 @@
     <account username="admin" password="strongcomplicatedpassword" type="0"/>
     <!--needs more accounts and contents-->
 
-    <mailServer name="Example Mail Server" color="50,237,212" generateJunk="true">
+    <mailServer name="MeTube Emails" color="50,237,212" generateJunk="true">
     <email recipient="javed" sender="admin" subject="connected IP">
 Can you explain why this server logged a new connection from 133.199.235.154 all of a sudden?
 
