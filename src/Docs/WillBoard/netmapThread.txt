@@ -1,21 +1,39 @@
-network visualizer
+Cool Tools Thread
 ------------------------------------------
 #Circle
+No.33314521
+
+A simple thread: post things that you expect will be useful to people on this server
+------------------------------------------
 No.37446031
 A colleague of mine is working on a network visualizer.
 She's called it "netmap" - a silly name imo - but she's not willing to share the code. Either way, I'm sure it'll be more than useful to the people who've found themselves on this board.
-She does work like this on a separate laptop - [156.177.240.110] <HackOrBeHacked>
+She hasn't actually given permisssion for it to be released to the public but... I'm putting it on the Will upload server anyways, take it.
 ------------------------------------------
 No.37446033
 >calls network mapper "netmap"
 >silly name
 wtf
 ------------------------------------------
+No.37440913
+
+>>37446031
+Great work! We're putting this into the official WILLNET iso, so it's automatically in for all future releases.
+------------------------------------------
 No.37446049
 >but she's not willing to share the code
-So you just post an address for wills to hack?
 Dick move, dude. Dick move.
 Also thanks for the tool, mystery girl
+------------------------------------------
+No.39792792
+
+>>37440913
+Dear god, is that one of the WILLNET maintainers?
+------------------------------------------
+No.36344561
+
+>>39792792
+Indeed. Bow down, mere mortal.
 ------------------------------------------
 No.37446084
 -_-
@@ -37,9 +55,4 @@ Glad you like my work, too <3
 No.37446119
 >>37446103
 *sniff sniff* dos any one else smell simp around here?
-------------------------------------------
-No.37440913
-Shit's bugged for me bois.
-It's possible you might have to restart your vm to use this :P
-If only I could put in a report...
 ------------------------------------------
