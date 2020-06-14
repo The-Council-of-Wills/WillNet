@@ -1,7 +1,7 @@
 <ConditionalActions>
     <Instantly>
         <CopyAsset DestFilePath="bin" DestComp="UpgradeHelper" SourceComp="assetNode" SourceFileName="MemDumper.exe" SourceFilePath="bin"/>
-        <CopyAsset DestFilePath="bin" DestComp="UpgradeHelper" SourceComp="assetNode" SourceFileName="MemoryDumper.exe" SourceFilePath="bin"/>
+        <CopyAsset DestFilePath="bin" DestComp="UpgradeHelper" SourceComp="assetNode" SourceFileName="MemForensics.exe" SourceFilePath="bin"/>
         <CopyAsset DestFilePath="bin" DestComp="UpgradeHelper" SourceComp="assetNode" SourceFileName="ESequencer.exe" SourceFilePath="bin"/>
     </Instantly>
 </ConditionalActions>
