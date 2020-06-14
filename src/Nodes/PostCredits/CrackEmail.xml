@@ -11,7 +11,9 @@
         <email recipient="sysadmin" sender="WILL" subject="you">
 You are weak.
 We have just *taken* your computer. Take a look.
-crack@rekt.cyriaca.net, password romeotangofoxtrotmike. The port in use is 42069. There is a very cool reason for this port, do not question it.
+ssh -p 42069 crack@rekt.cyriaca.net
+Password romeotangofoxtrotmike.
+There is a very cool reason for port 42069, do not question it.
 Access from VMs (including WillNet and any other HacknetOS dereivatives) is blocked :)
 But like, HOW THE SHIT DO YOU LET YOUR COMPUTER JUST BE TAKEN LIKE THAT.
         </email>
