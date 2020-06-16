@@ -22,6 +22,7 @@ There is also another program called esequencer.exe, that we've configured to ta
 Take these 3 programs, and when ready, start the sequencer.
 
 Look around for logs, connections, anything - get to the DS and delete its conscience.dll.
+Delete any copies of the launch codes if they're there...
 You may also want to delete hacknetv2 - some would say such a dangerous device should never exist.
 
 Good luck... WILL.
